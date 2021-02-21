@@ -1,6 +1,6 @@
 # textlint-rule-preset-smarthr
 
-## 導入ルール
+[WIP]SmartHRの文書校正用textlintのルールプリセット。
 
 ## 導入ルール
 
