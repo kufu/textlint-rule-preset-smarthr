@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "textlint": "^11.8.2",
-    "textlint-rule-preset-smarthr-document": "file:.."
+    "textlint-rule-preset-smarthr": "file:.."
   }
 }

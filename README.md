@@ -1,4 +1,6 @@
-# textlint-rule-preset-smarthr-document
+# textlint-rule-preset-smarthr
+
+## 導入ルール
 
 ## 導入ルール
 
@@ -9,7 +11,7 @@
 ```:.textlintrc
 {
     "rules": {
-        "preset-smarthr-document": true
+        "preset-smarthr": true
     }
 }
 ```

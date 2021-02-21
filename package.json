@@ -1,12 +1,12 @@
 {
-  "name": "textlint-rule-preset-smarthr-document",
+  "name": "textlint-rule-preset-smarthr",
   "author": "SmartHR Document Team",
   "version": "1.0.0",
   "keywords": [
     "textlintrule"
   ],
   "description": "",
-  "main": "./lib/textlint-rule-preset-smarthr-document.js",
+  "main": "./lib/textlint-rule-preset-smarthr.js",
   "files": [
     "lib"
   ],
