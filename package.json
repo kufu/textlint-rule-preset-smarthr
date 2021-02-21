@@ -1,0 +1,21 @@
+{
+  "name": "textlint-rule-preset-smarthr-document",
+  "author": "SmartHR Document Team",
+  "version": "1.0.0",
+  "keywords": [
+    "textlintrule"
+  ],
+  "description": "",
+  "main": "./lib/textlint-rule-preset-smarthr-document.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "cd example && npm it"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@textlint/module-interop": "^1.2.2",
+    "textlint-rule-ja-no-mixed-period": "^2.1.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "test": "textlint README.md"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "textlint": "^11.8.2",
+    "textlint-rule-preset-smarthr-document": "file:.."
+  }
+}
