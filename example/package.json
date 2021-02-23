@@ -2,7 +2,7 @@
   "name": "example",
   "private": true,
   "scripts": {
-    "test": "textlint README.md"
+    "test": "textlint ./**/*.md ./**/*.mdx"
   },
   "author": "",
   "license": "MIT",
