@@ -15,8 +15,13 @@
     "prepublish": "npm run --if-present build"
   },
   "devDependencies": {
+    "@textlint/types": "^1.5.2",
+    "@types/node": "^12.20.4",
+    "prettier": "^2.2.1",
     "textlint-scripts": "^3.0.0",
-    "textlint-tester": "^5.3.2"
+    "textlint-tester": "^5.3.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.6.4"
   },
   "name": "textlint-rule-preset-smarthr",
   "directories": {
