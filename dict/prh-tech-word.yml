@@ -1,7 +1,7 @@
 # SmartHRで使われる技術用語
 rules:
-  - expected: マスター
-    pattern: /マスタ?/
+  - expected: マスター$1
+    pattern: /マスタ([^ー])/
   - expected: ブラウザ
     pattern: /ブラウザー?/
   - expected: ユーザー$1
