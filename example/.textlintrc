@@ -1,10 +1,5 @@
 {
     "rules": {
         "preset-smarthr": true
-    },
-    "plugins": {
-        "@textlint/markdown": {
-            "extensions": [".mdx"]
-        }
     }
 }
