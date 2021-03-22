@@ -1,0 +1,70 @@
+# SmartHR全体で使われる、基本辞書セット
+rules:
+  - expected: あらかじめ
+    pattern: 予め
+  - expected: いたします
+    pattern: 致します
+  - expected: いただく
+    pattern: 頂く
+  - expected: および
+    pattern: 及び
+  - expected: ください
+    pattern: 下さい
+  - expected: ご存じ
+    pattern: ご存知
+  - expected: さきほど
+    pattern: 先程
+  - expected: さまざま
+    pattern: 様々
+  - expected: すでに
+    pattern: 既に
+  - expected: すなわち
+    pattern: 即ち
+  - expected: すべて
+    pattern: 全て
+  - expected: そば$1
+    pattern: /側([にへが])/
+  - expected: たくさん
+    pattern: 沢山
+  - expected: ただ
+    pattern: 只
+  - expected: ただし
+    pattern: 但し
+  - expected: ため$1
+    pattern: /為([にで])/
+  - expected: など$1
+    pattern: /等([のが、])/
+  - expected: ならびに
+    pattern: 並びに
+  - expected: まず
+    pattern: 先ず
+  - expected: まで
+    pattern: 迄
+  - expected: もって
+    pattern: 以て
+  - expected: もっとも
+    pattern: 尤も
+  - expected: でき$1
+    pattern: /出来([かがのをは過す損ずなまるたれてそ])/
+  - expected: あとで
+    pattern: 後で
+  - expected: したうえで
+    pattern: した上で
+  - expected: $1さま
+    pattern: /([従業員])様|([お客])様|([ユーザー])様|([皆])様/
+  - expected: 振り込み
+    pattern: 振込
+  - expected: 取り消し
+    pattern: 取消
+  - expected: 差し戻し
+    pattern: 差戻し
+  - expected: 行なう
+    pattern:
+      - 行う
+      - おこなう
+  - expected: 何卒
+    pattern: 何とぞ
+  - expected: 並べ替え
+    pattern: 並び替え
+  - expected: 元$1
+    pattern: /もと([にへ])/
