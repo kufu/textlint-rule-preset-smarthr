@@ -1,11 +1,6 @@
 # textlint-rule-preset-smarthr
 
 SmartHRらしい文書を書くための、textlintルールプリセットを提供します。
-
-## Rules
-
-* [textlint-rule-ja-no-mixed-period](https://github.com/textlint-ja/textlint-rule-ja-no-mixed-period)
-
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
