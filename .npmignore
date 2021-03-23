@@ -1,0 +1,9 @@
+#directory
+/src
+/test
+
+#build files
+tsconfig.json
+
+#editor settings
+.prettierignore
