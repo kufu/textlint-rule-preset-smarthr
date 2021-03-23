@@ -41,9 +41,9 @@ npm test
 
 ```json
 {
-    "rules": {
-        "preset-smarthr": true
-    }
+  "rules": {
+    "preset-smarthr": true
+  }
 }
 ```
 ### デフォルト設定
