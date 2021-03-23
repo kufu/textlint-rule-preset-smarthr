@@ -1,17 +1,42 @@
 # textlint-rule-preset-smarthr
 
 SmartHRらしい文書を書くための、textlintルールプリセットを提供します。
-## Install
+## インストール
 
 Install with [npm](https://www.npmjs.com/):
 
     npm install textlint-rule-preset-smarthr
 
-## Usage
+## 使い方
 
 Via `.textlintrc`(Recommended)
 
+### Via CLI
+
+```
+textlint --rule preset-smarthr README.md
+```
+
+### Build
+
+ソースコードをビルドして、`lib`フォルダに公開します。
+TypeScriptのソースコードは`src/`フォルダに書くことができます。
+
+```
+npm run build
+```
+
+### Tests
+
+`test`フォルダ内のテストコードを実行します。
+testの詳細は[textlint-tester](https://github.com/textlint/textlint-tester)を参照してください。
+
+```
+npm test
+```
 ### 基本設定
+
+すべてのルールを有効化して使う場合は、次のように設定してください。
 
 ```json
 {
@@ -20,8 +45,9 @@ Via `.textlintrc`(Recommended)
     }
 }
 ```
-
 ### デフォルト設定
+
+デフォルトでは、次のような設定になっています。個別にルールを有効・無効化することも可能です。
 
 ```json
 {
@@ -56,7 +82,7 @@ Via `.textlintrc`(Recommended)
 }
 ```
 
-## 既存ルール一覧
+## 設定ルール一覧
 
 * [textlint-rule-ja-hiragana-daimeishi](https://github.com/lostandfound/textlint-rule-ja-hiragana-daimeishi)
 * [textlint-rule-ja-hiragana-fukushi](https://github.com/lostandfound/textlint-rule-ja-hiragana-fukushi)
@@ -90,28 +116,8 @@ Via `.textlintrc`(Recommended)
 
 ## 辞書設定
 
-
-```
-
-Via CLI
-
-```
-textlint --rule preset-smarthr README.md
-```
-
-### Build
-
-Builds source codes for publish to the `lib` folder.
-You can write ES2015+ source codes in `src/` folder.
-
-    npm run build
-
-### Tests
-
-Run test code in `test` folder.
-Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tester).
-
-    npm test
+表記ゆれ修正用の辞書の設定には`textlint-rule-prh`を使っています。
+対応用語は`dict/`フォルダに入っている`.yml`を確認してください。
 
 ## License
 
