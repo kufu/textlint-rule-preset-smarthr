@@ -1,6 +1,7 @@
 # textlint-rule-preset-smarthr
 
 SmartHRらしい文書を書くための、textlintルールプリセットを提供します。
+
 ## インストール
 
 Install with [npm](https://www.npmjs.com/):
