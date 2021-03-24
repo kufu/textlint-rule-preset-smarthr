@@ -1,15 +1,5 @@
 # SmartHRで使われる技術用語
 rules:
-  - expected: マスター$1
-    pattern: /マスタ([^ー])/
-  - expected: ブラウザ
-    pattern: /ブラウザー?/
-  - expected: ユーザー$1
-    pattern: /ユーザ([^ー])/
-  - expected: ソフトウェア
-    pattern: /ソフトウエア/
-  - expected: スマートフォン
-    pattern: スマートホン
   - expected: Action Cable
     pattern: /\bActionCable\b/
   - expected: Action Controller
@@ -767,3 +757,47 @@ rules:
     pattern: /\bYahooWidget\b|Yahoo!Widget|Yahoo! Widget|\bYahooGadget\b|Yahoo!Gadget|Yahoo! Gadget/
   - expected: YouTube
     pattern: /\bYoutube\b|\byoutube\b/
+  - expected: ソフトウェア
+    pattern: /ソフトウエア/
+  - expected: スマートフォン
+    pattern: スマートホン
+  - expected: マスター$1
+    pattern: /マスタ([^ー])/
+  - expected: ユーザー$1
+    pattern: /ユーザ([^ー])/
+  - expected: フィルター$1
+    pattern: /フィルタ([^ー])/
+  - expected: ナンバー$1
+    pattern: /ナンバ([^ー])/
+  - expected: メンバー$1
+    pattern: /メンバ([^ー])/
+  - expected: レイヤー$1
+    pattern: /レイヤ([^ー])/
+  - expected: プリンター$1
+    pattern: /プリンタ([^ー])/
+  - expected: ヘッダー$1
+    pattern: /ヘッダ([^ー])/
+  - expected: フッター$1
+    pattern: /フッタ([^ー])/
+  - expected: マネージャー$1
+    pattern: /マネージャ([^ー])/
+  - expected: サーバー$1
+    pattern: /サーバ([^ー])/
+  - expected: サーバー$1
+    pattern: /サーバ([^ー])/
+  - expected: ブラウザ
+    pattern: /ブラウザー?/
+  - expected: フォルダ
+    pattern: /フォルダー?/
+  - expected: アクセシビリティ
+    pattern: /アクセシビリティー?/
+  - expected: セキュリティ
+    pattern: /セキュリティー?/
+  - expected: タイポグラフィ
+    pattern: /タイポグラフィー?/
+  - expected: クエリ
+    pattern: /クエリー?/
+  - expected: プライバシー
+    pattern: /プライバシィ/
+  - expected: ポリシー
+    pattern: /ポリシィ/
