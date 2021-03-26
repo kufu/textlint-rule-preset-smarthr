@@ -356,8 +356,6 @@ rules:
     pattern: /\bKyotoCabinet\b/
   - expected: Kyoto Tycoon
     pattern: /\bKyotoTycoon\b|Tokyo *Tycoon/
-  - expected: LESS
-    pattern: /\bLESS\b/i
   - expected: LINE
     pattern: /\bLINE\b/i
   - expected: LinkedIn
