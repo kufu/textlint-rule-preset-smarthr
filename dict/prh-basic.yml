@@ -23,7 +23,7 @@ rules:
   - expected: すべて
     pattern: 全て
   - expected: そば$1
-    pattern: /側([にへが])/
+    pattern: /(?<![上下左右内外])側([にへが])/
   - expected: たくさん
     pattern: 沢山
   - expected: ただ
