@@ -1,12 +1,14 @@
 {
   "version": "1.1.1",
   "keywords": [
-    "textlintrule"
+    "textlint",
+    "textlintrule",
+    "smarthr"
   ],
   "main": "lib/index.js",
   "files": [
-    "lib/",
-    "src/"
+    "lib",
+    "src"
   ],
   "homepage": "https://github.com/kufu/textlint-rule-preset-smarthr#readme",
   "repository": {
@@ -67,5 +69,5 @@
   },
   "author": "SmartHR textlint Team",
   "license": "MIT",
-  "description": ""
+  "description": "SmartHRらしい文書を書くための、textlintルールプリセットを提供します。"
 }
