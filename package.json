@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "keywords": [
     "textlintrule"
   ],
@@ -8,6 +8,11 @@
     "lib/",
     "src/"
   ],
+  "homepage": "https://github.com/kufu/textlint-rule-preset-smarthr#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kufu/textlint-rule-preset-smarthr.git"
+  },
   "scripts": {
     "example": "cd example && npm it",
     "test": "textlint-scripts test",
