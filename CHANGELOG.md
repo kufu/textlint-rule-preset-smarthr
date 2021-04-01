@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.1.1...v1.2.0) (2021-04-01)
+
+
+### Features
+
+* add types ([3bc44a9](https://github.com/kufu/textlint-rule-preset-smarthr/commit/3bc44a9045b7e419facc6c5318209faa62ba8003))
+* package.jsonの修正 ([cc206f2](https://github.com/kufu/textlint-rule-preset-smarthr/commit/cc206f25c5f65981dc6b8a597543180d5f916a95))
+
+
+### Bug Fixes
+
+* require.d.tsの削除 ([598ac04](https://github.com/kufu/textlint-rule-preset-smarthr/commit/598ac0484b7884176604704819ee8986cbe46fcc))
+
 ### [1.1.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.1.0...v1.1.1) (2021-03-31)
 
 ## [1.1.0](https://github.com/kgsi/textlint-rule-preset-smarthr/compare/v1.0.0...v1.1.0) (2021-03-31)
