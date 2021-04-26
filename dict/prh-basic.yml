@@ -70,7 +70,7 @@ rules:
     pattern: /もと([にへ])/
   - expected: $1！
     pattern: /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])![^!\?]/
-    - expected: $1？
+  - expected: $1？
     pattern: /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])\?[^!\?]/
   - expected: "!!"
     pattern: ！！
