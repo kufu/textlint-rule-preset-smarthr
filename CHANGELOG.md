@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.2.0...v1.3.0) (2021-05-13)
+
+
+### Features
+
+* PR用テンプレートを追加 ([a1a61e0](https://github.com/kufu/textlint-rule-preset-smarthr/commit/a1a61e029498cf380003dc8d6fb3a798a836f78d))
+* remove LINE from prh tech word ([b604e48](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b604e48fa5c7d3d456cbcca8a0a6a689d76b2eb6))
+* テンプレート項目の修正 ([886fe3b](https://github.com/kufu/textlint-rule-preset-smarthr/commit/886fe3bd59a495d78f3d6014c1649eac193b2166))
+
+
+### Bug Fixes
+
+* インデントの修正 ([8043bbd](https://github.com/kufu/textlint-rule-preset-smarthr/commit/8043bbd62e3d0ca6728e6aedefb2edbad7c6b7fa))
+
 ## [1.2.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.1.1...v1.2.0) (2021-04-01)
 
 
