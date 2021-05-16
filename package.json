@@ -53,7 +53,7 @@
     "textlint-rule-max-ten": "^2.0.4",
     "textlint-rule-no-double-negative-ja": "^1.0.6",
     "textlint-rule-no-doubled-conjunction": "^1.0.3",
-    "textlint-rule-no-doubled-conjunctive-particle-ga": "^1.1.1",
+    "textlint-rule-no-doubled-conjunctive-particle-ga": "^2.0.1",
     "textlint-rule-no-doubled-joshi": "^3.8.0",
     "textlint-rule-no-dropping-the-ra": "^2.0.0",
     "textlint-rule-no-hankaku-kana": "^1.0.2",
