@@ -66,8 +66,8 @@ rules:
     pattern: 何とぞ
   - expected: 並べ替え
     pattern: 並び替え
-  - expected: 元$1戻る
-    pattern: /もと([にへ])戻る/
+  - expected: 元$1戻
+    pattern: /もと([にへ])戻/
   - expected: $1！
     pattern: /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])![^!\?]/
   - expected: $1？
