@@ -906,14 +906,13 @@
     readdirp "^2.2.1"
     upath "^1.1.1"
 
-"@textlint-rule/textlint-rule-no-unmatched-pair@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@textlint-rule/textlint-rule-no-unmatched-pair/-/textlint-rule-no-unmatched-pair-1.0.7.tgz#c7c18d2ddac913fa4e5d98d998bb3e97d4f73cb6"
-  integrity sha512-ZZxnTWc9/rXfH10KfWZdEpB1rdTdBRUob7694GuKbppUGHgXV90kx5axxWsK78vA0sUeN6HXNy14cPSKqBrSiA==
+"@textlint-rule/textlint-rule-no-unmatched-pair@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@textlint-rule/textlint-rule-no-unmatched-pair/-/textlint-rule-no-unmatched-pair-1.0.8.tgz#28538c422c35899fbe331c1652976eb8e50a1477"
+  integrity sha512-C+ejNcHFKWGQ9aoMnk7jL815iUXg4soIdK/gpN2wJWiwbtThw6mglIhvI+5qkFoUNCYjmWZbN0I3F4YUgoAHaw==
   dependencies:
     sentence-splitter "^3.0.11"
     textlint-rule-helper "2.0.1"
-    textlint-tester "5.0.1"
 
 "@textlint/ast-node-types@^4.2.1", "@textlint/ast-node-types@^4.2.4", "@textlint/ast-node-types@^4.2.5", "@textlint/ast-node-types@^4.4.2":
   version "4.4.2"
@@ -934,7 +933,7 @@
   dependencies:
     "@textlint/ast-node-types" "^4.4.2"
 
-"@textlint/feature-flag@^3.0.5", "@textlint/feature-flag@^3.3.4":
+"@textlint/feature-flag@^3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@textlint/feature-flag/-/feature-flag-3.3.4.tgz#bae533899de864b9f43659473990f27eeec1c9e3"
   integrity sha512-ULAqdD2y1sPAhbkaMjS2fltrZYCNQGsNDv/NQWFsCmDpQ1R8kxoUaTiXpebTM+nVuyvU5GfdkxhHyMarPIjmYw==
@@ -957,7 +956,7 @@
     text-table "^0.2.0"
     try-resolve "^1.0.1"
 
-"@textlint/kernel@^3.0.0", "@textlint/kernel@^3.4.4":
+"@textlint/kernel@^3.4.4":
   version "3.4.4"
   resolved "https://registry.yarnpkg.com/@textlint/kernel/-/kernel-3.4.4.tgz#2f321fdae5bad9f6626c76caa20fc960cbcd01fd"
   integrity sha512-ro9TPnE16C6gtKkY3aOjTs8ZfzAxdXLCV9JD4BuV5P+xBiiu9NdiE2Hwm3LyEGQjMxaKnXjbm/DTCAxA4gz0Dg==
@@ -4920,15 +4919,6 @@ textlint-scripts@^3.0.0:
     pkg-to-readme "^1.1.0"
     textlint-tester "^5.1.10"
 
-textlint-tester@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/textlint-tester/-/textlint-tester-5.0.1.tgz#968b4b34bbda2614a99ec85b82c56488c86bc255"
-  integrity sha512-MKN38gIQ9/Q3nKg1cnKUVl81bjsfoqy6yq7qptvf3733Ng22K2KoMmTyk8s8C/y7SGx8pN+idsO86DCGEB8q7w==
-  dependencies:
-    "@textlint/feature-flag" "^3.0.5"
-    "@textlint/kernel" "^3.0.0"
-    textlint "^11.0.1"
-
 textlint-tester@^5.1.10, textlint-tester@^5.3.2:
   version "5.3.4"
   resolved "https://registry.yarnpkg.com/textlint-tester/-/textlint-tester-5.3.4.tgz#18a637e49e42ea20428e49835ef398f5afe5b655"
@@ -4957,7 +4947,7 @@ textlint-util-to-string@^3.0.0, textlint-util-to-string@^3.1.1:
     structured-source "^3.0.2"
     unified "^8.4.0"
 
-textlint@^11.0.1, textlint@^11.9.0:
+textlint@^11.9.0:
   version "11.9.0"
   resolved "https://registry.yarnpkg.com/textlint/-/textlint-11.9.0.tgz#508a8181a2ff8582613bcef5081424ecca5c822d"
   integrity sha512-a9ZCfCOcOTNxEQsRbYBDFNu8m5cjJC+znnXCBommGSdP0W+9QmwZnkralwpxrVhRgWvLz+QyuDXtLBZcqfDmHg==
