@@ -915,6 +915,11 @@
     textlint-rule-helper "2.0.1"
     textlint-tester "5.0.1"
 
+"@textlint/ast-node-types@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-12.0.0.tgz#23bd683f9fc04209ae28bff72954c8aa67c6b1ca"
+  integrity sha512-qUjmlpz1vR3AStBA9RPDCVT0/pGtePvBJ5Vb/0PzTrnr04iFktG6P6B1VOmgTh8J9Kl/FonQFo3A9M1Q3UH+JA==
+
 "@textlint/ast-node-types@^4.2.1", "@textlint/ast-node-types@^4.2.4", "@textlint/ast-node-types@^4.2.5", "@textlint/ast-node-types@^4.4.2":
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.4.2.tgz#d3fda5c9086baba04bc75440039ccf18415c8446"
@@ -1056,12 +1061,19 @@
   dependencies:
     "@textlint/text-to-ast" "^3.3.4"
 
-"@textlint/types@^1.1.2", "@textlint/types@^1.5.2", "@textlint/types@^1.5.4":
+"@textlint/types@^1.1.2", "@textlint/types@^1.5.4":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@textlint/types/-/types-1.5.4.tgz#4ebd6b052bb329810949516412ad2b285b04dc02"
   integrity sha512-bhSrOjW8AFSa/xf6lYZ2akE0j+4O/WEAA2S/R8RrjNMkA5Az2j57mxPNpqMhEeyHDkpzN/coIlqUwgYvcJHv1A==
   dependencies:
     "@textlint/ast-node-types" "^4.4.2"
+
+"@textlint/types@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-12.0.0.tgz#c197b756070cdf413c1a6b311520d927b1d47069"
+  integrity sha512-3sB22cGtN9nPViDrW7FJxWkDrpGtyJbvNsvZqzX83HJbAiOmzzeHDkRRLvz9tax76lcdjlNk+2rHY3iSnjhEag==
+  dependencies:
+    "@textlint/ast-node-types" "^12.0.0"
 
 "@textlint/utils@^1.2.4":
   version "1.2.4"
