@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@textlint/types": "^1.5.2",
-    "@types/node": "^12.20.4",
+    "@types/node": "^12.20.15",
     "prettier": "^2.2.1",
     "standard-version": "^9.1.1",
     "textlint-scripts": "^3.0.0",
