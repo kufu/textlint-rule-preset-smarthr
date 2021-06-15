@@ -1,0 +1,33 @@
+name: Build & Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+jobs:
+  build-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup NodeJS 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: |
+          npm install -g yarn
+          yarn install
+
+      - name: Test
+        run: |
+          yarn test
+
+      - name: Build
+        run: yarn build
