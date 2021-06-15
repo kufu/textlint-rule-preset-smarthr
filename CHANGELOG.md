@@ -10,6 +10,12 @@ All notable changes to this project will be documented in this file. See [standa
 * "ユーザビリティ"のチェック追加 ([#16](https://github.com/kufu/textlint-rule-preset-smarthr/issues/16)) ([2601f4d](https://github.com/kufu/textlint-rule-preset-smarthr/commit/2601f4d8e88e8b1c43692fce812708f7213ed79a))
 * 利用頻度の低い技術用語の削除 ([#57](https://github.com/kufu/textlint-rule-preset-smarthr/issues/57)) ([ed20bd2](https://github.com/kufu/textlint-rule-preset-smarthr/commit/ed20bd23faaf3aec2be7bac488af01c881328f73))
 
+
+### Bug Fixes
+
+* 「もと」に関する修正([#48](https://github.com/kufu/textlint-rule-preset-smarthr/issues/48)) ([2601f4d](https://github.com/kufu/textlint-rule-preset-smarthr/commit/05d3b28b0aad28a05b9dc8346b8d5ab3b4a7d50b))
+
+
 ## [1.3.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.2.0...v1.3.0) (2021-05-13)
 
 
