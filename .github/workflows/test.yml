@@ -21,13 +21,10 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: |
-          npm install -g yarn
-          yarn install
+        run: yarn install
 
       - name: Test
-        run: |
-          yarn test
+        run: yarn test
 
       - name: Build
         run: yarn build
