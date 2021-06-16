@@ -1186,7 +1186,7 @@
   dependencies:
     "@textlint/text-to-ast" "^3.3.4"
 
-"@textlint/types@^1.1.2", "@textlint/types@^1.5.2", "@textlint/types@^1.5.4":
+"@textlint/types@^1.1.2", "@textlint/types@^1.5.4":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@textlint/types/-/types-1.5.4.tgz#4ebd6b052bb329810949516412ad2b285b04dc02"
   integrity sha512-bhSrOjW8AFSa/xf6lYZ2akE0j+4O/WEAA2S/R8RrjNMkA5Az2j57mxPNpqMhEeyHDkpzN/coIlqUwgYvcJHv1A==
