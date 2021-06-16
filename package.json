@@ -27,7 +27,7 @@
     "@textlint/types": "^12.0.0",
     "@types/node": "^12.20.4",
     "prettier": "^2.2.1",
-    "standard-version": "^9.1.1",
+    "standard-version": "^9.3.0",
     "textlint-scripts": "^3.0.0",
     "textlint-tester": "^12.0.0",
     "ts-node": "^8.10.2",
