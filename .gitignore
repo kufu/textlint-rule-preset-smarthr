@@ -86,4 +86,4 @@ crashlytics-build.properties
 package-lock.json
 
 # dotenv environment variable files
-.env*
+.env
