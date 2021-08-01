@@ -1060,11 +1060,6 @@
     traverse "^0.6.6"
     unified "^9.2.1"
 
-"@textlint/module-interop@^12.0.0":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-12.0.0.tgz#f6f4a513f7d58c25304fc1e6a544989a82565978"
-  integrity sha512-WSuwd3pd2xYDCYqpA6NE8FwMZS4WJ2gZmsSCXBpOh3qJ/pHbmrfEaiwOpGQJA4RfXVp8Fy5KfaAQJIr+wox98A==
-
 "@textlint/module-interop@^12.0.2":
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-12.0.2.tgz#1edbf8caa5eba572cd9b20ba617968552de74290"
@@ -1162,10 +1157,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
-"@types/node@^15.14.3":
-  version "15.14.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.14.3.tgz#330763b973d0acacb7fdccc7594e1fb281ed1b1c"
-  integrity sha512-gliNP92vLGGha1nioYHIIT2WrZ450sxpRgyPCEyog2hMVi6LEbhY/Pkj+EDiGWrCXntZ9lrnE2+lTIlyYtaxCg==
+"@types/node@^15.14.5":
+  version "15.14.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.14.5.tgz#7b5b3532053fd14c771ad6598a4ee2c7a85aceca"
+  integrity sha512-6ewfMNmkumZieB/EeJ4cdP1bbJyOlOt5MTwbKMr7WKxyCt2j09H8YWRK6zOd/Jh35Vu/gls39ZUmeu4vHu1WKQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
