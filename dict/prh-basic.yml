@@ -78,3 +78,9 @@ rules:
     pattern: ！？
   - expected: "??"
     pattern: ？？
+  - expected: "企業アカウント"
+    pattern: /テナント(?!ID)/
+    prh: 「テナント」は社内用語のため、「企業アカウント」に置き換えます。
+  - expected: "サブドメイン"
+    pattern: "テナントID"
+    prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
