@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.5.0...v1.6.0) (2021-08-18)
+
+
+### Features
+
+* 「テナント」「テナントID」を検知するルールを追加 ([#86](https://github.com/kufu/textlint-rule-preset-smarthr/issues/86)) ([8243f19](https://github.com/kufu/textlint-rule-preset-smarthr/commit/8243f19defc28beeb4da22f8c117b8e117431408))
+* husky+commitlintを使ってコミットメッセージにlintを実行する ([#88](https://github.com/kufu/textlint-rule-preset-smarthr/issues/88)) ([61d5fb8](https://github.com/kufu/textlint-rule-preset-smarthr/commit/61d5fb8c88e3778d3522573ff844f5294d5e1579))
+* 丸数字を検知するルールを追加 ([#87](https://github.com/kufu/textlint-rule-preset-smarthr/issues/87)) ([d67638b](https://github.com/kufu/textlint-rule-preset-smarthr/commit/d67638b16ac17c2f309198f5b87fa5bc5b302e1c))
+
 ## [1.5.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.4.0...v1.5.0) (2021-06-30)
 
 
