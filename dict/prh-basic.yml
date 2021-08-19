@@ -33,7 +33,9 @@ rules:
   - expected: ため$1
     pattern: /為([にで])/
   - expected: など$1
-    pattern: /等([のが、])/
+    pattern: /等([のがを、])/
+  - expected: $1等
+    pattern: /([と同])等/
   - expected: ならびに
     pattern: 並びに
   - expected: まず
