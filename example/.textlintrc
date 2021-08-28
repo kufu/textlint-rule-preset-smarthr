@@ -13,7 +13,10 @@
       "ja-no-abusage": true,
       "ja-no-redundant-expression": true,
       "no-mixed-zenkaku-and-hankaku-alphabet": true,
-      "ja-hiragana-keishikimeishi": true,
+      "ja-keishikimeishi": {
+            //方をほうと訂正するか否か
+            "ditection_hou_kata" : false
+        },
       "ja-hiragana-fukushi": true,
       "ja-hiragana-hojodoushi": true,
       "ja-hiragana-daimeishi": true,
