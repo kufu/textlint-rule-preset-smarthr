@@ -78,3 +78,84 @@ rules:
     pattern: ！？
   - expected: "??"
     pattern: ？？
+  - expected: ⓪
+    pattern: /[🄋⓿🄌]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ①
+    pattern: /[➀❶➊⓵]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ②
+    pattern: /[➁❷➋⓶]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ③
+    pattern: /[➂❸➌⓷]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ④
+    pattern: /[➃❹➍⓸]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑤
+    pattern: /[➄❺➎⓹]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑥
+    pattern: /[➅❻➏⓺]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑦
+    pattern: /[➆❼➐⓻]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑧
+    pattern: /[➇❽➑⓼]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑨
+    pattern: /[➈❾➒⓽]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑩
+    pattern: /[➉❿➓⓾]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑪
+    pattern: /[⓫]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑫
+    pattern: /[⓬]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑬
+    pattern: /[⓭]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑭
+    pattern: /[⓮]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑮
+    pattern: /[⓯]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑯
+    pattern: /[⓰]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑰
+    pattern: /[⓱]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑱
+    pattern: /[⓲]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑲
+    pattern: /[⓳]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑳
+    pattern: /[⓴]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: "企業アカウント"
+    pattern: /テナント(?!ID)/
+    prh: 「テナント」は社内用語のため、「企業アカウント」に置き換えます。
+  - expected: "サブドメイン"
+    pattern: "テナントID"
+    prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
+  - expected: 在籍状況
+    pattern: 在職状況
+    prh: 「在職中・休職中・退職済み」のうち、どの状態にあるかを示すのが「在籍状況」です。
+    specs:
+      - from: 在職状況
+        to: 在籍状況
+  - expected: 在職中
+    pattern: 在籍中
+    prh: 休職中でも会社に籍はあるので、「在籍中」には休職中も含まれます。
+    specs:
+      - from: 在籍中
+        to: 在職中
