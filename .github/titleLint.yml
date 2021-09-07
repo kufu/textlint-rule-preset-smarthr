@@ -1,3 +1,8 @@
-regex:  (feat|fix|docs|chore|style|refactor|perf|test)(\(.*\))*: .*
-exclude_users:
-  - otapo
+title-lint:
+  org: true
+  settings:
+      org:
+        final:
+          regex:  (feat|fix|docs|chore|style|refactor|perf|test)(\(.*\))*: .*
+          exclude_users:
+            - otapo
