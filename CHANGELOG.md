@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.6.0...v1.7.0) (2021-09-07)
+
+
+### Features
+
+* 依存ルールを置き換え ([#93](https://github.com/kufu/textlint-rule-preset-smarthr/issues/93)) ([6b8616a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/6b8616a7fcb38b2c932628ce97b75b138b3eb213))
+* 在籍状況・在職中のルールを追加 ([#92](https://github.com/kufu/textlint-rule-preset-smarthr/issues/92)) ([4623cd6](https://github.com/kufu/textlint-rule-preset-smarthr/commit/4623cd6010e13ea85e88706fc885601250f94218))
+* 自動リリース機能の追加 ([#96](https://github.com/kufu/textlint-rule-preset-smarthr/issues/96)) ([7903afc](https://github.com/kufu/textlint-rule-preset-smarthr/commit/7903afc3647132764904ff4c6bb4e337da754f7a))
+
+
+### Bug Fixes
+
+* branch protectionによってsemantic-releaseが失敗する問題を解決する ([#98](https://github.com/kufu/textlint-rule-preset-smarthr/issues/98)) ([faf7cc8](https://github.com/kufu/textlint-rule-preset-smarthr/commit/faf7cc835701b22d48d0bb4d1afa897c553f14a0))
+* release actionにtokenを追加 ([#100](https://github.com/kufu/textlint-rule-preset-smarthr/issues/100)) ([196ead2](https://github.com/kufu/textlint-rule-preset-smarthr/commit/196ead2161c8eada6ae077640e6aefba99f93423))
+* yarn.lockを再生成 ([#97](https://github.com/kufu/textlint-rule-preset-smarthr/issues/97)) ([b69f090](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b69f090ca548a66d96e3c3a60fd2be0a3dd36e8e))
+
 ## [1.6.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.5.0...v1.6.0) (2021-08-18)
 
 
