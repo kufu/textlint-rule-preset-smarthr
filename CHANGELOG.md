@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.7.0...v1.7.1) (2021-09-10)
+
+
+### Bug Fixes
+
+* hiragana-keishikimeishiのアップデートに対応 ([#105](https://github.com/kufu/textlint-rule-preset-smarthr/issues/105)) ([67682d4](https://github.com/kufu/textlint-rule-preset-smarthr/commit/67682d4057674e3496ff845cee3e2b451088d0ac))
+
 ## [1.7.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.6.0...v1.7.0) (2021-09-07)
 
 
