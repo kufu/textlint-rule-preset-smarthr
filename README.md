@@ -66,7 +66,9 @@ npm test
       "ja-no-abusage": true,
       "ja-no-redundant-expression": true,
       "no-mixed-zenkaku-and-hankaku-alphabet": true,
-      "ja-hiragana-keishikimeishi": true,
+      "ja-keishikimeishi": {
+        "detection_hou_kata" : false
+      },
       "ja-hiragana-fukushi": true,
       "ja-hiragana-hojodoushi": true,
       "ja-hiragana-daimeishi": true,
@@ -88,7 +90,7 @@ npm test
 * [textlint-rule-ja-hiragana-daimeishi](https://github.com/lostandfound/textlint-rule-ja-hiragana-daimeishi)
 * [textlint-rule-ja-hiragana-fukushi](https://github.com/lostandfound/textlint-rule-ja-hiragana-fukushi)
 * [textlint-rule-ja-hiragana-hojodoushi](https://github.com/lostandfound/textlint-rule-ja-hiragana-hojodoushi)
-* [textlint-rule-ja-hiragana-keishikimeishi](https://github.com/lostandfound/textlint-rule-ja-hiragana-keishikimeishi)
+* [textlint-rule-ja-keishikimeishi](https://github.com/otapo/textlint-rule-ja-keishikimeishi)
 * [textlint-rule-ja-no-abusage](https://github.com/textlint-ja/textlint-rule-ja-no-abusage)
 * [textlint-rule-ja-no-mixed-period](https://github.com/textlint-ja/textlint-rule-ja-no-mixed-period)
 * [textlint-rule-ja-no-redundant-expression](https://github.com/textlint-ja/textlint-rule-ja-no-redundant-expression)
