@@ -17,7 +17,9 @@
   },
   "scripts": {
     "example": "cd example && npm it",
-    "test": "textlint-scripts test",
+    "test:textlint-scripts": "textlint-scripts test",
+    "test:dict": "textlint --config test/.textlintrc README.md",
+    "test": "npm run test:dict && npm run test:textlint-scripts",
     "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build",
     "release": "standard-version",
