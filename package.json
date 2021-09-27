@@ -23,19 +23,15 @@
     "build": "textlint-scripts build",
     "prepublish": "npm run --if-present build",
     "release": "standard-version",
-    "release:dryrun": "standard-version --dry-run",
-    "semantic-release": "semantic-release"
+    "release:dryrun": "standard-version --dry-run"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/git": "^10.0.0",
     "@textlint/types": "^12.0.2",
     "@types/node": "^15.14.7",
     "husky": "^7.0.1",
     "prettier": "^2.3.2",
-    "semantic-release": "^18.0.0",
     "standard-version": "^9.3.1",
     "textlint-scripts": "^12.0.2",
     "textlint-tester": "^12.0.2",
