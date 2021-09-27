@@ -33,7 +33,7 @@ rules:
   - expected: ため$1
     pattern: /為([にで])/
   - expected: など$1
-    pattern: /等([のが、])/
+    pattern: /(?<!同)等([をのが、])/
   - expected: ならびに
     pattern: 並びに
   - expected: まず
@@ -51,7 +51,16 @@ rules:
   - expected: したうえで
     pattern: した上で
   - expected: $1さま
-    pattern: /([従業員])様|([お客])様|([ユーザー])様|([皆])様/
+    pattern: /(従業員|お客|ユーザー|皆)様/
+    specs:
+      - from: 従業員様
+        to: 従業員さま
+      - from: お客様
+        to: お客さま
+      - from: ユーザー様
+        to: ユーザーさま
+      - from: 皆様
+        to: 皆さま
   - expected: 振り込み
     pattern: 振込
   - expected: 取り消し
