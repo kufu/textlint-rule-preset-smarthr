@@ -47,7 +47,7 @@ rules:
   - expected: でき$1
     pattern: /出来([かがのをは過す損ずなまるたれてそ])/
   - expected: あとで
-    pattern: 後で
+    pattern: /(?<![始了直])後(で)/
   - expected: したうえで
     pattern: した上で
   - expected: $1さま
