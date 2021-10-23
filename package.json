@@ -21,7 +21,7 @@
     "test:dict": "textlint --config test/.textlintrc README.md",
     "test": "npm run test:dict && npm run test:textlint-scripts",
     "build": "textlint-scripts build",
-    "prepublish": "npm run --if-present build",
+    "prepublishOnly": "npm run --if-present build",
     "release": "standard-version",
     "release:dryrun": "standard-version --dry-run"
   },
