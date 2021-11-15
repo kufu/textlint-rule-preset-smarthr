@@ -1,0 +1,70 @@
+name: start release
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'リリースモードを入力 ("normal" または "prerelease")'
+        required: true
+        default: ''
+      branch_preparation:
+        description: '前リリースタグに合流させる方法 (通常は "auto" で自動処理。コンフリクトが発生して自動マージ出来ない場合は、手動でマージしたブランチを指定した上で "manual" を入力)'
+        required: true
+        default: 'auto'
+
+jobs:
+  start_release:
+    if: |
+      (github.event.inputs.mode == 'normal' || github.event.inputs.mode == 'prerelease')
+      && (github.event.inputs.branch_preparation == 'auto' || github.event.inputs.branch_preparation == 'manual')
+    runs-on: ubuntu-latest
+    env:
+      RESULT_PATH: /tmp/result.txt
+      IS_PRERELEASE: ${{ github.event.inputs.mode == 'prerelease' }}
+      NO_BRANCH_PREPARATION: ${{ github.event.inputs.branch_preparation == 'manual' }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: git config
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+      - name: prepare release
+        if: ${{ env.NO_BRANCH_PREPARATION == 'false' }}
+        run: |
+          BASE_TAG=v$(npx -c 'echo "$npm_package_version"')
+          git checkout $BASE_TAG
+          git merge --no-edit ${{ github.ref }}
+      - run: yarn install --frozen-lockfile
+      - name: release dry run
+        if: ${{ env.IS_PRERELEASE == 'false' }}
+        run: yarn release:dryrun > ${{ env.RESULT_PATH }}
+      - name: prerelease dry run
+        if: ${{ env.IS_PRERELEASE == 'true' }}
+        run: yarn release:dryrun --prerelease > ${{ env.RESULT_PATH }}
+      - name: wrap dry run log
+        run: |
+          echo "Dry Run Log:
+          \`\`\`
+          $(cat ${{ env.RESULT_PATH }})
+          \`\`\`" > ${{ env.RESULT_PATH }}
+      - name: push branch
+        run: |
+          git checkout -b release-candidate
+          git push origin release-candidate
+      - name: release issue labels
+        if: ${{ env.IS_PRERELEASE == 'false' }}
+        run: echo ISSUE_LABELS='release candidate' >> $GITHUB_ENV
+      - name: prerelease issue labels
+        if: ${{ env.IS_PRERELEASE == 'true' }}
+        run: echo ISSUE_LABELS='release candidate, prerelease' >> $GITHUB_ENV
+      - name: create issue
+        uses: peter-evans/create-issue-from-file@v3
+        with:
+          title: Release candidate
+          content-filepath: ${{ env.RESULT_PATH }}
+          labels: ${{ env.ISSUE_LABELS }}

@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.10.0",
   "keywords": [
     "textlint",
     "textlintrule",
@@ -21,7 +21,7 @@
     "test:dict": "textlint --config test/.textlintrc README.md",
     "test": "npm run test:dict && npm run test:textlint-scripts",
     "build": "textlint-scripts build",
-    "prepublish": "npm run --if-present build",
+    "prepublishOnly": "npm run --if-present build",
     "release": "standard-version",
     "release:dryrun": "standard-version --dry-run"
   },
@@ -30,12 +30,12 @@
     "@commitlint/config-conventional": "^13.2.0",
     "@textlint/types": "^12.0.2",
     "@types/node": "^15.14.9",
-    "husky": "^7.0.2",
+    "husky": "^7.0.4",
     "prettier": "^2.4.1",
-    "standard-version": "^9.3.1",
+    "standard-version": "^9.3.2",
     "textlint-scripts": "^12.0.2",
     "textlint-tester": "^12.0.2",
-    "ts-node": "^10.2.1",
+    "ts-node": "^10.4.0",
     "typescript": "^4.4.3"
   },
   "dependencies": {
