@@ -78,5 +78,7 @@ base('用字用語：一覧')
         }
         console.log(`${FILE_NAME}を保存しました。`)
       })
+    } else {
+      console.warn(`出力するデータがありません。`)
     }
   })
