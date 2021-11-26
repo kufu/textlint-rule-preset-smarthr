@@ -173,3 +173,9 @@ rules:
     specs:
       - from: 在籍中
         to: 在職中
+  - expected: 紐づけ
+    pattern: 紐付け
+    prh: 「付ける」を「つける」と表記するのに準じて、「紐づけ」と表記する。
+    specs:
+      - from: 紐付け
+        to: 紐づけ
