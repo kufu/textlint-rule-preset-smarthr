@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.9.0...v1.10.0) (2021-10-25)
+
+
+### Features
+
+* release作業自動化用のGithub Actionを追加 ([#121](https://github.com/kufu/textlint-rule-preset-smarthr/issues/121)) ([2eb5852](https://github.com/kufu/textlint-rule-preset-smarthr/commit/2eb5852a23cc371a8513467b644538a9fee45e79))
+
+## [1.9.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.7.1...v1.9.0) (2021-10-19)
+
+
+### Features
+
+* 「あとで」の例外ルール追加 ([#118](https://github.com/kufu/textlint-rule-preset-smarthr/issues/118)) ([c032dc7](https://github.com/kufu/textlint-rule-preset-smarthr/commit/c032dc7dee82906ade4c89af773545a5727edb9e))
+* npm test 実行時、定義中に含まれる specs の内容を検証 ([#110](https://github.com/kufu/textlint-rule-preset-smarthr/issues/110)) ([4367613](https://github.com/kufu/textlint-rule-preset-smarthr/commit/436761364989750b4d00088ef3c67dae009fcc3c))
+* semantic-releaseに関連するパッケージ・ファイルの削除 ([#113](https://github.com/kufu/textlint-rule-preset-smarthr/issues/113)) ([ce7953e](https://github.com/kufu/textlint-rule-preset-smarthr/commit/ce7953e001d51b0ec6421e98f7d2cb2e4d2953c3))
+
+
+### Bug Fixes
+
+* 「同等」の「等」はエラー判定されないようにする ([#108](https://github.com/kufu/textlint-rule-preset-smarthr/issues/108)) ([b48cc49](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b48cc49eb92ed8fb80b2fcf80ca64ea4f82ccba8))
+* 様→さま の正規表現が間違っていたので修正 ([#109](https://github.com/kufu/textlint-rule-preset-smarthr/issues/109)) ([210b837](https://github.com/kufu/textlint-rule-preset-smarthr/commit/210b837b803070d7cd177d6095b333a1693c1e38))
+
+## [1.8.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.7.1...v1.8.0) (2021-10-01)
+
+
+### Features
+
+* npm test 実行時、定義中に含まれる specs の内容を検証 ([#110](https://github.com/kufu/textlint-rule-preset-smarthr/issues/110)) ([4367613](https://github.com/kufu/textlint-rule-preset-smarthr/commit/436761364989750b4d00088ef3c67dae009fcc3c))
+* semantic-releaseに関連するパッケージ・ファイルの削除 ([#113](https://github.com/kufu/textlint-rule-preset-smarthr/issues/113)) ([ce7953e](https://github.com/kufu/textlint-rule-preset-smarthr/commit/ce7953e001d51b0ec6421e98f7d2cb2e4d2953c3))
+
+
+### Bug Fixes
+
+* 「同等」の「等」はエラー判定されないようにする ([#108](https://github.com/kufu/textlint-rule-preset-smarthr/issues/108)) ([b48cc49](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b48cc49eb92ed8fb80b2fcf80ca64ea4f82ccba8))
+* 様→さま の正規表現が間違っていたので修正 ([#109](https://github.com/kufu/textlint-rule-preset-smarthr/issues/109)) ([210b837](https://github.com/kufu/textlint-rule-preset-smarthr/commit/210b837b803070d7cd177d6095b333a1693c1e38))
+
 ### [1.7.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.7.0...v1.7.1) (2021-09-10)
 
 
