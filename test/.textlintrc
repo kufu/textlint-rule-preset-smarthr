@@ -2,9 +2,9 @@
   "rules": {
     "prh": {
       "rulePaths": [
-        "../dict/prh-basic.yml",
-        "../dict/prh-tech-word.yml",
+        "../dict/prh-idiomatic-usage.yml",
+        "../dict/prh-tech-word.yml"
       ]
-    },
+    }
   }
 }
