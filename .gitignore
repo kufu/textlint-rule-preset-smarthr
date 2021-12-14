@@ -86,5 +86,4 @@ crashlytics-build.properties
 package-lock.json
 
 # env
-
 .env
