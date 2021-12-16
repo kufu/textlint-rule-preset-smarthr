@@ -1,19 +1,19 @@
 import * as fs from 'fs'
+import * as path from 'path'
 import * as yaml from 'js-yaml'
 import Airtable from 'airtable'
 
 require('dotenv').config()
 
 type Dict = {
-  [key: string]: string | number | string[] | Spec[]
+  [key: string]: string | string[] | Spec[]
 }
-
 type Spec = {
   from: string
   to: string
 }
 
-const FILE_NAME = 'prh-idiomatic-usage.yml'
+const DIST_PATH_NAME = path.join(__dirname, '../dict/prh-idiomatic-usage.yml')
 
 Airtable.configure({
   endpointUrl: process.env.AIRTABLE_ENDPOINT_URL,
@@ -37,22 +37,24 @@ base('用字用語：一覧')
       const ymlArray = records
         .map((record) => {
           let rule: Dict = {}
-          const expected = record.get('expected') as string
-          const pattern = record.get('pattern') as string
-          const prh = record.get('prh') as string
-          const specFrom = record.get('spec:from') as string
-          const specTo = record.get('spec:to') as string
 
-          if (expected) {
+          // Memo: どの値もStringが入ってくる想定
+          const expected = record.get('expected')
+          const pattern = record.get('pattern')
+          const prh = record.get('prh')
+          const specFrom = record.get('spec:from')
+          const specTo = record.get('spec:to')
+
+          if (typeof expected === 'string') {
             rule = { ...rule, expected: expected }
           }
-          if (pattern) {
+          if (typeof pattern === 'string') {
             rule = { ...rule, pattern: pattern.split(',') }
           }
-          if (prh) {
+          if (typeof prh === 'string') {
             rule = { ...rule, prh: prh }
           }
-          if (specFrom && specTo) {
+          if (typeof specFrom === 'string' && typeof specTo === 'string') {
             // Memo: 必ずどちらも同数の値が入ることを前提としている
             const specFromArray = specFrom.split(',')
             const specToArray = specTo.split(',')
@@ -71,12 +73,12 @@ base('用字用語：一覧')
         })
 
       const yamlString = yaml.dump(ymlArray)
-      fs.writeFile(`./dict/${FILE_NAME}`, yamlString, 'utf8', (err: any) => {
+      fs.writeFile(DIST_PATH_NAME, yamlString, 'utf8', (err: any) => {
         if (err) {
           console.error(err.message)
           process.exit(1)
         }
-        console.log(`${FILE_NAME}を保存しました。`)
+        console.log(`データ出力完了しました。`)
       })
     } else {
       console.warn(`出力するデータがありません。`)

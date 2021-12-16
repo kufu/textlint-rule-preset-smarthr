@@ -298,3 +298,75 @@
   pattern:
     - /[➁❷➋⓶]/
   prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ③
+  pattern:
+    - /[➂❸➌⓷]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ④
+  pattern:
+    - /[➃❹➍⓸]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑤
+  pattern:
+    - /[➄❺➎⓹]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑥
+  pattern:
+    - /[➅❻➏⓺]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑦
+  pattern:
+    - /[➆❼➐⓻]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑧
+  pattern:
+    - /[➇❽➑⓼]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑨
+  pattern:
+    - /[➈❾➒⓽]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑩
+  pattern:
+    - /[➉❿➓⓾]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑪
+  pattern:
+    - /[⓫]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑫
+  pattern:
+    - /[⓬]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑬
+  pattern:
+    - /[⓭]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑭
+  pattern:
+    - /[⓮]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑮
+  pattern:
+    - /[⓯]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑯
+  pattern:
+    - /[⓰]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑰
+  pattern:
+    - /[⓱]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑱
+  pattern:
+    - /[⓲]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑲
+  pattern:
+    - /[⓳]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+- expected: ⑳
+  pattern:
+    - /[⓴]/
+  prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
