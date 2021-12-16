@@ -72,7 +72,7 @@ base('用字用語：一覧')
           return Object.keys(dict).length
         })
 
-      const yamlString = yaml.dump(ymlArray)
+      const yamlString = yaml.dump({ rules: ymlArray })
       fs.writeFile(DIST_PATH_NAME, yamlString, 'utf8', (err: any) => {
         if (err) {
           console.error(err.message)
