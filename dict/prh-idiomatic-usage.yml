@@ -123,16 +123,12 @@ rules:
         to: 住所などを入力
   - expected: ならびに
     pattern:
-      - /[並列并]びに/
+      - 並びに
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/writing/idiomatic-usage/usage/
     specs:
       - from: 並びに
-        to: ならびに
-      - from: 列びに
-        to: ならびに
-      - from: 并びに
         to: ならびに
   - expected: まず
     pattern:
@@ -143,9 +139,9 @@ rules:
     specs:
       - from: 先ず
         to: まず
-  - expected: $1まで
+  - expected: まで
     pattern:
-      - /([これ])迄|([ここ])迄|([それ])迄|([終わる])迄|([はじまる])迄/
+      - 迄
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/writing/idiomatic-usage/usage/
@@ -195,7 +191,7 @@ rules:
       - した上で
   - expected: $1さま
     pattern:
-      - /([従業員])様|([お客])様|([ユーザー])様|([皆])様/
+      - /(従業員|お客|ユーザー|皆)様/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/writing/idiomatic-usage/usage/
@@ -208,22 +204,6 @@ rules:
         to: ユーザーさま
       - from: 皆様
         to: 皆さま
-  - expected: お客さま
-    pattern:
-      - お客様
-    prh: >-
-      お客さま、管理者さま、担当者さま、ユーザーさまを使い分ける
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
-    specs:
-      - from: お客さま
-        to: お客様
-  - expected: ユーザーさま
-    pattern:
-      - ユーザー様
-    prh: お客さま、管理者さま、担当者さま、ユーザーさまを使い分ける
-    specs:
-      - from: ユーザーさま
-        to: ユーザー様
   - expected: 振り込み
     pattern:
       - 振込
@@ -233,13 +213,16 @@ rules:
   - expected: 差し戻し
     pattern:
       - 差戻し
-  - expected: 行なう$1
+  - expected: 行なう
     pattern:
-      - /行う|おこなう/
+      - 行う
+      - おこなう
     prh: 「行なう」を使用する
     specs:
-      - from: 行なう
-        to: 行う
+      - from: 行う
+        to: 行なう
+      - from: おこなう
+        to: 行なう
   - expected: 何卒
     pattern:
       - 何とぞ
@@ -258,37 +241,15 @@ rules:
     pattern:
       - >-
         /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])\?[^!\?]/
-  - expected: '"!!"'
+  - expected: '!!'
     pattern:
       - ！！
-  - expected: '"!?"'
+  - expected: '!?'
     pattern:
       - ！？
-  - expected: '"??"'
+  - expected: '??'
     pattern:
       - ？？
-  - expected: 企業アカウント
-    pattern:
-      - /テナント(?!ID)/
-    prh: 「テナント」は社内用語のため、「企業アカウント」に置き換えます。
-  - expected: サブドメイン
-    pattern:
-      - テナントID
-    prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
-  - expected: 在籍状況
-    pattern:
-      - 在職状況
-    prh: 「在職中・休職中・退職済み」のうち、どの状態にあるかを示すのが「在籍状況」です。
-    specs:
-      - from: 在籍状況
-        to: 在職状況
-  - expected: 在職中
-    pattern:
-      - 在籍中
-    prh: 「在籍中」ではなく、「在職中」と表現する
-    specs:
-      - from: 在職中
-        to: 在籍中
   - expected: ⓪
     pattern:
       - /[🄋⓿🄌]/
@@ -373,3 +334,25 @@ rules:
     pattern:
       - /[⓴]/
     prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: 企業アカウント
+    pattern:
+      - /テナント(?!ID)/
+    prh: 「テナント」は社内用語のため、「企業アカウント」に置き換えます。
+  - expected: サブドメイン
+    pattern:
+      - テナントID
+    prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
+  - expected: 在籍状況
+    pattern:
+      - 在職状況
+    prh: 「在職中・休職中・退職済み」のうち、どの状態にあるかを示すのが「在籍状況」です。
+    specs:
+      - from: 在職状況
+        to: 在籍状況
+  - expected: 在職中
+    pattern:
+      - 在籍中
+    prh: 休職中でも会社に籍はあるので、「在籍中」には休職中も含まれます。
+    specs:
+      - from: 在籍中
+        to: 在職中
