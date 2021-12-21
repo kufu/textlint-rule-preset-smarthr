@@ -23,14 +23,20 @@
     "build": "textlint-scripts build",
     "prepublishOnly": "npm run --if-present build",
     "release": "standard-version",
-    "release:dryrun": "standard-version --dry-run"
+    "release:dryrun": "standard-version --dry-run",
+    "export-airtable": "ts-node ./scripts/export-airtable-rules.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@textlint/types": "^12.0.2",
+    "@types/js-yaml": "^4.0.4",
     "@types/node": "^15.14.9",
+    "airtable": "^0.11.1",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
     "husky": "^7.0.4",
+    "js-yaml": "^4.1.0",
     "prettier": "^2.4.1",
     "standard-version": "^9.3.2",
     "textlint-scripts": "^12.0.2",
