@@ -1,17 +1,8 @@
 rules:
-  - expected: あらかじめ
-    pattern:
-      - 予め
   - expected: いたします
     pattern:
       - 致します
     prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
-  - expected: いただく
-    pattern:
-      - 頂く
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
   - expected: および
     pattern:
       - 及び
@@ -28,33 +19,6 @@ rules:
     pattern:
       - ご存知
     prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
-  - expected: さきほど
-    pattern:
-      - 先程
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
-    specs:
-      - from: 先程
-        to: さきほど
-  - expected: さまざま
-    pattern:
-      - 様々
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
-    specs:
-      - from: 様々
-        to: さまざま
-  - expected: すでに
-    pattern:
-      - 既に
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
-    specs:
-      - from: 既に
-        to: すでに
   - expected: すなわち
     pattern:
       - 即ち
@@ -82,15 +46,6 @@ rules:
     specs:
       - from: ボタンの側にある
         to: ボタンのそばにある
-  - expected: たくさん
-    pattern:
-      - 沢山
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
-    specs:
-      - from: 沢山
-        to: たくさん
   - expected: ただ
     pattern:
       - 只
@@ -109,9 +64,6 @@ rules:
     specs:
       - from: 但し
         to: ただし
-  - expected: ため$1
-    pattern:
-      - /為([にで])/
   - expected: など$1
     pattern:
       - /(?<!同)等([をのが、])/
@@ -130,15 +82,6 @@ rules:
     specs:
       - from: 並びに
         to: ならびに
-  - expected: まず
-    pattern:
-      - 先ず
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
-    specs:
-      - from: 先ず
-        to: まず
   - expected: まで
     pattern:
       - 迄
@@ -204,6 +147,22 @@ rules:
         to: ユーザーさま
       - from: 皆様
         to: 皆さま
+  - expected: お客さま
+    pattern:
+      - お客様
+    prh: >-
+      お客さま、管理者さま、担当者さま、ユーザーさまを使い分ける
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: お客さま
+        to: お客様
+  - expected: ユーザーさま
+    pattern:
+      - ユーザー様
+    prh: お客さま、管理者さま、担当者さま、ユーザーさまを使い分ける
+    specs:
+      - from: ユーザーさま
+        to: ユーザー様
   - expected: 振り込み
     pattern:
       - 振込
