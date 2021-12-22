@@ -24,7 +24,7 @@
     "prepublishOnly": "npm run --if-present build",
     "release": "standard-version",
     "release:dryrun": "standard-version --dry-run",
-    "export-airtable": "ts-node ./scripts/export-airtable-rules.ts"
+    "export:airtable": "ts-node ./scripts/export-airtable-rules.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",

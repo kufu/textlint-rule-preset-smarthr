@@ -1,0 +1,32 @@
+name: PullRequest and Export Airtable
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v2
+
+      - name: Create .env file
+        run: |
+          touch .env
+          echo -e "AIRTABLE_API_KEY=${{ secrets.AIRTABLE_API_KEY }}" >> .env
+          echo -e "AIRTABLE_BASE_ID=${{ secrets.AIRTABLE_BASE_ID }}" >> .env
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-engines
+
+      - run: yarn export:airtable
+      - run: yarn build
+
+      - name: craete pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: 'feat: Airtableの最新ルールを反映'
