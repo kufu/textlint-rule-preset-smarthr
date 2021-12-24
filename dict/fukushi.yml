@@ -819,21 +819,6 @@ dict:
         reading: "ホトンド"
         pronunciation: "ホトンド"
   -
-    expected: まさしく
-    extensions: {}
-    tokens:
-      -
-        surface_form: "正しく"
-        pos: "副詞"
-        pos_detail_1: "一般"
-        pos_detail_2: "*"
-        pos_detail_3: "*"
-        conjugated_type: "*"
-        conjugated_form: "*"
-        basic_form: "正しく"
-        reading: "マサシク"
-        pronunciation: "マサシク"
-  -
     expected: まさに
     extensions: {}
     tokens:
