@@ -8,7 +8,8 @@
   "main": "lib/index.js",
   "files": [
     "lib",
-    "src"
+    "src",
+    "dict"
   ],
   "homepage": "https://github.com/kufu/textlint-rule-preset-smarthr#readme",
   "repository": {
