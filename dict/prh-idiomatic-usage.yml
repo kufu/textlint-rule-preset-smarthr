@@ -206,7 +206,12 @@ rules:
         to: 皆さま
   - expected: 振り込み
     pattern:
-      - 振込
+      - (?<!給与)振込(?!口座)
+    specs:
+      - from: 振込
+        to: 振り込み
+      - from: 給与振込口座
+        to: 給与振込口座
   - expected: 取り消し
     pattern:
       - 取消
