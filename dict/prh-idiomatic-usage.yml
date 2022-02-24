@@ -206,7 +206,7 @@ rules:
         to: 皆さま
   - expected: 振り込み
     pattern:
-      - (?<!給与)振込(?!口座)
+      - /(?<!給与)振込(?!口座)/
     specs:
       - from: 振込
         to: 振り込み
