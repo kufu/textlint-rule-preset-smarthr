@@ -1,0 +1,363 @@
+rules:
+  - expected: あらかじめ
+    pattern:
+      - 予め
+  - expected: いたします
+    pattern:
+      - 致します
+    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+  - expected: いただく
+    pattern:
+      - 頂く
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+  - expected: および
+    pattern:
+      - 及び
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+  - expected: ください
+    pattern:
+      - 下さい
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+  - expected: ご存じ
+    pattern:
+      - ご存知
+    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+  - expected: さきほど
+    pattern:
+      - 先程
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 先程
+        to: さきほど
+  - expected: さまざま
+    pattern:
+      - 様々
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 様々
+        to: さまざま
+  - expected: すでに
+    pattern:
+      - 既に
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 既に
+        to: すでに
+  - expected: すなわち
+    pattern:
+      - 即ち
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 即ち
+        to: すなわち
+  - expected: すべて
+    pattern:
+      - 全て
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 全て
+        to: すべて
+  - expected: そば$1
+    pattern:
+      - /(?<![上下左右内外])側([にへが])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: ボタンの側にある
+        to: ボタンのそばにある
+  - expected: たくさん
+    pattern:
+      - 沢山
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 沢山
+        to: たくさん
+  - expected: ただ
+    pattern:
+      - 只
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 只
+        to: ただ
+  - expected: ただし
+    pattern:
+      - 但し
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 但し
+        to: ただし
+  - expected: ため$1
+    pattern:
+      - /為([にで])/
+  - expected: など$1
+    pattern:
+      - /(?<!同)等([をのが、])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 住所等を入力
+        to: 住所などを入力
+  - expected: ならびに
+    pattern:
+      - 並びに
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 並びに
+        to: ならびに
+  - expected: まず
+    pattern:
+      - 先ず
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 先ず
+        to: まず
+  - expected: まで
+    pattern:
+      - 迄
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 迄
+        to: まで
+  - expected: もって
+    pattern:
+      - 以て
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 以て
+        to: もって
+  - expected: もっとも
+    pattern:
+      - 尤も
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 尤も
+        to: もっとも
+  - expected: でき$1
+    pattern:
+      - /出来([かがのをは過す損ずなまるたれてそ])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 出来る
+        to: できる
+  - expected: あとで
+    pattern:
+      - /(?<![始了直])後で/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 後でやります。
+        to: あとでやります。
+      - from: 評価開始後でも編集できます。
+        to: 評価開始後でも編集できます。
+  - expected: したうえで
+    pattern:
+      - した上で
+  - expected: $1さま
+    pattern:
+      - /(従業員|お客|ユーザー|皆)様/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 従業員様
+        to: 従業員さま
+      - from: お客様
+        to: お客さま
+      - from: ユーザー様
+        to: ユーザーさま
+      - from: 皆様
+        to: 皆さま
+  - expected: 振り込み
+    pattern:
+      - (?<!給与)振込(?!口座)
+    specs:
+      - from: 振込
+        to: 振り込み
+      - from: 給与振込口座
+        to: 給与振込口座
+  - expected: 取り消し
+    pattern:
+      - 取消
+  - expected: 差し戻し
+    pattern:
+      - 差戻し
+  - expected: 行なう
+    pattern:
+      - 行う
+      - おこなう
+    prh: 「行なう」を使用する
+    specs:
+      - from: 行う
+        to: 行なう
+      - from: おこなう
+        to: 行なう
+  - expected: 何卒
+    pattern:
+      - 何とぞ
+  - expected: 並べ替え
+    pattern:
+      - 並び替え
+  - expected: 元$1戻
+    pattern:
+      - /もと([にへ])戻/
+    prh: 「もと」を漢字で表記する場合は、「元」「基」「下」を使い分ける。
+  - expected: $1！
+    pattern:
+      - >-
+        /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])![^!\?]/
+  - expected: $1？
+    pattern:
+      - >-
+        /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])\?[^!\?]/
+  - expected: '!!'
+    pattern:
+      - ！！
+  - expected: '!?'
+    pattern:
+      - ！？
+  - expected: '??'
+    pattern:
+      - ？？
+  - expected: ⓪
+    pattern:
+      - /[🄋⓿🄌]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ①
+    pattern:
+      - /[➀❶➊⓵]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ②
+    pattern:
+      - /[➁❷➋⓶]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ③
+    pattern:
+      - /[➂❸➌⓷]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ④
+    pattern:
+      - /[➃❹➍⓸]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑤
+    pattern:
+      - /[➄❺➎⓹]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑥
+    pattern:
+      - /[➅❻➏⓺]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑦
+    pattern:
+      - /[➆❼➐⓻]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑧
+    pattern:
+      - /[➇❽➑⓼]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑨
+    pattern:
+      - /[➈❾➒⓽]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑩
+    pattern:
+      - /[➉❿➓⓾]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑪
+    pattern:
+      - /[⓫]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑫
+    pattern:
+      - /[⓬]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑬
+    pattern:
+      - /[⓭]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑭
+    pattern:
+      - /[⓮]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑮
+    pattern:
+      - /[⓯]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑯
+    pattern:
+      - /[⓰]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑰
+    pattern:
+      - /[⓱]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑱
+    pattern:
+      - /[⓲]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑲
+    pattern:
+      - /[⓳]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: ⑳
+    pattern:
+      - /[⓴]/
+    prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
+  - expected: 企業アカウント
+    pattern:
+      - /テナント(?!ID)/
+    prh: 「テナント」は社内用語のため、「企業アカウント」に置き換えます。
+  - expected: サブドメイン
+    pattern:
+      - テナントID
+    prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
+  - expected: 在籍状況
+    pattern:
+      - 在職状況
+    prh: 「在職中・休職中・退職済み」のうち、どの状態にあるかを示すのが「在籍状況」です。
+    specs:
+      - from: 在職状況
+        to: 在籍状況
+  - expected: 在職中
+    pattern:
+      - 在籍中
+    prh: 休職中でも会社に籍はあるので、「在籍中」には休職中も含まれます。
+    specs:
+      - from: 在籍中
+        to: 在職中
