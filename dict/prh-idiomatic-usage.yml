@@ -204,6 +204,15 @@ rules:
         to: ユーザーさま
       - from: 皆様
         to: 皆さま
+  - expected: $1せて
+    pattern:
+      - 合わせて|併せて
+    prh: 「あわせて」は平仮名で表記する
+    specs:
+      - from: あわせて
+        to: 合わせて
+      - from: あわせて
+        to: 併せて
   - expected: 振り込み
     pattern:
       - /(?<!給与)振込(?!口座)/
