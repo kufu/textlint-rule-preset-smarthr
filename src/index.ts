@@ -38,7 +38,9 @@ module.exports = {
     'ja-no-redundant-expression': true,
     'no-mixed-zenkaku-and-hankaku-alphabet': true,
     'ja-keishikimeishi': true,
-    'ja-hiragana-fukushi': true,
+    'ja-hiragana-fukushi': {
+      rulePath: __dirname + "/../dict/fukushi.yml"
+    },
     'ja-hiragana-hojodoushi': true,
     'ja-hiragana-daimeishi': true,
     'ja-nakaguro-or-halfwidth-space-between-katakana': true,

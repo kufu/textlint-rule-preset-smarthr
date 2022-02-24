@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.11.1...v1.11.2) (2022-02-22)
+
+### [1.11.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.11.0...v1.11.1) (2022-01-07)
+
+## [1.11.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.10.0...v1.11.0) (2022-01-05)
+
+
+### Features
+
+* airtableからprh用ymlファイルを書き出す仕組みを設定 ([#129](https://github.com/kufu/textlint-rule-preset-smarthr/issues/129)) ([33e7d84](https://github.com/kufu/textlint-rule-preset-smarthr/commit/33e7d84fec461c7378abf21b67c22565288be1c1))
+* githubからAirtableのデータを出力、PRを出すアクションを追加 ([#139](https://github.com/kufu/textlint-rule-preset-smarthr/issues/139)) ([ee3e3b9](https://github.com/kufu/textlint-rule-preset-smarthr/commit/ee3e3b9240fd347884347e3d652402db73384862))
+
+
+### Bug Fixes
+
+* 「正しく」を誤検知しない ([#142](https://github.com/kufu/textlint-rule-preset-smarthr/issues/142)) ([d8aa738](https://github.com/kufu/textlint-rule-preset-smarthr/commit/d8aa738d61b993f646e432c3b5ce69d8475dcdc7))
+
 ## [1.10.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.9.0...v1.10.0) (2021-10-25)
 
 
