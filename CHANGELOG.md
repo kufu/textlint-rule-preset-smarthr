@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.3](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.11.2...v1.11.3) (2022-02-24)
+
+
+### Bug Fixes
+
+* "振り込み"の正規表現が正しくないので修正 ([#167](https://github.com/kufu/textlint-rule-preset-smarthr/issues/167)) ([5894411](https://github.com/kufu/textlint-rule-preset-smarthr/commit/58944111dccbf197ca66b95bc90492ce76f34ff0))
+
 ### [1.11.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.11.1...v1.11.2) (2022-02-22)
 
 ### [1.11.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.11.0...v1.11.1) (2022-01-07)
