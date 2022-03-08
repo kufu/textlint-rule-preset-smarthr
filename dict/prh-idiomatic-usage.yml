@@ -175,6 +175,22 @@ rules:
     specs:
       - from: 出来る
         to: できる
+  - expected: のなかで
+    pattern:
+      - の中で
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+  - expected: CSVファイル
+    pattern:
+      - csvファイル
+    prh: 拡張子を付けず「CSVファイル」「Excelファイル」と表記とする
+  - expected: PDFファイル
+    pattern:
+      - pdfファイル
+  - expected: ZIPファイル
+    pattern:
+      - zipファイル
   - expected: あとで
     pattern:
       - /(?<![始了直])後で/
@@ -255,6 +271,47 @@ rules:
   - expected: '??'
     pattern:
       - ？？
+  - expected: ごと$1
+    pattern:
+      - /毎([にので])/
+    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    specs:
+      - from: 口座ごとに
+        to: 口座毎に
+      - from: 項目ごとの
+        to: 項目毎の
+      - from: フォームごとで
+        to: フォーム毎に
+  - expected: ころ
+    pattern:
+      - 頃
+    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    specs:
+      - from: ころに送信されます
+        to: 頃に送信されます
+  - expected: 問い合わせ
+    pattern:
+      - 問合せ
+    prh: 送りがなは基本的につける
+  - expected: ひな形
+    pattern:
+      - 雛形
+  - expected: 紐づ$1
+    pattern:
+      - /紐付([いかきけく])/
+  - expected: 見積もり
+    pattern:
+      - 見積り
+    prh: 送りがなは基本的につける
+  - expected: よろしく
+    pattern:
+      - 宜しく
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 宜しく
+        to: よろしく
   - expected: ⓪
     pattern:
       - /[🄋⓿🄌]/
