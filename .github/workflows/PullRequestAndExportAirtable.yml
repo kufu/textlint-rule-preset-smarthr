@@ -26,6 +26,9 @@ jobs:
       - run: yarn export:airtable
       - run: yarn build
 
+      - name: Test
+        run: yarn test
+
       - name: craete pull request
         uses: peter-evans/create-pull-request@v3
         with:
