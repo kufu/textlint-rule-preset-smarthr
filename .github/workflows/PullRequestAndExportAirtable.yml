@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup NodeJS
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
 
       - name: Create .env file
         run: |
@@ -25,6 +25,9 @@ jobs:
 
       - run: yarn export:airtable
       - run: yarn build
+
+      - name: Test
+        run: yarn test
 
       - name: craete pull request
         uses: peter-evans/create-pull-request@v3
