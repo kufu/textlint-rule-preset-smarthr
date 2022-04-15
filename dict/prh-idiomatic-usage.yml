@@ -282,13 +282,6 @@ rules:
         to: 項目ごとの
       - from: フォーム毎で
         to: フォームごとで
-  - expected: ころ
-    pattern:
-      - 頃
-    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
-    specs:
-      - from: 頃に送信されます
-        to: ころに送信されます
   - expected: 問い合わせ
     pattern:
       - 問合せ
