@@ -271,6 +271,13 @@ rules:
   - expected: '??'
     pattern:
       - ？？
+  - expected: 改善
+    pattern:
+      - カイゼン
+    prh: 機能の「改善」は、製造業の現場やアジャイル開発で使われる「カイゼン」とは意味が異なるため、漢字表記する。
+    specs:
+      - from: カイゼンしました
+        to: 改善しました
   - expected: ごと$1
     pattern:
       - /毎([にので])/
@@ -282,17 +289,39 @@ rules:
         to: 項目ごとの
       - from: フォーム毎で
         to: フォームごとで
-  - expected: ころ
-    pattern:
-      - 頃
-    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
-    specs:
-      - from: 頃に送信されます
-        to: ころに送信されます
   - expected: 問い合わせ
     pattern:
       - 問合せ
     prh: 送りがなは基本的につける
+  - expected: ドラッグアンドドロップ
+    pattern:
+      - ドラッグ＆ドロップ
+      - ドラッグ・ドロップ
+    specs:
+      - from: ドラッグ＆ドロップ
+        to: ドラッグアンドドロップ
+      - from: ドラッグ・ドロップ
+        to: ドラッグアンドドロップ
+  - expected: はじめて
+    pattern:
+      - 初めて
+      - 始めて
+    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    specs:
+      - from: 初めて
+        to: はじめて
+      - from: 始めて
+        to: はじめて
+  - expected: 1つ
+    pattern:
+      - 一つ
+      - ひとつ
+    prh: 数字は、固有名詞や慣用句以外は算用数字（半角）を用いる
+    specs:
+      - from: 一つ
+        to: 1つ
+      - from: ひとつ
+        to: 1つ
   - expected: ひな形
     pattern:
       - 雛形
@@ -310,6 +339,16 @@ rules:
         to: 紐づけて
       - from: 紐付くhoge
         to: 紐づくhoge
+  - expected: 2つ
+    pattern:
+      - 二つ
+      - ふたつ
+    prh: 数字は、固有名詞や慣用句以外は算用数字（半角）を用いる
+    specs:
+      - from: 二つ
+        to: 2つ
+      - from: ふたつ
+        to: 2つ
   - expected: 見積もり
     pattern:
       - 見積り
@@ -426,3 +465,14 @@ rules:
     specs:
       - from: 在籍中
         to: 在職中
+  - expected: 再読み込み
+    pattern:
+      - /再(読込み|読込)|リロード/
+    prh: 画面を最新の状態にすることは、「再読み込み」と表記する
+    specs:
+      - from: 再読込み
+        to: 再読み込み
+      - from: 再読込
+        to: 再読み込み
+      - from: リロード
+        to: 再読み込み
