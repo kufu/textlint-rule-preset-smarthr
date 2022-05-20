@@ -234,16 +234,17 @@ rules:
   - expected: 差し戻し
     pattern:
       - 差戻し
-  - expected: 行なう
+  - expected: 行な$1
     pattern:
-      - 行う
-      - おこなう
+      - /行([いうえ])/
     prh: 「行なう」を使用する
     specs:
+      - from: 行い
+        to: 行ない
       - from: 行う
         to: 行なう
-      - from: おこなう
-        to: 行なう
+      - from: 行え
+        to: 行なえ
   - expected: 何卒
     pattern:
       - 何とぞ
@@ -476,3 +477,16 @@ rules:
         to: 再読み込み
       - from: リロード
         to: 再読み込み
+      - from: 再読み込み
+        to: 再読み込み
+  - expected: 行な$1
+    pattern:
+      - /おこな([いうえ])/
+    prh: 「行なう」を使用する
+    specs:
+      - from: おこない
+        to: 行ない
+      - from: おこなう
+        to: 行なう
+      - from: おこなえ
+        to: 行なえ
