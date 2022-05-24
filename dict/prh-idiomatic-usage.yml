@@ -236,7 +236,7 @@ rules:
       - 差戻し
   - expected: 行な$1
     pattern:
-      - /行([いうえ])/
+      - /行([いうえわ])/
     prh: 「行なう」を使用する
     specs:
       - from: 行い
@@ -245,6 +245,8 @@ rules:
         to: 行なう
       - from: 行え
         to: 行なえ
+      - from: 行わ
+        to: 行なわ
   - expected: 何卒
     pattern:
       - 何とぞ
@@ -481,7 +483,7 @@ rules:
         to: 再読み込み
   - expected: 行な$1
     pattern:
-      - /おこな([いうえ])/
+      - /おこな([いうえわ])/
     prh: 「行なう」を使用する
     specs:
       - from: おこない
@@ -490,3 +492,5 @@ rules:
         to: 行なう
       - from: おこなえ
         to: 行なえ
+      - from: おこなわ
+        to: 行なわ
