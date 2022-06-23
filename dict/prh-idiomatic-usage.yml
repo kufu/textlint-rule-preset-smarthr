@@ -11,19 +11,19 @@ rules:
       - 頂く
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
   - expected: および
     pattern:
       - 及び
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
   - expected: ください
     pattern:
       - 下さい
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
   - expected: ご存じ
     pattern:
       - ご存知
@@ -33,7 +33,7 @@ rules:
       - 先程
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 先程
         to: さきほど
@@ -42,7 +42,7 @@ rules:
       - 様々
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 様々
         to: さまざま
@@ -51,7 +51,7 @@ rules:
       - 既に
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 既に
         to: すでに
@@ -60,7 +60,7 @@ rules:
       - 即ち
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 即ち
         to: すなわち
@@ -69,7 +69,7 @@ rules:
       - 全て
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 全て
         to: すべて
@@ -78,7 +78,7 @@ rules:
       - /(?<![上下左右内外])側([にへが])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: ボタンの側にある
         to: ボタンのそばにある
@@ -87,7 +87,7 @@ rules:
       - 沢山
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 沢山
         to: たくさん
@@ -96,7 +96,7 @@ rules:
       - 只
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 只
         to: ただ
@@ -105,7 +105,7 @@ rules:
       - 但し
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 但し
         to: ただし
@@ -117,7 +117,7 @@ rules:
       - /(?<!同)等([をのが、])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 住所等を入力
         to: 住所などを入力
@@ -126,7 +126,7 @@ rules:
       - 並びに
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 並びに
         to: ならびに
@@ -135,7 +135,7 @@ rules:
       - 先ず
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 先ず
         to: まず
@@ -144,7 +144,7 @@ rules:
       - 迄
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 迄
         to: まで
@@ -153,7 +153,7 @@ rules:
       - 以て
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 以て
         to: もって
@@ -162,7 +162,7 @@ rules:
       - 尤も
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 尤も
         to: もっとも
@@ -171,7 +171,7 @@ rules:
       - /出来([かがのをは過す損ずなまるたれてそ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 出来る
         to: できる
@@ -180,7 +180,7 @@ rules:
       - の中で
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
   - expected: CSVファイル
     pattern:
       - csvファイル
@@ -196,7 +196,7 @@ rules:
       - /(?<![始了直])後で/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 後でやります。
         to: あとでやります。
@@ -210,7 +210,7 @@ rules:
       - /(従業員|お客|ユーザー|皆)様/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 従業員様
         to: 従業員さま
@@ -378,7 +378,7 @@ rules:
       - 宜しく
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
   - expected: ⓪
     pattern:
       - /[🄋⓿🄌]/
