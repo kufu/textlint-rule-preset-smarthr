@@ -5103,10 +5103,10 @@ textlint-rule-ja-hiragana-hojodoushi@^1.0.4:
     kuromojin "^1.3.2"
     morpheme-match-all "^1.1.0"
 
-textlint-rule-ja-keishikimeishi@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-keishikimeishi/-/textlint-rule-ja-keishikimeishi-1.0.3.tgz#000d9ffcfd2925cbd8dd7f04ab93ab8a69a9b095"
-  integrity sha512-XQwgjxipn2+qqKcZhAuXPvThnsHP+6AhvNjXiIaP86oDIgmGrThBRhjr9D9Pl8K3WgjIoxzruFmLLOJjlLESIA==
+textlint-rule-ja-keishikimeishi@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-keishikimeishi/-/textlint-rule-ja-keishikimeishi-1.0.4.tgz#734abc0d98f277ddb305a1eed58e6dee13ecbfba"
+  integrity sha512-mAxb4fdvjst4j0iZgFQrnoK1nf9NRkFQJuxRJmbqKZhgvXilSq19cqOalIc+pMTHEF+VdUCdEC43+2Ave2QMFA==
   dependencies:
     kuromojin "^2.1.1"
     morpheme-match-all "^1.1.0"
