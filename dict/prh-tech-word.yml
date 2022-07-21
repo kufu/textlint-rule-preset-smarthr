@@ -2,10 +2,6 @@
 rules:
   - expected: Twitter
     pattern: /ツイッター/
-  - expected: Web
-    pattern:
-      - ウェブ
-      - ウェッブ
   - expected: ソフトウェア
     pattern: /ソフトウエア/
   - expected: スマートフォン
