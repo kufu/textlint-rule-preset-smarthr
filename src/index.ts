@@ -38,8 +38,8 @@ module.exports = {
     'ja-no-redundant-expression': true,
     'no-mixed-zenkaku-and-hankaku-alphabet': true,
     'ja-keishikimeishi': {
-      "detection_hou_kata" : false,
-      "detection_ue" : false
+      'detection_hou_kata' : false,
+      'detection_ue' : false
     },
     'ja-hiragana-fukushi': {
       rulePath: __dirname + "/../dict/fukushi.yml"
