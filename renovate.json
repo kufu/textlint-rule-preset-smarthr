@@ -8,8 +8,7 @@
       {
         "groupName": "textlint rules",
         "matchPackageNames": [
-          "@textlint-rule/textlint-rule-no-unmatched-pair",
-          "@textlint/module-interop"
+          "@textlint-rule/textlint-rule-no-unmatched-pair"
         ],
         "matchPackagePatterns": [
           "^textlint-rule-*"
@@ -18,9 +17,11 @@
       {
         "groupName": "textlint family",
         "matchPackageNames": [
+          "textlint",
           "@textlint/types",
           "textlint-scripts",
-          "textlint-tester"
+          "textlint-tester",
+          "@textlint/module-interop"
         ]
       }
     ]
