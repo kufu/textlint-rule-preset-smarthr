@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.14.2...v1.15.0) (2022-08-30)
+
+
+### Features
+
+* RenovateのPRをまとめるパッケージを変更 ([#226](https://github.com/kufu/textlint-rule-preset-smarthr/issues/226)) ([293b76a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/293b76a5569445a96441484d01dbeaf07a222190))
+
 ### [1.14.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.14.1...v1.14.2) (2022-07-27)
 
 
