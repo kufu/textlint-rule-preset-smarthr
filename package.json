@@ -28,8 +28,8 @@
     "export:airtable": "ts-node ./scripts/export-airtable-rules.ts"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.1",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "@textlint/types": "^12.2.1",
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^15.14.9",
