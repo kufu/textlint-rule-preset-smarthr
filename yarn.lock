@@ -1542,10 +1542,10 @@ add-stream@^1.0.0:
   resolved "https://registry.yarnpkg.com/add-stream/-/add-stream-1.0.0.tgz#6a7990437ca736d5e1288db92bd3266d5f5cb2aa"
   integrity sha1-anmQQ3ynNtXhKI25K9MmbV9csqo=
 
-airtable@^0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/airtable/-/airtable-0.11.2.tgz#509ee68bb83b6f04d1f2cf8c3699ae742194ce83"
-  integrity sha512-2kYULLdnqa7ZpaWXXfLTNKMzU+BTUBOZ6TPGahpH3KfJB9Sl18ih0v0zV1PIvpDxTWq+u76jGMAya9NDVZJT/Q==
+airtable@^0.11.5:
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/airtable/-/airtable-0.11.5.tgz#eeac9b4bc7fef30663ca2c40153f7587920c2e02"
+  integrity sha512-/fqPA5BZTn5K0J636CfVuyGdNyV6t5RbBDPUBASlb/mlWSJj8WcF9O7/R+BuAlGMsSiKqR9dll99srcQcLEQjg==
   dependencies:
     "@types/node" ">=8.0.0 <15"
     abort-controller "^3.0.0"
