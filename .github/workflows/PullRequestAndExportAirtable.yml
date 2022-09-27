@@ -30,6 +30,6 @@ jobs:
         run: yarn test
 
       - name: craete pull request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           title: 'feat: Airtableの最新ルールを反映'
