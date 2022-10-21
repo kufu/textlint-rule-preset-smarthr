@@ -13,7 +13,7 @@ rules:
   - expected: ユーザビリティ
     pattern: /ユーザービリティ?/
   - expected: フィルター$1
-    pattern: /フィルタ([^ー])/
+    pattern: /フィルタ([^(ー|リング)])/
   - expected: ナンバー$1
     pattern: /ナンバ([^ー])/
   - expected: メンバー$1
