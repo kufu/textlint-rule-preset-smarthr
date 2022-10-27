@@ -1021,12 +1021,6 @@ dict:
         reading: "モチロン"
         pronunciation: "モチロン"
   -
-    expected: もっとも
-    tokens:
-      -
-        surface_form: "最も"
-        pos: "副詞"
-  -
     expected: もともと
     extensions: {}
     tokens:
