@@ -113,21 +113,6 @@ dict:
         reading: "アラカタ"
         pronunciation: "アラカタ"
   -
-    expected: あらためて
-    extensions: {}
-    tokens:
-      -
-        surface_form: "改めて"
-        pos: "副詞"
-        pos_detail_1: "一般"
-        pos_detail_2: "*"
-        pos_detail_3: "*"
-        conjugated_type: "*"
-        conjugated_form: "*"
-        basic_form: "改めて"
-        reading: "アラタメテ"
-        pronunciation: "アラタメテ"
-  -
     expected: いかに
     extensions: {}
     tokens:
