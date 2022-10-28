@@ -537,7 +537,7 @@ rules:
         to: 行なわない
       - from: おこなって
         to: 行なって
-  - expected: さらに
+  - expected: さら$1
     pattern:
       - /(?<!変)更(に|なる)/
     prh: >-
