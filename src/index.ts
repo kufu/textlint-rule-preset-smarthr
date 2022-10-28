@@ -13,7 +13,6 @@ module.exports = {
     'ja-no-redundant-expression': moduleInterop(require('textlint-rule-ja-no-redundant-expression')),
     'no-mixed-zenkaku-and-hankaku-alphabet': moduleInterop(require('textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet')),
     'ja-keishikimeishi': moduleInterop(require('textlint-rule-ja-keishikimeishi')),
-    'ja-hiragana-fukushi': moduleInterop(require('textlint-rule-ja-hiragana-fukushi')),
     'ja-hiragana-hojodoushi': moduleInterop(require('textlint-rule-ja-hiragana-hojodoushi')),
     'ja-hiragana-daimeishi': moduleInterop(require('textlint-rule-ja-hiragana-daimeishi')),
     'ja-no-space-around-parentheses': moduleInterop(require('textlint-rule-ja-no-space-around-parentheses')),
@@ -40,9 +39,6 @@ module.exports = {
     'ja-keishikimeishi': {
       'detection_hou_kata' : false,
       'detection_ue' : false
-    },
-    'ja-hiragana-fukushi': {
-      rulePath: __dirname + "/../dict/fukushi.yml"
     },
     'ja-hiragana-hojodoushi': true,
     'ja-hiragana-daimeishi': true,
