@@ -537,3 +537,32 @@ rules:
         to: 行なわない
       - from: おこなって
         to: 行なって
+  - expected: さらに
+    pattern:
+      - /(?<!変)更(に|なる)/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 更に
+        to: さらに
+      - from: 更なる
+        to: さらなる
+  - expected: しばらく
+    pattern:
+      - 暫く
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 暫く
+        to: しばらく
+  - expected: ぜひ
+    pattern:
+      - /是非(?!を|に|にも)/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 是非
+        to: ぜひ
