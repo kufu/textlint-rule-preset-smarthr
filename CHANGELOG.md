@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.15.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.15.1...v1.15.2) (2022-10-31)
+
+
+### Bug Fixes
+
+* textlint-tester URL has changed ([#208](https://github.com/kufu/textlint-rule-preset-smarthr/issues/208)) ([135f025](https://github.com/kufu/textlint-rule-preset-smarthr/commit/135f025922c28ef76a6754cd038994386b3a0636))
+* デザインシステム内の誤検知を解消 ([#235](https://github.com/kufu/textlint-rule-preset-smarthr/issues/235)) ([a9ebac5](https://github.com/kufu/textlint-rule-preset-smarthr/commit/a9ebac5d9c4d013fc775a750547673240e542a02))
+
 ### [1.15.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.15.0...v1.15.1) (2022-09-27)
 
 ## [1.15.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.14.2...v1.15.0) (2022-08-30)
