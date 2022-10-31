@@ -30,7 +30,7 @@ npm run build
 ### Tests
 
 `test`フォルダ内のテストコードを実行します。
-testの詳細は[textlint-tester](https://github.com/textlint/textlint-tester)を参照してください。
+testの詳細は[textlint-tester](https://github.com/textlint/textlint/tree/master/packages/textlint-tester)を参照してください。
 
 ```
 npm test
