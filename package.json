@@ -49,7 +49,6 @@
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.8",
     "@textlint/module-interop": "^12.2.1",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
-    "textlint-rule-ja-hiragana-fukushi": "^1.3.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
     "textlint-rule-ja-keishikimeishi": "^1.0.4",
     "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana": "^2.2.0",
