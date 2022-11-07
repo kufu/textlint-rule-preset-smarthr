@@ -17,7 +17,6 @@
         "detection_hou_kata" : false,
         "detection_ue" : false
       },
-      "ja-hiragana-fukushi": true,
       "ja-hiragana-hojodoushi": true,
       "ja-hiragana-daimeishi": true,
       "ja-no-space-around-parentheses": true,
