@@ -2,32 +2,57 @@ rules:
   - expected: あらかじめ
     pattern:
       - 予め
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 予め
+        to: あらかじめ
   - expected: いたします
     pattern:
       - 致します
-    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 致します
+        to: いたします
   - expected: いただく
     pattern:
       - 頂く
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 頂く
+        to: いただく
   - expected: および
     pattern:
       - 及び
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 及び
+        to: および
   - expected: ください
     pattern:
       - 下さい
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 下さい
+        to: ください
   - expected: ご存じ
     pattern:
       - ご存知
-    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: ご存知
+        to: ご存じ
   - expected: さきほど
     pattern:
       - 先程
@@ -75,7 +100,8 @@ rules:
         to: すべて
   - expected: そば$1
     pattern:
-      - /(?<![々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])側([にへが])/
+      - >-
+        /(?<![々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])側([にへが])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
@@ -112,6 +138,12 @@ rules:
   - expected: ため$1
     pattern:
       - /為([にで])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 為です
+        to: ためです
   - expected: など$1
     pattern:
       - /(?<!同)等([をのが、])/
@@ -181,16 +213,36 @@ rules:
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 文章の中で
+        to: 文章のなかで
   - expected: CSVファイル
     pattern:
       - csvファイル
-    prh: 拡張子を付けず「CSVファイル」「Excelファイル」と表記とする
+    prh: >-
+      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: csvファイル
+        to: CSVファイル
   - expected: PDFファイル
     pattern:
       - pdfファイル
+    prh: >-
+      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: pdfファイル
+        to: PDFファイル
   - expected: ZIPファイル
     pattern:
       - zipファイル
+    prh: >-
+      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: zipファイル
+        to: ZIPファイル
   - expected: あとで
     pattern:
       - /(?<![始了直])後で/
@@ -205,6 +257,12 @@ rules:
   - expected: したうえで
     pattern:
       - した上で
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: した上で
+        to: したうえで
   - expected: $1さま
     pattern:
       - /(従業員|お客|ユーザー|皆)様/
@@ -223,6 +281,9 @@ rules:
   - expected: 振り込み
     pattern:
       - /(?<!給与)振込(?!口座)/
+    prh: >-
+      送りがなを付けて表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 振込
         to: 振り込み
@@ -231,13 +292,27 @@ rules:
   - expected: 取り消し
     pattern:
       - 取消
+    prh: >-
+      送りがなを付けて表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 取消
+        to: 取り消し
   - expected: 差し戻し
     pattern:
       - 差戻し
+    prh: >-
+      送りがなを付けて表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 差戻し
+        to: 差し戻し
   - expected: 行な$1
     pattern:
-      - /行([いうえおわっ])/
-    prh: 「行なう」を使用する
+      - /おこな|行([いうえおわっ])/
+    prh: >-
+      「行なう」と表現し、「行う」の使用は控える
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 行い
         to: 行ない
@@ -251,44 +326,98 @@ rules:
         to: 行なわない
       - from: 行って
         to: 行なって
+      - from: おこない
+        to: 行ない
+      - from: おこなう
+        to: 行なう
+      - from: おこなえ
+        to: 行なえ
+      - from: おこなおう
+        to: 行なおう
+      - from: おこなわない
+        to: 行なわない
+      - from: おこなって
+        to: 行なって
   - expected: 何卒
     pattern:
       - 何とぞ
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 何とぞ
+        to: 何卒
   - expected: 並べ替え
     pattern:
       - 並び替え
+    specs:
+      - from: 並び替え
+        to: 並べ替え
   - expected: 元$1戻
     pattern:
       - /もと([にへ])戻/
-    prh: 「もと」を漢字で表記する場合は、「元」「基」「下」を使い分ける。
+    prh: >-
+      前の工程に戻る場合の「元」は漢字で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: もとに戻す
+        to: 元に戻す
   - expected: $1！
     pattern:
       - >-
         /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])![^!\?]/
+    prh: >-
+      「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
   - expected: $1？
     pattern:
       - >-
         /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])\?[^!\?]/
+    prh: >-
+      「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
   - expected: '!!'
     pattern:
       - ！！
+    prh: >-
+      「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: ！！
+        to: '!!'
   - expected: '!?'
     pattern:
       - ！？
+    prh: >-
+      「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: ！？
+        to: '!?'
   - expected: '??'
     pattern:
       - ？？
+    prh: >-
+      「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: ？？
+        to: '??'
   - expected: 改善
     pattern:
       - カイゼン
-    prh: 機能の「改善」は、製造業の現場やアジャイル開発で使われる「カイゼン」とは意味が異なるため、漢字表記する。
+    prh: >-
+      「改善」と漢字で表記し、「カイゼン」の使用は控える 「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: カイゼンしました
         to: 改善しました
   - expected: ごと$1
     pattern:
       - /毎([にので])/
-    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 口座毎に
         to: 口座ごとに
@@ -299,7 +428,12 @@ rules:
   - expected: 問い合わせ
     pattern:
       - 問合せ
-    prh: 送りがなは基本的につける
+    prh: >-
+      送りがなを付けて表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 問合せ
+        to: 問い合わせ
   - expected: ドラッグアンドドロップ
     pattern:
       - ドラッグ＆ドロップ
@@ -313,7 +447,9 @@ rules:
     pattern:
       - 初めて
       - 始めて
-    prh: 平仮名にしたほうが読みやすい漢字は平仮名にする
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 初めて
         to: はじめて
@@ -323,7 +459,9 @@ rules:
     pattern:
       - 一つ
       - ひとつ
-    prh: 数字は、固有名詞や慣用句以外は算用数字（半角）を用いる
+    prh: >-
+      数字は半角の算用数字で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 一つ
         to: 1つ
@@ -332,9 +470,18 @@ rules:
   - expected: ひな形
     pattern:
       - 雛形
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 雛形
+        to: ひな形
   - expected: 紐づ$1
     pattern:
       - /紐付([いかきけく])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 紐付いて
         to: 紐づいて
@@ -350,7 +497,9 @@ rules:
     pattern:
       - 二つ
       - ふたつ
-    prh: 数字は、固有名詞や慣用句以外は算用数字（半角）を用いる
+    prh: >-
+      数字は半角の算用数字で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 二つ
         to: 2つ
@@ -361,7 +510,7 @@ rules:
       - ウェブブラウザ
       - Webブラウザ
       - webブラウザ
-    prh: 固有名詞でない限り、「ウェブ」とする
+    prh: '「ウェブ」はカタカナで表記する '
     specs:
       - from: ウェブブラウザ
         to: ブラウザ
@@ -372,13 +521,21 @@ rules:
   - expected: 見積もり
     pattern:
       - 見積り
-    prh: 送りがなは基本的につける
+    prh: >-
+      送りがなを付けて表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 見積り
+        to: 見積もり
   - expected: よろしく
     pattern:
       - 宜しく
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 宜しく
+        to: よろしく
   - expected: ⓪
     pattern:
       - /[🄋⓿🄌]/
@@ -466,29 +623,43 @@ rules:
   - expected: 企業アカウント
     pattern:
       - /テナント(?!ID)/
-    prh: 「テナント」は社内用語のため、「企業アカウント」に置き換えます。
+    prh: >-
+      「企業アカウント」と表現し、「テナント」の使用は控える
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: テナント
+        to: 企業アカウント
   - expected: サブドメイン
     pattern:
       - テナントID
     prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
+    specs:
+      - from: テナントID
+        to: サブドメイン
   - expected: 在籍状況
     pattern:
       - 在職状況
-    prh: 「在職中・休職中・退職済み」のうち、どの状態にあるかを示すのが「在籍状況」です。
+    prh: >-
+      従業員の休職や退職を表すステータスの総称は「在籍状況」と表現し、勤務中の状態は「在職中」と表現する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 在職状況
         to: 在籍状況
   - expected: 在職中
     pattern:
       - 在籍中
-    prh: 休職中でも会社に籍はあるので、「在籍中」には休職中も含まれます。
+    prh: >-
+      従業員の休職や退職を表すステータスの総称は「在籍状況」と表現し、勤務中の状態は「在職中」と表現する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 在籍中
         to: 在職中
   - expected: 再読み込み
     pattern:
       - /再(読込み|読込)|リロード/
-    prh: 画面を最新の状態にすることは、「再読み込み」と表記する
+    prh: >-
+      「再読み込み」と表現し、「更新」「リロード」の使用は控える
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: 再読込み
         to: 再読み込み
@@ -501,7 +672,9 @@ rules:
   - expected: システム標準マスター
     pattern:
       - /(システム標準マスターデータ|システム標準マスタ(?!ー))/
-    prh: マスターデータの総称は「マスターデータ」、総称以外は、基本的に「◯◯マスター」と表記する。
+    prh: >-
+      マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: システム標準マスタ
         to: システム標準マスター
@@ -512,7 +685,9 @@ rules:
   - expected: カスタムマスター
     pattern:
       - /(カスタムマスターデータ|カスタムマスタ(?!ー))/
-    prh: マスターデータの総称は「マスターデータ」、総称以外は、基本的に「◯◯マスター」と表記する。
+    prh: >-
+      マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: カスタムマスタ
         to: カスタムマスター
@@ -520,49 +695,3 @@ rules:
         to: カスタムマスター
       - from: カスタムマスター
         to: カスタムマスター
-  - expected: 行な$1
-    pattern:
-      - /おこな([いうえおわっ])/
-    prh: 「行なう」を使用する
-    specs:
-      - from: おこない
-        to: 行ない
-      - from: おこなう
-        to: 行なう
-      - from: おこなえ
-        to: 行なえ
-      - from: おこなおう
-        to: 行なおう
-      - from: おこなわない
-        to: 行なわない
-      - from: おこなって
-        to: 行なって
-  - expected: さら$1
-    pattern:
-      - /(?<!変)更(に|なる)/
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/contents/writing-style/
-    specs:
-      - from: 更に
-        to: さらに
-      - from: 更なる
-        to: さらなる
-  - expected: しばらく
-    pattern:
-      - 暫く
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/contents/writing-style/
-    specs:
-      - from: 暫く
-        to: しばらく
-  - expected: ぜひ
-    pattern:
-      - /是非(?!を|に|にも)/
-    prh: >-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/contents/writing-style/
-    specs:
-      - from: 是非
-        to: ぜひ
