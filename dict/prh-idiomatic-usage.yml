@@ -100,8 +100,7 @@ rules:
         to: すべて
   - expected: そば$1
     pattern:
-      - >-
-        /(?<![々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])側([にへが])/
+      - /(?<![々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])側([にへが])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
