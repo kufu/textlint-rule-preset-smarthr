@@ -219,7 +219,7 @@ rules:
     pattern:
       - csvファイル
     prh: >-
-      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
+      「◯◯ファイル」の◯◯の部分は大文字か開発元公式の書き方で表記し、拡張子は省略する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: csvファイル
@@ -228,7 +228,7 @@ rules:
     pattern:
       - pdfファイル
     prh: >-
-      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
+      「◯◯ファイル」の◯◯の部分は大文字か開発元公式の書き方で表記し、拡張子は省略する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: pdfファイル
@@ -237,7 +237,7 @@ rules:
     pattern:
       - zipファイル
     prh: >-
-      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
+      「◯◯ファイル」の◯◯の部分は大文字か開発元公式の書き方で表記し、拡張子は省略する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: zipファイル
