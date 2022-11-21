@@ -100,7 +100,8 @@ rules:
         to: すべて
   - expected: そば$1
     pattern:
-      - /(?<![々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])側([にへが])/
+      - >-
+        /(?<![々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])側([にへが])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
@@ -219,7 +220,7 @@ rules:
     pattern:
       - csvファイル
     prh: >-
-      「◯◯ファイル」の◯◯の部分は大文字か開発元公式の書き方で表記し、拡張子は省略する
+      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: csvファイル
@@ -228,7 +229,7 @@ rules:
     pattern:
       - pdfファイル
     prh: >-
-      「◯◯ファイル」の◯◯の部分は大文字か開発元公式の書き方で表記し、拡張子は省略する
+      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: pdfファイル
@@ -237,7 +238,7 @@ rules:
     pattern:
       - zipファイル
     prh: >-
-      「◯◯ファイル」の◯◯の部分は大文字か開発元公式の書き方で表記し、拡張子は省略する
+      「◯◯ファイル」の◯◯の部分は大文字で表記し、拡張子は省略する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: zipファイル
@@ -363,13 +364,15 @@ rules:
         to: 元に戻す
   - expected: $1！
     pattern:
-      - /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])![^!\?]/
+      - >-
+        /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])![^!\?]/
     prh: >-
       「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
   - expected: $1？
     pattern:
-      - /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])\?[^!\?]/
+      - >-
+        /([\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF]|[ぁ-んァ-ヶ])\?[^!\?]/
     prh: >-
       「！」と「？」は単独で使う場合は全角、ペアで使う場合は半角で表記する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
@@ -723,3 +726,9 @@ rules:
         to: カスタムマスター
       - from: カスタムマスター
         to: カスタムマスター
+  - expected: 改$1
+    pattern:
+      - /あらた([めま])/
+    specs:
+      - from: あらためて
+        to: 改めて
