@@ -705,7 +705,7 @@ rules:
         to: ポリシー
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|カスタム|システム標準|SmartHR|ドメイン)マスタ(?!ー)(データ)?/
+      - /(?<!部署|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -715,6 +715,8 @@ rules:
         to: マスターデータ
       - from: 部署マスター
         to: 部署マスター
+      - from: SmartHRマスター
+        to: SmartHRマスター
   - expected: マネージャー
     pattern:
       - /マネージャ(?!ー)/
@@ -952,7 +954,7 @@ rules:
         to: ユーザビリティ
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|カスタム|システム標準|SmartHR|ドメイン)マスター(?!データ)/
+      - /(?<!部署|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -960,3 +962,5 @@ rules:
         to: マスターデータ
       - from: 部署マスター
         to: 部署マスター
+      - from: SmartHRマスター
+        to: SmartHRマスター
