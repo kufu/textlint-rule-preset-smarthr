@@ -964,3 +964,9 @@ rules:
         to: 部署マスター
       - from: SmartHRマスター
         to: SmartHRマスター
+  - expected: 詳し
+    pattern:
+      - くわし
+    specs:
+      - from: くわしくは
+        to: 詳しくは
