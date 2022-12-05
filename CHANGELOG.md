@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.16.0...v1.17.0) (2022-12-05)
+
+
+### Features
+
+* prh-tech-word.ymlをprh-idiomatic-usage.ymlに統合 ([#256](https://github.com/kufu/textlint-rule-preset-smarthr/issues/256)) ([7a22612](https://github.com/kufu/textlint-rule-preset-smarthr/commit/7a226122e67475490351c81a7f8c5f18315d36d4))
+
 ## [1.16.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.15.3...v1.16.0) (2022-11-15)
 
 
