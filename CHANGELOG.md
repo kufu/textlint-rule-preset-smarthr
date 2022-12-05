@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 * prh-tech-word.ymlをprh-idiomatic-usage.ymlに統合 ([#256](https://github.com/kufu/textlint-rule-preset-smarthr/issues/256)) ([7a22612](https://github.com/kufu/textlint-rule-preset-smarthr/commit/7a226122e67475490351c81a7f8c5f18315d36d4))
 
+* Airtableの最新ルールを反映 ([#257](https://github.com/kufu/textlint-rule-preset-smarthr/issues/257)) ([28e94f7](https://github.com/kufu/textlint-rule-preset-smarthr/commit/28e94f7d1da169388cfd9838cbb06ca512392f88))
+
 ## [1.16.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.15.3...v1.16.0) (2022-11-15)
 
 
