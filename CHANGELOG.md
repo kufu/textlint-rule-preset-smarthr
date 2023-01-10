@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.17.1...v1.17.2) (2023-01-10)
+
+### Bug Fixes
+
+* 「マスター」のルールを修正 ([#265](https://github.com/kufu/textlint-rule-preset-smarthr/issues/265)) ([c4488bb](https://github.com/kufu/textlint-rule-preset-smarthr/commit/c4488bbb12419c413f7bfa5a91f1476bd14af715))
+
 ## [1.17.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.17.0...v1.17.1) (2022-12-09)
 
 ### Bug Fixes
