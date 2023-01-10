@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.9.0...v1.17.2) (2023-01-10)
+
+
+### Features
+
+* 「頃」に関するルールを削除する ([#189](https://github.com/kufu/textlint-rule-preset-smarthr/issues/189)) ([98e708a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/98e708abadea9d3116d2eee58b95d80c33533b7f))
+* airtableからprh用ymlファイルを書き出す仕組みを設定 ([#129](https://github.com/kufu/textlint-rule-preset-smarthr/issues/129)) ([33e7d84](https://github.com/kufu/textlint-rule-preset-smarthr/commit/33e7d84fec461c7378abf21b67c22565288be1c1))
+* Airtableの最新ルールを反映 ([#244](https://github.com/kufu/textlint-rule-preset-smarthr/issues/244)) ([167831f](https://github.com/kufu/textlint-rule-preset-smarthr/commit/167831ffbf72b223529f20c862e68ca42d87b1f7))
+* airtable出力用actionにtestを追加 ([#179](https://github.com/kufu/textlint-rule-preset-smarthr/issues/179)) ([e8b251e](https://github.com/kufu/textlint-rule-preset-smarthr/commit/e8b251eaccdefd04caa36cd95775c09b1d95c953))
+* githubからAirtableのデータを出力、PRを出すアクションを追加 ([#139](https://github.com/kufu/textlint-rule-preset-smarthr/issues/139)) ([ee3e3b9](https://github.com/kufu/textlint-rule-preset-smarthr/commit/ee3e3b9240fd347884347e3d652402db73384862))
+* ja-keishikimeishiのバージョン1.0.4に対応＆オプション追加 ([#213](https://github.com/kufu/textlint-rule-preset-smarthr/issues/213)) ([816ce20](https://github.com/kufu/textlint-rule-preset-smarthr/commit/816ce20944b65140677fbf753e939ccb56916e5a))
+* prh-tech-word.ymlをprh-idiomatic-usage.ymlに統合 ([#256](https://github.com/kufu/textlint-rule-preset-smarthr/issues/256)) ([7a22612](https://github.com/kufu/textlint-rule-preset-smarthr/commit/7a226122e67475490351c81a7f8c5f18315d36d4))
+* release作業自動化用のGithub Actionを追加 ([#121](https://github.com/kufu/textlint-rule-preset-smarthr/issues/121)) ([2eb5852](https://github.com/kufu/textlint-rule-preset-smarthr/commit/2eb5852a23cc371a8513467b644538a9fee45e79))
+* RenovateのPRをまとめるパッケージを変更 ([#226](https://github.com/kufu/textlint-rule-preset-smarthr/issues/226)) ([293b76a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/293b76a5569445a96441484d01dbeaf07a222190))
+
+
+### Bug Fixes
+
+* "振り込み"の正規表現が正しくないので修正 ([#167](https://github.com/kufu/textlint-rule-preset-smarthr/issues/167)) ([5894411](https://github.com/kufu/textlint-rule-preset-smarthr/commit/58944111dccbf197ca66b95bc90492ce76f34ff0))
+* 「マスター」のルールを修正 ([#265](https://github.com/kufu/textlint-rule-preset-smarthr/issues/265)) ([c4488bb](https://github.com/kufu/textlint-rule-preset-smarthr/commit/c4488bbb12419c413f7bfa5a91f1476bd14af715))
+* 「行なわれる」を検知できるようにする ([#202](https://github.com/kufu/textlint-rule-preset-smarthr/issues/202)) ([42140e4](https://github.com/kufu/textlint-rule-preset-smarthr/commit/42140e45c5d4b88266e649fa5bf47cac19752c53))
+* 「正しく」を誤検知しない ([#142](https://github.com/kufu/textlint-rule-preset-smarthr/issues/142)) ([d8aa738](https://github.com/kufu/textlint-rule-preset-smarthr/commit/d8aa738d61b993f646e432c3b5ce69d8475dcdc7))
+* follow-up [#213](https://github.com/kufu/textlint-rule-preset-smarthr/issues/213) ([#223](https://github.com/kufu/textlint-rule-preset-smarthr/issues/223)) ([f27d78e](https://github.com/kufu/textlint-rule-preset-smarthr/commit/f27d78e2f7c8a46b2af9fe2c14e6da9e2cf2b2bf))
+* textlint-tester URL has changed ([#208](https://github.com/kufu/textlint-rule-preset-smarthr/issues/208)) ([135f025](https://github.com/kufu/textlint-rule-preset-smarthr/commit/135f025922c28ef76a6754cd038994386b3a0636))
+* デザインシステム内の誤検知を解消 ([#235](https://github.com/kufu/textlint-rule-preset-smarthr/issues/235)) ([a9ebac5](https://github.com/kufu/textlint-rule-preset-smarthr/commit/a9ebac5d9c4d013fc775a750547673240e542a02))
+* 誤検知を防ぐためja-hiragana-fukushiを利用しないよう変更 ([#237](https://github.com/kufu/textlint-rule-preset-smarthr/issues/237)) ([05f4180](https://github.com/kufu/textlint-rule-preset-smarthr/commit/05f418073f7951945a7e134b83f27749c4c7c7cc))
+
 ## [1.17.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.17.0...v1.17.1) (2022-12-09)
 
 ### Bug Fixes
