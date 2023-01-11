@@ -908,6 +908,15 @@ rules:
         to: 再読み込み
       - from: 再読み込み
         to: 再読み込み
+  - expected: ウィンドウ
+    pattern:
+      - ウインドウ
+    prh: >-
+      「ウィ/ウェ/ウォ」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: ウインドウ
+        to: ウィンドウ
   - expected: システム標準マスター
     pattern:
       - /(システム標準マスターデータ|システム標準マスタ(?!ー))/
