@@ -913,7 +913,7 @@ rules:
       - ウインドウ
     prh: >-
       「ウィ/ウェ/ウォ」を使用する
-      https://smarthr.design/products/contents/idiomatic-usage/usage/#recvhB6VJstpBQKeV-0
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: ウインドウ
         to: ウィンドウ
