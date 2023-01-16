@@ -243,6 +243,16 @@ rules:
     specs:
       - from: zipファイル
         to: ZIPファイル
+  - expected: アイコン
+    pattern:
+      - >-
+        /(?<!ウォーター|ベル|チェック|サービス|ランド|ロゴ|合意済み|合意済|破棄済み|破棄済|合意|合意前|「合意済み」|「破棄済み」|見本|アット)マーク(?![ァ-ヶ])(?=.*)/
+    prh: >-
+      「マーク」ではなく「アイコン」と表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: マーク
+        to: アイコン
   - expected: アクセシビリティ
     pattern:
       - アクセシビリティー
@@ -908,6 +918,15 @@ rules:
         to: 再読み込み
       - from: 再読み込み
         to: 再読み込み
+  - expected: ウィンドウ
+    pattern:
+      - ウインドウ
+    prh: >-
+      「ウィ/ウェ/ウォ」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: ウインドウ
+        to: ウィンドウ
   - expected: システム標準マスター
     pattern:
       - /(システム標準マスターデータ|システム標準マスタ(?!ー))/
@@ -952,6 +971,12 @@ rules:
         to: ユーザビリティ
       - from: ユーザビリティー
         to: ユーザビリティ
+  - expected: 並び
+    pattern:
+      - /[横|縦]?(ならび)順?/
+    specs:
+      - from: ならび
+        to: 並び
   - expected: マスターデータ
     pattern:
       - /(?<!部署|役職|］|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
