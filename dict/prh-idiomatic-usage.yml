@@ -971,12 +971,16 @@ rules:
         to: ユーザビリティ
       - from: ユーザビリティー
         to: ユーザビリティ
-  - expected: 並び
+  - expected: 並$1
     pattern:
-      - /[横|縦]?(ならび)順?/
+      - /なら([びぶべ])(?!に)/
     specs:
-      - from: ならび
-        to: 並び
+      - from: 横ならび
+        to: 横並び
+      - from: 縦ならび
+        to: 縦並び
+      - from: ならび順
+        to: 並び順
   - expected: マスターデータ
     pattern:
       - /(?<!部署|役職|］|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
