@@ -155,7 +155,7 @@ rules:
         to: 住所などを入力
   - expected: ならびに
     pattern:
-      - 並びに
+      - /(?<![横縦])並びに/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
