@@ -1016,7 +1016,7 @@ rules:
         to: カスタムマスター
   - expected: 基本機能
     pattern:
-      - /本体アプリ|本体/
+      - /SmartHR本体アプリ|本体アプリ|SmartHR本体/
     prh: >-
       アプリケーションの呼び方には「SmartHR基本機能」と「オプション機能」を使用する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
