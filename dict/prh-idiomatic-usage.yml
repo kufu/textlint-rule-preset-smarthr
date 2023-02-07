@@ -297,6 +297,15 @@ rules:
         to: ユーザーさま
       - from: 皆様
         to: 皆さま
+  - expected: 移動
+    pattern:
+      - 遷移
+    prh: >-
+      「移動」と表現し、「遷移」の使用は控える
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 遷移
+        to: 移動
   - expected: 振り込み
     pattern:
       - /(?<!給与)振込(?!口座)/
@@ -613,6 +622,17 @@ rules:
         to: 1つ
       - from: ひとつ
         to: 1つ
+  - expected: 1人
+    pattern:
+      - /一人|ひとり/
+    prh: >-
+      数字は半角の算用数字で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 一人を選択
+        to: 1人を選択
+      - from: ひとりを選択
+        to: 1人を選択
   - expected: ひな形
     pattern:
       - 雛形
@@ -994,6 +1014,26 @@ rules:
         to: カスタムマスター
       - from: カスタムマスター
         to: カスタムマスター
+  - expected: 基本機能
+    pattern:
+      - /本体アプリ|本体/
+    prh: >-
+      アプリケーションの呼び方には「SmartHR基本機能」と「オプション機能」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: SmartHR本体の権限ごとに設定します
+        to: SmartHR基本機能の権限ごとに設定します
+      - from: 本体アプリの権限ごとに設定します
+        to: 基本機能の権限ごとに設定します
+  - expected: オプション機能
+    pattern:
+      - プラスアプリ
+    prh: >-
+      アプリケーションの呼び方には「SmartHR基本機能」と「オプション機能」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 通勤経路検索機能はプラスアプリです
+        to: 通勤経路検索機能はオプション機能です
   - expected: パソコン
     pattern:
       - PC
@@ -1017,6 +1057,17 @@ rules:
         to: 削除画面
       - from: モーダルを閉じる
         to: 画面を閉じる
+  - expected: か月
+    pattern:
+      - /ヶ月|ケ月|箇月|個月|ヵ月|カ月/
+    prh: >-
+      「か所」「か月」と表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 給与明細が1ヶ月単位で発行されます
+        to: 給与明細が1か月単位で発行されます
+      - from: 給与明細が1箇月単位で発行されます
+        to: 給与明細が1か月単位で発行されます
   - expected: 改$1
     pattern:
       - /あらた([めま])/
