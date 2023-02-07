@@ -1014,7 +1014,7 @@ rules:
         to: カスタムマスター
       - from: カスタムマスター
         to: カスタムマスター
-  - expected: 基本機能
+  - expected: SmartHR基本機能
     pattern:
       - /SmartHR本体アプリ|本体アプリ|SmartHR本体/
     prh: >-
