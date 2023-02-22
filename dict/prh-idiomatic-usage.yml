@@ -449,6 +449,15 @@ rules:
     specs:
       - from: カイゼンしました
         to: 改善しました
+  - expected: GB
+    pattern:
+      - ギガバイト
+    prh: >-
+      ファイルサイズは基本的に英字2文字で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recmk5vIbS65cWjA6-0
+    specs:
+      - from: ギガバイト
+        to: GB
   - expected: クエリ
     pattern:
       - クエリー
@@ -988,6 +997,18 @@ rules:
     specs:
       - from: おもに労務担当者が使用します
         to: 主に労務担当者が使用します
+  - expected: コピーアンドペースト
+    pattern:
+      - /コピー&ペースト|コピー＆ペースト|コピー・ペースト|コピペ/
+    specs:
+      - from: コピー&ペースト
+        to: コピーアンドペースト
+      - from: コピー＆ペースト
+        to: コピーアンドペースト
+      - from: コピー・ペースト
+        to: コピーアンドペースト
+      - from: コピペ
+        to: コピーアンドペースト
   - expected: システム標準マスター
     pattern:
       - /(システム標準マスターデータ|システム標準マスタ(?!ー))/
@@ -1023,9 +1044,9 @@ rules:
     specs:
       - from: SmartHR本体アプリの権限ごとに設定します
         to: SmartHR基本機能の権限ごとに設定します
-      - from: 本体アプリの権限ごとに設定します
-        to: SmartHR基本機能の権限ごとに設定します
       - from: SmartHR本体の権限ごとに設定します
+        to: SmartHR基本機能の権限ごとに設定します
+      - from: 本体アプリの権限ごとに設定します
         to: SmartHR基本機能の権限ごとに設定します
   - expected: オプション機能
     pattern:
@@ -1059,6 +1080,25 @@ rules:
         to: 削除画面
       - from: モーダルを閉じる
         to: 画面を閉じる
+  - expected: か所
+    pattern:
+      - /(?<![^\x01-\x7E])(ヶ|ケ|箇|個|ヵ|カ)所/
+    prh: >-
+      「か所」「か月」と表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#rec1wuNfx5bfUqAxd-0
+    specs:
+      - from: 3ヶ所
+        to: 3か所
+      - from: 3ケ所
+        to: 3か所
+      - from: 3箇所
+        to: 3か所
+      - from: 3個所
+        to: 3か所
+      - from: 3ヵ所
+        to: 3か所
+      - from: 3カ所
+        to: 3か所
   - expected: か月
     pattern:
       - /ヶ月|ケ月|箇月|個月|ヵ月|カ月/
