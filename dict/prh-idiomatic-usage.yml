@@ -297,6 +297,21 @@ rules:
         to: ユーザーさま
       - from: 皆様
         to: 皆さま
+  - expected: あわせて
+    pattern:
+      - /(?<![をとにへ])(合わせて|併せて)/
+    prh: >-
+      「あわせて」は平仮名で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recUxtcs2EldiKQ1U-0
+    specs:
+      - from: 合わせて
+        to: あわせて
+      - from: 併せて
+        to: あわせて
+      - from: 合わせる
+        to: 合わせる
+      - from: AとBを併せて入力
+        to: AとBを併せて入力
   - expected: 移動
     pattern:
       - 遷移
@@ -607,6 +622,17 @@ rules:
     specs:
       - from: ナンバ
         to: ナンバー
+  - expected: 入力必須
+    pattern:
+      - 必須入力
+    prh: >-
+      「入力必須」と表現し、「必須入力」の使用は控える
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recUVMSOhVDbQjMMN-0
+    specs:
+      - from: Aは必須入力です
+        to: Aは入力必須です
+      - from: 必須入力項目
+        to: 入力必須項目
   - expected: はじめて
     pattern:
       - 初めて
@@ -1057,6 +1083,15 @@ rules:
     specs:
       - from: 通勤経路検索機能はプラスアプリです
         to: 通勤経路検索機能はオプション機能です
+  - expected: ウェイト
+    pattern:
+      - ウエイト
+    prh: >-
+      「ウィ/ウェ/ウォ」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recvhB6VJstpBQKeV-0
+    specs:
+      - from: 大きなウエイトを占める
+        to: 大きなウェイトを占める
   - expected: パソコン
     pattern:
       - PC
@@ -1116,6 +1151,17 @@ rules:
     specs:
       - from: あらためて
         to: 改めて
+  - expected: 手引き
+    pattern:
+      - /手引(?!き)/
+    prh: >-
+      送りがなを付けて表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recm8V38MkxhYrKNr-0
+    specs:
+      - from: サーベイ実施の手引を参照
+        to: サーベイ実施の手引きを参照
+      - from: 手引き
+        to: 手引き
   - expected: ユーザビリティ
     pattern:
       - ユーザビリティー
