@@ -12,7 +12,12 @@
         ],
         "matchPackagePatterns": [
           "^textlint-rule-*"
-        ]
+        ],
+        "matchUpdateTypes": [
+          "minor",
+          "patch"
+        ],
+        "automerge": true
       },
       {
         "groupName": "textlint family",
@@ -22,7 +27,19 @@
           "textlint-scripts",
           "textlint-tester",
           "@textlint/module-interop"
-        ]
+        ],
+        "matchUpdateTypes": [
+          "minor",
+          "patch"
+        ],
+        "automerge": true
+      },
+      {
+        "matchUpdateTypes": [
+          "minor",
+          "patch"
+        ],
+        "automerge": true
       }
     ]
   }
