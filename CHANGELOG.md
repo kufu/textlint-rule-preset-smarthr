@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.21.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.21.0...v1.21.1) (2023-02-28)
+
+
+### Bug Fixes
+
+* 「ひとり親」の誤検知を修正 ([#302](https://github.com/kufu/textlint-rule-preset-smarthr/issues/302)) ([a0dd157](https://github.com/kufu/textlint-rule-preset-smarthr/commit/a0dd157df20c9b418a13f080cc9a819d8613da9b))
+
 ## [1.21.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.20.0...v1.21.0) (2023-02-28)
 
 
