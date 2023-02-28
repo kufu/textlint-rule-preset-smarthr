@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.20.0...v1.21.0) (2023-02-28)
+
+
+### Features
+
+* 依存パッケージのオートマージを設定 ([#297](https://github.com/kufu/textlint-rule-preset-smarthr/issues/297)) ([b7b5e4f](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b7b5e4f3596ad6640556f7af11c9024d7d6dfda5))
+
+
+### Bug Fixes
+
+* 「ブックマーク」の誤検知を修正 ([#294](https://github.com/kufu/textlint-rule-preset-smarthr/issues/294)) ([73d139c](https://github.com/kufu/textlint-rule-preset-smarthr/commit/73d139c82c8f042518118671c89f42ad9bbc12cb))
+* 「一人ひとり」「一人称」の誤検知を修正 ([#298](https://github.com/kufu/textlint-rule-preset-smarthr/issues/298)) ([c5a83f5](https://github.com/kufu/textlint-rule-preset-smarthr/commit/c5a83f5f470ba8709caf02b456a545de8257e83b))
+
 ## [1.20.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.19.0...v1.20.0) (2023-02-14)
 
 
