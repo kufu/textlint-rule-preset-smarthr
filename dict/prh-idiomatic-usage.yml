@@ -1059,8 +1059,7 @@ rules:
         to: 通勤経路検索機能はオプション機能です
   - expected: パソコン
     pattern:
-      - PC
-      - パーソナルコンピューター
+      - /(?<![a-zA-Z])PC(?![a-zA-Z])/
     prh: >-
       「パソコン」と表記し、「PC」の使用は控える
       https://smarthr.design/products/contents/idiomatic-usage/usage/#recw4wmIL3QqcKmoc-0
