@@ -1066,6 +1066,8 @@ rules:
     specs:
       - from: PCを使用します
         to: パソコンを使用します
+      - from: HOGEPCFOO
+        to: HOGEPCFOO
   - expected: 画面
     pattern:
       - /モーダルウィンドウ|モーダルダイアログ|ウィンドウ|ダイアログ|モーダル/
