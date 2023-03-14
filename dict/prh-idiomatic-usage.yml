@@ -1094,14 +1094,15 @@ rules:
         to: 大きなウェイトを占める
   - expected: パソコン
     pattern:
-      - PC
-      - パーソナルコンピューター
+      - /(?<![a-zA-Z])PC(?![a-zA-Z])/
     prh: >-
       「パソコン」と表記し、「PC」の使用は控える
       https://smarthr.design/products/contents/idiomatic-usage/usage/#recw4wmIL3QqcKmoc-0
     specs:
       - from: PCを使用します
         to: パソコンを使用します
+      - from: HOGEPCFOO
+        to: HOGEPCFOO
   - expected: 画面
     pattern:
       - /モーダルウィンドウ|モーダルダイアログ|ウィンドウ|ダイアログ|モーダル/
