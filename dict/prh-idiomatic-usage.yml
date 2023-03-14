@@ -878,6 +878,43 @@ rules:
         to: レイヤー
       - from: Flashプレイヤー
         to: Flashプレイヤー
+  - expected: わか$2
+    pattern:
+      - /((?<![自区])分か(?!れる|れて|れた)|判|解)([らりるれっ])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 分からない
+        to: わからない
+      - from: 分かりやすい
+        to: わかりやすい
+      - from: 分かる
+        to: わかる
+      - from: 分かれば
+        to: わかれば
+      - from: 分かった
+        to: わかった
+      - from: 解らない
+        to: わからない
+      - from: 解りやすい
+        to: わかりやすい
+      - from: 解る
+        to: わかる
+      - from: 解れば
+        to: わかれば
+      - from: 解った
+        to: わかった
+      - from: 判らない
+        to: わからない
+      - from: 判りやすい
+        to: わかりやすい
+      - from: 判る
+        to: わかる
+      - from: 判れば
+        to: わかれば
+      - from: 判った
+        to: わかった
   - expected: ⓪
     pattern:
       - /[🄋⓿🄌]/
@@ -1092,6 +1129,23 @@ rules:
     specs:
       - from: 大きなウエイトを占める
         to: 大きなウェイトを占める
+  - expected: ドロップダウンリスト
+    pattern:
+      - /プルダウン(メニュー|リスト)|プルダウン|ドロップダウンメニュー|ドロップダウン(?!リスト)/
+    prh: >-
+      「ドロップダウンリスト」と表現し、「プルダウンメニュー」などの使用は控える
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: プルダウンから選ぶ
+        to: ドロップダウンリストから選ぶ
+      - from: プルダウンリストから選ぶ
+        to: ドロップダウンリストから選ぶ
+      - from: ドロップダウンメニューから選ぶ
+        to: ドロップダウンリストから選ぶ
+      - from: プルダウンメニューから選ぶ
+        to: ドロップダウンリストから選ぶ
+      - from: ドロップダウンから選ぶ
+        to: ドロップダウンリストから選ぶ
   - expected: パソコン
     pattern:
       - /(?<![a-zA-Z])PC(?![a-zA-Z])/
@@ -1163,6 +1217,17 @@ rules:
         to: サーベイ実施の手引きを参照
       - from: 手引き
         to: 手引き
+  - expected: レビュアー
+    pattern:
+      - /レビュ(ア(?!ー)|ワー)/
+    prh: >-
+      ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: レビュア
+        to: レビュアー
+      - from: レビュワー
+        to: レビュアー
   - expected: ユーザビリティ
     pattern:
       - ユーザビリティー
