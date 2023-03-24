@@ -602,6 +602,23 @@ rules:
     specs:
       - from: タイポグラフィー
         to: タイポグラフィ
+  - expected: つけ$1
+    pattern:
+      - /(?<!受け|貼り|紐)付け([なてるれよ])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 付けない
+        to: つけない
+      - from: 付けて
+        to: つけて
+      - from: 付ける
+        to: つける
+      - from: 付ければ
+        to: つければ
+      - from: 付けよう
+        to: つけよう
   - expected: TB
     pattern:
       - テラバイト
@@ -1259,6 +1276,23 @@ rules:
     specs:
       - from: あらためて
         to: 改めて
+  - expected: ほぐ$1
+    pattern:
+      - /(?<![正分理])解([さしすせそ])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 解さない
+        to: ほぐさない
+      - from: 解して
+        to: ほぐして
+      - from: 解す
+        to: ほぐす
+      - from: 解せば
+        to: ほぐせば
+      - from: 解そう
+        to: ほぐそう
   - expected: 手引き
     pattern:
       - /手引(?!き)/
