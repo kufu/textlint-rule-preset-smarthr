@@ -297,6 +297,23 @@ rules:
         to: ユーザーさま
       - from: 皆様
         to: 皆さま
+  - expected: あ$1
+    pattern:
+      - /有(っ|り|る|れ|ろ)/
+    prh: |-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 有った
+        to: あった
+      - from: 有り
+        to: あり
+      - from: 有る
+        to: ある
+      - from: 有れば
+        to: あれば
+      - from: 有ろう
+        to: あろう
   - expected: あわせて
     pattern:
       - /(?<![を|と|に|へ|は|も|組み|問い|掛け])(合わせて|併せて)/
@@ -473,6 +490,16 @@ rules:
     specs:
       - from: ギガバイト
         to: GB
+  - expected: KB
+    pattern:
+      - キロバイト
+    prh: >-
+      ファイルサイズは基本的に英字2文字で表記する
+
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recmk5vIbS65cWjA6-0
+    specs:
+      - from: 1キロバイト
+        to: 1KB
   - expected: クエリ
     pattern:
       - クエリー
@@ -575,6 +602,23 @@ rules:
     specs:
       - from: タイポグラフィー
         to: タイポグラフィ
+  - expected: つけ$1
+    pattern:
+      - /(?<!受け|貼り|紐)付け([なてるれよ])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 付けない
+        to: つけない
+      - from: 付けて
+        to: つけて
+      - from: 付ける
+        to: つける
+      - from: 付ければ
+        to: つければ
+      - from: 付けよう
+        to: つけよう
   - expected: TB
     pattern:
       - テラバイト
@@ -1048,6 +1092,16 @@ rules:
         to: 再読み込み
       - from: 再読み込み
         to: 再読み込み
+  - expected: 動作環境
+    pattern:
+      - 推奨環境
+    prh: >-
+      「動作環境」と表現し、「推奨環境」の使用は控える
+
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recrOBmlqFtzIUKDh-0
+    specs:
+      - from: 推奨環境
+        to: 動作環境
   - expected: 主な
     pattern:
       - おもな
@@ -1146,6 +1200,22 @@ rules:
         to: ドロップダウンリストから選ぶ
       - from: ドロップダウンから選ぶ
         to: ドロップダウンリストから選ぶ
+  - expected: 伴$1
+    pattern:
+      - /ともな([いうえおわっ])/
+    specs:
+      - from: ともない
+        to: 伴い
+      - from: ともなう
+        to: 伴う
+      - from: ともなえ
+        to: 伴え
+      - from: ともなおう
+        to: 伴おう
+      - from: ともなわない
+        to: 伴わない
+      - from: ともなって
+        to: 伴って
   - expected: パソコン
     pattern:
       - /(?<![a-zA-Z])PC(?![a-zA-Z])/
@@ -1206,6 +1276,23 @@ rules:
     specs:
       - from: あらためて
         to: 改めて
+  - expected: ほぐ$1
+    pattern:
+      - /(?<![正分理])解([さしすせそ])/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/writing/idiomatic-usage/usage/
+    specs:
+      - from: 解さない
+        to: ほぐさない
+      - from: 解して
+        to: ほぐして
+      - from: 解す
+        to: ほぐす
+      - from: 解せば
+        to: ほぐせば
+      - from: 解そう
+        to: ほぐそう
   - expected: 手引き
     pattern:
       - /手引(?!き)/

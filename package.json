@@ -50,7 +50,7 @@
     "@textlint/module-interop": "^12.2.1",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
-    "textlint-rule-ja-keishikimeishi": "^1.0.4",
+    "textlint-rule-ja-keishikimeishi": "^1.0.5",
     "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana": "^2.2.0",
     "textlint-rule-ja-no-abusage": "^3.0.0",
     "textlint-rule-ja-no-mixed-period": "^3.0.1",
