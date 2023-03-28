@@ -340,7 +340,7 @@ rules:
         to: 移動
   - expected: 振り込み
     pattern:
-      - /(?<!給与)振込(?!口座)/
+      - /(?<![給与|給付金])振込(?!口座)/
     prh: >-
       送りがなを付けて表記する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
@@ -349,6 +349,8 @@ rules:
         to: 振り込み
       - from: 給与振込口座
         to: 給与振込口座
+      - from: 給付金振込
+        to: 給付金振込
   - expected: 取り消し
     pattern:
       - 取消
