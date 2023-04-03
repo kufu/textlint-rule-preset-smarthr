@@ -1295,6 +1295,14 @@ rules:
         to: ほぐせば
       - from: 解そう
         to: ほぐそう
+      - from: 正解
+        to: 正解
+      - from: 分解
+        to: 分解
+      - from: 理解
+        to: 理解
+      - from: 読解
+        to: 読解
   - expected: 手引き
     pattern:
       - /手引(?!き)/
