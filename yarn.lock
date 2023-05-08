@@ -1289,6 +1289,11 @@
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-13.3.1.tgz#469cab986e43f4ffb39aa5c31d148888a36d2286"
   integrity sha512-/qeEjW3hIFpGwESsCkJRroja7mBOlo9wqyx8G4fwayq4FZRvJMm/9DhIo77jd/4wm/VSJcVVr+fs+rVa4jrY5A==
 
+"@textlint/ast-node-types@^13.3.2":
+  version "13.3.2"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-13.3.2.tgz#ff314f24c43ef8fa43ba6bd53126ec82b873843b"
+  integrity sha512-d9WXBahsAgRDWcfUE7pQs8E9SNbF0nxrEaYE2g01tLgQ/dYdlOLngNPXi0Lk+C+yU58kvmFSdO6nicIAe3WIiw==
+
 "@textlint/ast-node-types@^4.2.4", "@textlint/ast-node-types@^4.4.2", "@textlint/ast-node-types@^4.4.3":
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.4.3.tgz#fdba16e8126cddc50f45433ce7f6c55e7829566c"
@@ -1538,6 +1543,13 @@
   integrity sha512-iz70e0adTl8ORoBXF9+nZPBdB+qEeXvbkMAoSzF7YEfjMgEbbK5+S+wr7NorS6Mxp/0Vy3VyIjBoKo/b7FPrLA==
   dependencies:
     "@textlint/ast-node-types" "^13.3.1"
+
+"@textlint/types@^13.3.2":
+  version "13.3.2"
+  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-13.3.2.tgz#81cc4bb99d187598b2cf3307d53b68f39e8498fa"
+  integrity sha512-N1Xb4kltBwBwAF3wAwKi3sJA0hWVjraWqIpjuHOplul/O8Qu78domGedktQJ4n2aVN1ucBuFjpZNsQfkfxJI+Q==
+  dependencies:
+    "@textlint/ast-node-types" "^13.3.2"
 
 "@textlint/utils@^12.2.1":
   version "12.2.1"
