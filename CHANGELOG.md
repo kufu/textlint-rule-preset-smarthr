@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.23.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.23.1...v1.23.2) (2023-05-15)
+
 ### [1.23.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.23.0...v1.23.1) (2023-04-04)
 
 
