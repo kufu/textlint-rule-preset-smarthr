@@ -33,7 +33,7 @@
     "@textlint/types": "^13.3.2",
     "@types/js-yaml": "^4.0.5",
     "@types/node": "^16.18.34",
-    "airtable": "^0.11.6",
+    "airtable": "^0.12.1",
     "dotenv": "^16.0.3",
     "fs": "^0.0.1-security",
     "husky": "^8.0.3",
