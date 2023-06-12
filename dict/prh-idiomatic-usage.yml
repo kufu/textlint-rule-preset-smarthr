@@ -845,7 +845,7 @@ rules:
         to: ポリシー
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|］|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
+      - /(?<!部署|役職|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -1349,7 +1349,7 @@ rules:
         to: 並び順
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|］|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
+      - /(?<!部署|役職|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
