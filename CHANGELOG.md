@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.24.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.23.2...v1.24.0) (2023-06-12)
+
+
+### Features
+
+* Airtableの最新ルールを反映 ([#347](https://github.com/kufu/textlint-rule-preset-smarthr/issues/347)) ([0a4089f](https://github.com/kufu/textlint-rule-preset-smarthr/commit/0a4089fd5ceac62bf45de08b86b3090c92d97810))
+
+
+### Bug Fixes
+
+* devDependenciesにtextlintを追加 ([#345](https://github.com/kufu/textlint-rule-preset-smarthr/issues/345)) ([a6c5194](https://github.com/kufu/textlint-rule-preset-smarthr/commit/a6c5194698367a75f958954945bdb80302717310))
+* publesh_releaseワークフローで使用するNodeのバージョンを14→16にアプデ ([#351](https://github.com/kufu/textlint-rule-preset-smarthr/issues/351)) ([54cd871](https://github.com/kufu/textlint-rule-preset-smarthr/commit/54cd871477e211c2b4103b7a86504772daabedd1))
+* リリース用ワークフローで使用するNodeのバージョンを14→16にアプデ ([#349](https://github.com/kufu/textlint-rule-preset-smarthr/issues/349)) ([1c8e73c](https://github.com/kufu/textlint-rule-preset-smarthr/commit/1c8e73c1206e4dbce16fb7e176803669682335c6))
+
 ### [1.23.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.23.1...v1.23.2) (2023-05-15)
 
 ### [1.23.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.23.0...v1.23.1) (2023-04-04)
