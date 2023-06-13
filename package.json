@@ -32,7 +32,7 @@
     "@commitlint/config-conventional": "^17.6.5",
     "@textlint/types": "^13.3.2",
     "@types/js-yaml": "^4.0.5",
-    "@types/node": "^16.18.35",
+    "@types/node": "^16.18.36",
     "airtable": "^0.12.1",
     "dotenv": "^16.1.4",
     "fs": "^0.0.1-security",
