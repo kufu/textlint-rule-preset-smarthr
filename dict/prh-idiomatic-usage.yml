@@ -1365,3 +1365,9 @@ rules:
     specs:
       - from: くわしくは
         to: 詳しくは
+  - expected: 検索フォーム
+    pattern:
+      - 検索ボックス
+    specs:
+      - from: 検索ボックスに入力
+        to: 検索フォームに入力
