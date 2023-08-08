@@ -1371,3 +1371,14 @@ rules:
     specs:
       - from: 検索ボックスに入力
         to: 検索フォームに入力
+  - expected: にもかかわらず
+    pattern:
+      - /(にも関わらず|にも拘らず)/
+    prh: >-
+      「にもかかわらず」と平仮名で表記する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
+    specs:
+      - from: 入力したにも関わらず
+        to: 入力したにもかかわらず
+      - from: 入力したにも拘らず
+        to: 入力したにもかかわらず
