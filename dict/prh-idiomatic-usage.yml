@@ -560,7 +560,7 @@ rules:
       - スマホ
     prh: >-
       「スマートフォン」と表現し、「スマホ」などの表現は控える
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: スマートホン
         to: スマートフォン
@@ -591,7 +591,7 @@ rules:
       - ソフトウエア
     prh: >-
       「ウィ/ウェ/ウォ」を使用する
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: ソフトウエア
         to: ソフトウェア
@@ -609,7 +609,7 @@ rules:
       - /(?<!受け|貼り|紐)付け([なてるれよ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 付けない
         to: つけない
@@ -786,7 +786,7 @@ rules:
       - /プライバシィ?(?!ー)/
     prh: >-
       ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: プライバシ
         to: プライバシー
@@ -797,7 +797,7 @@ rules:
       - /(?<!ウェブ|Web|web|WEB)ブラウザー/
     prh: >-
       ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: ブラウザー
         to: ブラウザ
@@ -818,8 +818,7 @@ rules:
     pattern:
       - /プリンタ(?!ー)/
     prh: >-
-      ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: プリンタ
         to: プリンター
@@ -837,7 +836,7 @@ rules:
       - /ポリシィ?(?!ー)/
     prh: >-
       ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: ポリシィ
         to: ポリシー
@@ -929,7 +928,7 @@ rules:
       - /((?<![自区])分か(?!れる|れて|れた)|判|解)([らりるれっ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 分からない
         to: わからない
@@ -1283,7 +1282,7 @@ rules:
       - /(?<![正分理読])解([さしすせそ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 解さない
         to: ほぐさない
@@ -1331,7 +1330,7 @@ rules:
       - ユーザービリティ
     prh: >-
       ‐er、‐or、‐arで終わる単語は「長音あり」、-yで終わる単語は「長音なし」とする（例外あり）
-      https://smarthr.design/products/writing/idiomatic-usage/usage/
+      https://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
       - from: ユーザービリティ
         to: ユーザビリティ
