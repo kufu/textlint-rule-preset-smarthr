@@ -1381,3 +1381,27 @@ rules:
         to: 入力したにもかかわらず
       - from: 入力したにも拘らず
         to: 入力したにもかかわらず
+  - expected: 言語選択
+    pattern:
+      - /言語切(替え|り替え|替|換え|り換え|換)/
+    specs:
+      - from: 言語切替
+        to: 言語選択
+      - from: 言語切り替え
+        to: 言語選択
+      - from: 言語切替え
+        to: 言語選択
+      - from: 言語切換
+        to: 言語選択
+      - from: 言語切り換え
+        to: 言語選択
+      - from: 言語切換え
+        to: 言語選択
+  - expected: 健康保険組合
+    pattern:
+      - /健保組合|組合健保/
+    specs:
+      - from: 健保組合
+        to: 健康保険組合
+      - from: 組合健保
+        to: 健康保険組合
