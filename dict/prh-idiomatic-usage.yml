@@ -844,7 +844,7 @@ rules:
         to: ポリシー
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
+      - /(?<!部署|役職|雇用形態|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -854,6 +854,10 @@ rules:
         to: マスターデータ
       - from: 部署マスター
         to: 部署マスター
+      - from: 役職マスター
+        to: 役職マスター
+      - from: 雇用形態マスター
+        to: 雇用形態マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: マネージャー
@@ -1348,7 +1352,7 @@ rules:
         to: 並び順
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
+      - /(?<!部署|役職|雇用形態|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -1356,6 +1360,10 @@ rules:
         to: マスターデータ
       - from: 部署マスター
         to: 部署マスター
+      - from: 役職マスター
+        to: 役職マスター
+      - from: 雇用形態マスター
+        to: 雇用形態マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: 詳し
@@ -1381,3 +1389,27 @@ rules:
         to: 入力したにもかかわらず
       - from: 入力したにも拘らず
         to: 入力したにもかかわらず
+  - expected: 言語選択
+    pattern:
+      - /言語切(替え|り替え|替|換え|り換え|換)/
+    specs:
+      - from: 言語切替
+        to: 言語選択
+      - from: 言語切り替え
+        to: 言語選択
+      - from: 言語切替え
+        to: 言語選択
+      - from: 言語切換
+        to: 言語選択
+      - from: 言語切り換え
+        to: 言語選択
+      - from: 言語切換え
+        to: 言語選択
+  - expected: 健康保険組合
+    pattern:
+      - /健保組合|組合健保/
+    specs:
+      - from: 健保組合
+        to: 健康保険組合
+      - from: 組合健保
+        to: 健康保険組合
