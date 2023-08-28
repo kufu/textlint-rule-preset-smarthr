@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.27.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.26.0...v1.27.0) (2023-08-28)
+
+
+### Features
+
+* Airtableの最新ルールを反映 ([#386](https://github.com/kufu/textlint-rule-preset-smarthr/issues/386)) ([b61506a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b61506af9eb536361f05d97d333624f384b40012))
+
 ## [1.26.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.25.0...v1.26.0) (2023-08-15)
 
 
