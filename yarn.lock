@@ -1706,10 +1706,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@types/js-yaml@^4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.6.tgz#4b3afd5158b8749095b1f096967b6d0f838d862f"
-  integrity sha512-ACTuifTSIIbyksx2HTon3aFtCKWcID7/h3XEmRpDYdMCXxPbl+m9GteOJeaAkiAta/NJaSFuA7ahZ0NkwajDSw==
+"@types/js-yaml@^4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-4.0.7.tgz#f11c2ec37bb748fa5cfa3262abcb8b1cfd83d8ae"
+  integrity sha512-RJZP9WAMMr1514KbdSXkLRrKvYQacjr1+HWnY8pui/uBTBoSgD9ZGR17u/d4nb9NpERp0FkdLBe7hq8NIPBgkg==
 
 "@types/mdast@^3.0.0":
   version "3.0.3"
