@@ -31,7 +31,7 @@
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "@textlint/types": "^13.3.3",
-    "@types/js-yaml": "^4.0.6",
+    "@types/js-yaml": "^4.0.7",
     "@types/node": "^16.18.58",
     "airtable": "^0.12.2",
     "dotenv": "^16.3.1",
