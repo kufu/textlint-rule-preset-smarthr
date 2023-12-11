@@ -4879,7 +4879,7 @@ semver@^7.1.1, semver@^7.3.4:
   dependencies:
     lru-cache "^6.0.0"
 
-sentence-splitter@^3.0.11, sentence-splitter@^3.2.0, sentence-splitter@^3.2.1, sentence-splitter@^3.2.2:
+sentence-splitter@^3.0.11, sentence-splitter@^3.2.0, sentence-splitter@^3.2.1:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/sentence-splitter/-/sentence-splitter-3.2.2.tgz#b02a28c08bbad4bd3b6ec6f619d50e3fd3596d07"
   integrity sha512-hMvaodgK9Fay928uiQoTMEWjXpCERdKD2uKo7BbSyP+uWTo+wHiRjN+ZShyI99rW0VuoV4Cuw8FUmaRcnpN7Ug==
@@ -4888,14 +4888,6 @@ sentence-splitter@^3.0.11, sentence-splitter@^3.2.0, sentence-splitter@^3.2.1, s
     concat-stream "^2.0.0"
     object_values "^0.1.2"
     structured-source "^3.0.2"
-
-sentence-splitter@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/sentence-splitter/-/sentence-splitter-5.0.0.tgz#48535c6c5438a57140626c532f0e1b86c5effa30"
-  integrity sha512-9Mvf7L8vwpPzkH0/HtXzCbmVkyj4aQXdeG7h8ighRvO0hvcZEy2OUEjeIlnM/z4EX4vBacEfpESC65Oa2rWOig==
-  dependencies:
-    "@textlint/ast-node-types" "^13.4.1"
-    structured-source "^4.0.0"
 
 sentence-splitter@^5.0.0:
   version "5.0.0"
@@ -5359,15 +5351,14 @@ textlint-rule-no-double-negative-ja@^2.0.1:
   dependencies:
     kuromojin "^3.0.0"
 
-textlint-rule-no-doubled-conjunction@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-doubled-conjunction/-/textlint-rule-no-doubled-conjunction-2.0.4.tgz#ff36ce32afd71a05ed7655359e1721da2cb32c54"
-  integrity sha512-GUpZgJoEYk1EsqoE+0bcdln8ZbH6UDK9TWld3E2II+lGMw/0ALkoTNXhAsNK1ST/M7zYEX6a5qOCN68t2grDaA==
+textlint-rule-no-doubled-conjunction@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-doubled-conjunction/-/textlint-rule-no-doubled-conjunction-3.0.0.tgz#b7be915bcc603cc0cfbd5b96b1ea7dc56290a6aa"
+  integrity sha512-Ja7AK2MRVe/fpG7XmTPRbq6JEDqlzDrNjH1EQoaMqFhlGKzrlHmdMfRLAZ3Lh3FSR0Lkk2GgR3MDnXzlFAp1/Q==
   dependencies:
     kuromojin "^3.0.0"
-    sentence-splitter "^3.2.2"
-    textlint-rule-helper "^2.2.1"
-    textlint-util-to-string "^3.1.1"
+    sentence-splitter "^5.0.0"
+    textlint-rule-helper "^2.3.1"
 
 textlint-rule-no-doubled-conjunctive-particle-ga@^3.0.0:
   version "3.0.0"
