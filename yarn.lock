@@ -1483,7 +1483,7 @@
     sentence-splitter "^3.0.11"
     textlint-rule-helper "2.0.1"
 
-"@textlint/ast-node-types@^13.0.2", "@textlint/ast-node-types@^13.0.5", "@textlint/ast-node-types@^13.3.1":
+"@textlint/ast-node-types@^13.0.2", "@textlint/ast-node-types@^13.3.1":
   version "13.3.1"
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-13.3.1.tgz#469cab986e43f4ffb39aa5c31d148888a36d2286"
   integrity sha512-/qeEjW3hIFpGwESsCkJRroja7mBOlo9wqyx8G4fwayq4FZRvJMm/9DhIo77jd/4wm/VSJcVVr+fs+rVa4jrY5A==
@@ -4879,7 +4879,7 @@ semver@^7.1.1, semver@^7.3.4:
   dependencies:
     lru-cache "^6.0.0"
 
-sentence-splitter@^3.0.11, sentence-splitter@^3.2.1:
+sentence-splitter@^3.0.11:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/sentence-splitter/-/sentence-splitter-3.2.2.tgz#b02a28c08bbad4bd3b6ec6f619d50e3fd3596d07"
   integrity sha512-hMvaodgK9Fay928uiQoTMEWjXpCERdKD2uKo7BbSyP+uWTo+wHiRjN+ZShyI99rW0VuoV4Cuw8FUmaRcnpN7Ug==
@@ -5370,15 +5370,15 @@ textlint-rule-no-doubled-conjunctive-particle-ga@^3.0.0:
     textlint-rule-helper "^2.3.1"
     textlint-util-to-string "^3.3.4"
 
-textlint-rule-no-doubled-joshi@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-doubled-joshi/-/textlint-rule-no-doubled-joshi-4.1.0.tgz#798b17960f98bdcda6410222e8c6531eac56c3db"
-  integrity sha512-u+MNVNXn1RvX2RwY6uE+Qg5a4zWEskz8dwBNHNzPXT+D0UIkWAMBHvTXH8GqZHdxJCO0ke8+Wa+Gpbxz0PSTBQ==
+textlint-rule-no-doubled-joshi@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-doubled-joshi/-/textlint-rule-no-doubled-joshi-5.0.0.tgz#44cd96dd102b0ea7dede226f6795d5ca890f79ac"
+  integrity sha512-1GvkK10T+UFkpUzzGUE3f2orAbaEAPQFWuKWNV//H+ksIhq4QKj7CVEfOXXw4kyDzQkETnh5bKpQW4kwQa+ooA==
   dependencies:
     kuromojin "^3.0.0"
-    sentence-splitter "^3.2.1"
-    textlint-rule-helper "^2.3.0"
-    textlint-util-to-string "^3.3.0"
+    sentence-splitter "^5.0.0"
+    textlint-rule-helper "^2.3.1"
+    textlint-util-to-string "^3.3.4"
 
 textlint-rule-no-dropping-the-ra@^3.0.0:
   version "3.0.0"
@@ -5488,16 +5488,6 @@ textlint-util-to-string@^3.1.1:
     "@types/structured-source" "^3.0.0"
     rehype-parse "^6.0.1"
     structured-source "^3.0.2"
-    unified "^8.4.0"
-
-textlint-util-to-string@^3.3.0:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/textlint-util-to-string/-/textlint-util-to-string-3.3.2.tgz#9c72f534c731f295e6a0500d694f18835595e1e8"
-  integrity sha512-TCnHX5xGDWIGQpcusLrctodid+n5t5G6ft9+KAVad+GmrOOkk9IiPej8FwH9Vq/uk1j44yTB20YYja0YnQ+z/w==
-  dependencies:
-    "@textlint/ast-node-types" "^13.0.5"
-    rehype-parse "^6.0.1"
-    structured-source "^4.0.0"
     unified "^8.4.0"
 
 textlint-util-to-string@^3.3.4:
