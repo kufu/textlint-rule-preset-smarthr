@@ -34,7 +34,7 @@
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^16.18.73",
     "airtable": "^0.12.2",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.3.2",
     "fs": "^0.0.1-security",
     "husky": "^8.0.3",
     "js-yaml": "^4.1.0",
