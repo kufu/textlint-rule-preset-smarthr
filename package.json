@@ -32,7 +32,7 @@
     "@commitlint/config-conventional": "^18.6.0",
     "@textlint/types": "^13.4.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^16.18.79",
+    "@types/node": "^18.19.21",
     "airtable": "^0.12.2",
     "dotenv": "^16.4.1",
     "fs": "^0.0.1-security",
@@ -40,11 +40,11 @@
     "js-yaml": "^4.1.0",
     "prettier": "^3.2.5",
     "standard-version": "^9.3.2",
-    "textlint-tester": "^13.4.1",
+    "textlint": "^13.4.1",
     "textlint-scripts": "^13.4.1",
+    "textlint-tester": "^13.4.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
-    "textlint": "^13.4.1"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.2",
