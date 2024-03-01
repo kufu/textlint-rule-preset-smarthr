@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.6.2",
-    "@textlint/types": "^13.4.1",
+    "@textlint/types": "^14.0.3",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^16.18.79",
     "airtable": "^0.12.2",
