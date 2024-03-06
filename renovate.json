@@ -1,44 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>kufu/renovate-config"
-  ],
+  "extends": ["local>kufu/renovate-config"],
   "npm": {
+    "postUpdateOptions": ["yarnDedupeHighest"],
     "packageRules": [
       {
         "groupName": "textlint rules",
-        "matchPackageNames": [
-          "@textlint-rule/textlint-rule-no-unmatched-pair"
-        ],
-        "matchPackagePatterns": [
-          "^textlint-rule-*"
-        ],
-        "matchUpdateTypes": [
-          "minor",
-          "patch"
-        ],
+        "matchPackageNames": ["@textlint-rule/textlint-rule-no-unmatched-pair"],
+        "matchPackagePatterns": ["^textlint-rule-*"],
+        "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       },
       {
         "groupName": "textlint family",
-        "matchPackageNames": [
-          "textlint",
-          "@textlint/types",
-          "textlint-scripts",
-          "textlint-tester",
-          "@textlint/module-interop"
-        ],
-        "matchUpdateTypes": [
-          "minor",
-          "patch"
-        ],
+        "matchPackageNames": ["textlint", "@textlint/types", "textlint-scripts", "textlint-tester", "@textlint/module-interop"],
+        "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       },
       {
-        "matchUpdateTypes": [
-          "minor",
-          "patch"
-        ],
+        "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       }
     ]
