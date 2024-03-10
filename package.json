@@ -61,7 +61,7 @@
     "textlint-rule-ja-space-after-exclamation": "^2.2.0",
     "textlint-rule-ja-space-after-question": "^2.2.0",
     "textlint-rule-ja-space-around-code": "^2.2.0",
-    "textlint-rule-ja-space-between-half-and-full-width": "^2.3.0",
+    "textlint-rule-ja-space-between-half-and-full-width": "^2.3.1",
     "textlint-rule-max-ten": "^5.0.0",
     "textlint-rule-no-double-negative-ja": "^2.0.1",
     "textlint-rule-no-doubled-conjunction": "^3.0.0",
