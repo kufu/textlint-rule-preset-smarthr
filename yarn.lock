@@ -4826,7 +4826,7 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
 
-textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1, textlint-rule-helper@^2.2.0, textlint-rule-helper@^2.2.1, textlint-rule-helper@^2.2.4, textlint-rule-helper@^2.3.0, textlint-rule-helper@^2.3.1:
+textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1, textlint-rule-helper@^2.2.1, textlint-rule-helper@^2.2.4, textlint-rule-helper@^2.3.0, textlint-rule-helper@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.3.1.tgz#d2b82dbd46f25694fd315cbee46479bb545af87f"
   integrity sha512-b1bijvyiUmKinfFE5hkQMSXs3Ky8jyZ3Y6SOoTRJKV9HLL2LWUVFAUezO7z4FpAkVvYruDYWCwA5qWV8GmvyUw==
@@ -4862,13 +4862,13 @@ textlint-rule-ja-keishikimeishi@^1.0.5:
     kuromojin "^3.0.0"
     morpheme-match-all "^1.1.0"
 
-textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana/-/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.2.0.tgz#8a74ec39ee7863da9ba437c84b5e29d24e782a66"
-  integrity sha512-6e5LfdjQgpkvGqMPFLxXtXyfXgc8iLOBuBda1jPWT873ttlfzTR9djjS7zmTkmNZDO4x0nvYPNTxCvgvilzlMQ==
+textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana/-/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.3.1.tgz#be3513f302b4735bc7bd3201f525c659bb340847"
+  integrity sha512-Www5ZIbCEcXIV3CvZkNQ7oyOi9PHuPAl6hpyMh5oHsEXpvnt/+0ihI/LoXEW5Y4eZCocLXG0Pq1MHMQe+EEKXQ==
   dependencies:
     match-index "^1.0.3"
-    textlint-rule-helper "^2.2.0"
+    textlint-rule-helper "^2.2.4"
 
 textlint-rule-ja-no-abusage@^3.0.0:
   version "3.0.0"
@@ -4899,46 +4899,46 @@ textlint-rule-ja-no-redundant-expression@^4.0.1:
     textlint-rule-helper "^2.2.1"
     textlint-util-to-string "^3.1.1"
 
-textlint-rule-ja-no-space-around-parentheses@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-space-around-parentheses/-/textlint-rule-ja-no-space-around-parentheses-2.2.0.tgz#d69792c5978938b3b401009f24b7c13aed302960"
-  integrity sha512-7m6n2XzOyYRVDvRfdYIxz6Qg23KA7BslYW44dAxYtmdVuDzQNKoSbZoGkZju/ITKsiN4JW+e/zEfFAY/qBEucQ==
+textlint-rule-ja-no-space-around-parentheses@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-space-around-parentheses/-/textlint-rule-ja-no-space-around-parentheses-2.3.1.tgz#8c217d2925030d0446305b6ef039ecae7f6e9a17"
+  integrity sha512-LKbk1Tng7HTIR5GuPkGcGaaf17jwAwjT5RPlxhbJiC0CMn7kuc+/7i9PWbxDgchjwQbK18kyRjpaymEpJhHrZw==
   dependencies:
     match-index "^1.0.3"
-    textlint-rule-helper "^2.2.0"
+    textlint-rule-helper "^2.2.4"
 
-textlint-rule-ja-no-space-between-full-width@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-space-between-full-width/-/textlint-rule-ja-no-space-between-full-width-2.2.0.tgz#5fb412279f9e36892c2f58c2ec194480fc6b58b9"
-  integrity sha512-oe5hOTbiKyhSTsBVroRk1mJqfUuCFeHexK3Sb6KWBET9sAhN3j7BnoKwxe2mjiDX5nXg+7Ka3ziwfQlnQ41l0w==
+textlint-rule-ja-no-space-between-full-width@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-space-between-full-width/-/textlint-rule-ja-no-space-between-full-width-2.3.1.tgz#63265842c18b2b663b3c158b8e857f1c80ddff30"
+  integrity sha512-AEcVgo0dN7pZ4MkfqJHA9EOfxtCX683PRz805WKgViFe74SPY6rYTLn4ck2W2yhaGxdygyFPDTPoxMQD+wWdSw==
   dependencies:
     match-index "^1.0.3"
     regx "^1.0.4"
-    textlint-rule-helper "^2.2.0"
+    textlint-rule-helper "^2.2.4"
 
-textlint-rule-ja-space-after-exclamation@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-space-after-exclamation/-/textlint-rule-ja-space-after-exclamation-2.2.0.tgz#d28c90b434fcee4f9cd190c474b5256307ac4b80"
-  integrity sha512-Foc9OzQ1WvdyKJnfXlj8DmODStNw13LpWhQK+yLecVYd3h8vLhaGvnpTitM6hj2Ep7klmX54Csn/iKDfGHb4Hw==
+textlint-rule-ja-space-after-exclamation@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-space-after-exclamation/-/textlint-rule-ja-space-after-exclamation-2.3.1.tgz#7f48197499d1d18ae2d36c18c4b24e6d0905b33d"
+  integrity sha512-/ir11Itm4LDxojYLt4IZQ/bpQx0c/TM58ofERuHwUpwJSewHrA/bdwmfQdfz1nmtAAaPUixt28TDNY/KoyRbQg==
   dependencies:
     match-index "^1.0.3"
-    textlint-rule-helper "^2.2.0"
+    textlint-rule-helper "^2.2.4"
 
-textlint-rule-ja-space-after-question@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-space-after-question/-/textlint-rule-ja-space-after-question-2.2.0.tgz#c94312c245ac5331b8e607a5e751718408e74144"
-  integrity sha512-SoYKd8x0kPVp/4sa8XOE/62SAganWpbDcGl1CJ7aTk151+pO2C7Z34UnjeC9olYYxM9m0pZ0AOfdCwB3yvteJw==
+textlint-rule-ja-space-after-question@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-space-after-question/-/textlint-rule-ja-space-after-question-2.3.1.tgz#91ca7518d65d872fd5772f4774e4b06c871522ea"
+  integrity sha512-Fsbl8Xb0lxkQ3uOCi2b5XgzkFwk3M95TkxuR39EbgEJVrK9pNuXUdhQnJ/HlvkW2fcn5X2k+6mUW3YATWzVmzg==
   dependencies:
     match-index "^1.0.1"
-    textlint-rule-helper "^2.2.0"
+    textlint-rule-helper "^2.2.4"
 
-textlint-rule-ja-space-around-code@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-space-around-code/-/textlint-rule-ja-space-around-code-2.2.0.tgz#8fbc073f23799fadd43e7f5db6f32c7726b86505"
-  integrity sha512-JJfnSTFJCBL618TYVMqFfil8r7MhZuY0tEg2kyD6k/gcjbYFBx050pEl/RJJ5uD3UShLV7y4t289Gg9zuNjklw==
+textlint-rule-ja-space-around-code@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-space-around-code/-/textlint-rule-ja-space-around-code-2.3.1.tgz#1abcbe45bb8f8e9b292a5ad180bf25fb9095a2ad"
+  integrity sha512-LIEqgYTthKaHzTV7MVKzF5qEgk0EJPpwFk8kfBA69K+KhlhT/bf5VEA9yMegUoiebVYF3NC3TAQZ9m1ZMECcTw==
   dependencies:
     match-index "^1.0.1"
-    textlint-rule-helper "^2.2.0"
+    textlint-rule-helper "^2.2.4"
 
 textlint-rule-ja-space-between-half-and-full-width@^2.3.1:
   version "2.3.1"
