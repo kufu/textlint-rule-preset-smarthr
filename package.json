@@ -43,7 +43,7 @@
     "textlint-tester": "^14.0.4",
     "textlint-scripts": "^14.0.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3",
+    "typescript": "^5.4.4",
     "textlint": "^14.0.4"
   },
   "dependencies": {
