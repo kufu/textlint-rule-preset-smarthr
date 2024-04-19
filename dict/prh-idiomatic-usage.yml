@@ -314,6 +314,23 @@ rules:
         to: あれば
       - from: 有ろう
         to: あろう
+  - expected: な$1
+    pattern:
+      - /無(い|く|し|か|け)/
+    prh: |-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 無い
+        to: ない
+      - from: 無く
+        to: なく
+      - from: 無し
+        to: なし
+      - from: 無かった
+        to: なかった
+      - from: 無ければ
+        to: なければ
   - expected: あわせて
     pattern:
       - /(?<![を|と|に|へ|は|も|組み|問い|掛け])(合わせて|併せて)/
@@ -1380,7 +1397,7 @@ rules:
         to: 検索フォームに入力
   - expected: にもかかわらず
     pattern:
-      - /(にも関わらず|にも拘らず)/
+      - /(にも関わらず|にも拘らず|にも係わらず)/
     prh: >-
       「にもかかわらず」と平仮名で表記する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
