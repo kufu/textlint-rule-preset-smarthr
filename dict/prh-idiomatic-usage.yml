@@ -19,7 +19,7 @@ rules:
         to: いたします
   - expected: いただ$1
     pattern:
-      - 頂([きくけ])
+      - /頂([きくけ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
