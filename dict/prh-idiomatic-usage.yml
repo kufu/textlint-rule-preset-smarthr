@@ -1445,3 +1445,15 @@ rules:
         to: サンプルデータ
       - from: ダミーテキスト
         to: サンプルテキスト
+  - expected: 文書配付
+    pattern:
+      - 文書配布
+    specs:
+      - from: 文書配布
+        to: 文書配付
+  - expected: シミュレーション
+    pattern:
+      - シュミレーション
+    specs:
+      - from: シュミレーション
+        to: シミュレーション
