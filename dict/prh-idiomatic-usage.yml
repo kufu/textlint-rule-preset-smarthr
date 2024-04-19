@@ -17,15 +17,19 @@ rules:
     specs:
       - from: 致します
         to: いたします
-  - expected: いただく
+  - expected: いただ$1
     pattern:
-      - 頂く
+      - 頂([きくけ])
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 頂く
         to: いただく
+      - from: 頂き
+        to: いただき
+      - from: 頂け
+        to: いただけ
   - expected: および
     pattern:
       - 及び
