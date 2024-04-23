@@ -17,15 +17,19 @@ rules:
     specs:
       - from: 致します
         to: いたします
-  - expected: いただく
+  - expected: いただ$1
     pattern:
-      - 頂く
+      - /頂([きくけ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
     specs:
       - from: 頂く
         to: いただく
+      - from: 頂き
+        to: いただき
+      - from: 頂け
+        to: いただけ
   - expected: および
     pattern:
       - 及び
@@ -314,6 +318,23 @@ rules:
         to: あれば
       - from: 有ろう
         to: あろう
+  - expected: な$1
+    pattern:
+      - /無(い|く|し|か|け)/
+    prh: |-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 無い
+        to: ない
+      - from: 無く
+        to: なく
+      - from: 無し
+        to: なし
+      - from: 無かった
+        to: なかった
+      - from: 無ければ
+        to: なければ
   - expected: あわせて
     pattern:
       - /(?<![を|と|に|へ|は|も|組み|問い|掛け])(合わせて|併せて)/
@@ -844,7 +865,7 @@ rules:
         to: ポリシー
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|雇用形態|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
+      - /(?<!部署|役職|雇用形態|等級|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -858,6 +879,8 @@ rules:
         to: 役職マスター
       - from: 雇用形態マスター
         to: 雇用形態マスター
+      - from: 等級マスター
+        to: 等級マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: マネージャー
@@ -1352,7 +1375,7 @@ rules:
         to: 並び順
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|雇用形態|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
+      - /(?<!部署|役職|雇用形態|等級|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスター(?!データ)/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -1364,6 +1387,8 @@ rules:
         to: 役職マスター
       - from: 雇用形態マスター
         to: 雇用形態マスター
+      - from: 等級マスター
+        to: 等級マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: 詳し
@@ -1380,7 +1405,7 @@ rules:
         to: 検索フォームに入力
   - expected: にもかかわらず
     pattern:
-      - /(にも関わらず|にも拘らず)/
+      - /(にも関わらず|にも拘らず|にも係わらず)/
     prh: >-
       「にもかかわらず」と平仮名で表記する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
@@ -1424,3 +1449,15 @@ rules:
         to: サンプルデータ
       - from: ダミーテキスト
         to: サンプルテキスト
+  - expected: 文書配付
+    pattern:
+      - 文書配布
+    specs:
+      - from: 文書配布
+        to: 文書配付
+  - expected: シミュレーション
+    pattern:
+      - シュミレーション
+    specs:
+      - from: シュミレーション
+        to: シミュレーション
