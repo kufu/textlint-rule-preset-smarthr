@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.29.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.28.0...v1.29.0) (2024-04-23)
+
+
+### Features
+
+* 文書配付、シミュレーション、係わらずと無い、頂くの活用を追加 ([#497](https://github.com/kufu/textlint-rule-preset-smarthr/issues/497)) ([dea4a70](https://github.com/kufu/textlint-rule-preset-smarthr/commit/dea4a7050a8fc928f0ef05ce7d9c637080eb177c))
+
 ## [1.28.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.27.0...v1.28.0) (2023-10-20)
 
 
