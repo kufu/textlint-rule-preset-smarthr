@@ -4863,12 +4863,11 @@ textlint-rule-ja-keishikimeishi@^1.0.5:
     kuromojin "^3.0.0"
     morpheme-match-all "^1.1.0"
 
-textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana/-/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.2.tgz#17ec3c6a57920c7062fa168309f917851d9396e4"
-  integrity sha512-/zmFProXVpt8Nru2FvMDcRcleUhQyuR4dNYwk+L9ok0rS4t8V5yBkiLEnci6b5veGwnONbR0rzd497sftPnnkA==
+textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana/-/textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana-2.4.3.tgz#ad2ad0fd9ce7dd3dd5ec71fed9958f0f4f29070d"
+  integrity sha512-xIpEAgpaPTnavzCMLcSB/tlZ3Tq9paclyyMEgAQxkM9adv8TrwddZ+Ys+BSd4zjuVa94NED0bajYWtahSjZ53g==
   dependencies:
-    match-index "^1.0.3"
     textlint-rule-helper "^2.2.4"
 
 textlint-rule-ja-no-abusage@^3.0.0:
