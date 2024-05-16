@@ -19,17 +19,23 @@ rules:
         to: いたします
   - expected: いただ$1
     pattern:
-      - /頂([きくけ])/
+      - /頂([いかきくけこ])/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
     specs:
+      - from: 頂い
+        to: いただい
+      - from: 頂か
+        to: いただか
       - from: 頂く
         to: いただく
       - from: 頂き
         to: いただき
       - from: 頂け
         to: いただけ
+      - from: 頂こ
+        to: いただこ
   - expected: および
     pattern:
       - 及び
