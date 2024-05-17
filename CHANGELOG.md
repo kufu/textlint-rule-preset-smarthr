@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.30.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.29.0...v1.30.0) (2024-05-17)
+
+
+### Features
+
+* 「頂く」の活用を追加 ([#506](https://github.com/kufu/textlint-rule-preset-smarthr/issues/506)) ([d2c27fa](https://github.com/kufu/textlint-rule-preset-smarthr/commit/d2c27fa2d295e970e75a271968eb552361506643))
+
 ## [1.29.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.28.0...v1.29.0) (2024-04-23)
 
 
