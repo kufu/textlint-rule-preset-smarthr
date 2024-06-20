@@ -1467,3 +1467,51 @@ rules:
     specs:
       - from: シュミレーション
         to: シミュレーション
+  - expected: 押せ
+    pattern:
+      - 押下でき
+    prh: >-
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+    specs:
+      - from: ボタンを押せる,ボタンを押せない
+        to: ボタンを押下できる,ボタンを押下できない
+  - expected: 押す
+    pattern:
+      - 押下する
+    prh: >-
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+    specs:
+      - from: ボタンを押す
+        to: ボタンを押下する
+  - expected: 押さない
+    pattern:
+      - 押下しない
+    prh: >-
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+    specs:
+      - from: ボタンを押さない
+        to: ボタンを押下しない
+  - expected: 押せば
+    pattern:
+      - 押下すれば
+    prh: >-
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+    specs:
+      - from: ボタンを押せば
+        to: ボタンを押下すれば
+  - expected: 押します
+    pattern:
+      - 押下します
+    prh: >-
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+    specs:
+      - from: ボタンを押します
+        to: ボタンを押下します
+  - expected: 押した
+    pattern:
+      - 押下した
+    prh: >-
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+    specs:
+      - from: ボタンを押した
+        to: ボタンを押下した
