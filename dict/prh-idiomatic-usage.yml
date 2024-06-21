@@ -1473,45 +1473,45 @@ rules:
     prh: >-
       プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押せる,ボタンを押せない
-        to: ボタンを押下できる,ボタンを押下できない
+      - from: ボタンを押下できる,ボタンを押下できない
+        to: ボタンを押せる,ボタンを押せない
   - expected: 押す
     pattern:
       - 押下する
     prh: >-
       プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押す
-        to: ボタンを押下する
+      - from: ボタンを押下する
+        to: ボタンを押す
   - expected: 押さない
     pattern:
       - 押下しない
     prh: >-
       プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押さない
-        to: ボタンを押下しない
+      - from: ボタンを押下しない
+        to: ボタンを押さない
   - expected: 押せば
     pattern:
       - 押下すれば
     prh: >-
       プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押せば
-        to: ボタンを押下すれば
+      - from: ボタンを押下すれば
+        to: ボタンを押せば
   - expected: 押します
     pattern:
       - 押下します
     prh: >-
       プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押します
-        to: ボタンを押下します
+      - from: ボタンを押下します
+        to: ボタンを押します
   - expected: 押した
     pattern:
       - 押下した
     prh: >-
       プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押した
-        to: ボタンを押下した
+      - from: ボタンを押下した
+        to: ボタンを押した
