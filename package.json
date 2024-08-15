@@ -73,7 +73,7 @@
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
     "textlint-rule-no-nfd": "^2.0.2",
     "textlint-rule-prh": "^6.0.0",
-    "textlint-rule-sentence-length": "^5.0.0"
+    "textlint-rule-sentence-length": "^5.2.0"
   },
   "name": "textlint-rule-preset-smarthr",
   "directories": {
