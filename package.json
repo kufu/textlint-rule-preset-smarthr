@@ -28,27 +28,27 @@
     "export:airtable": "ts-node ./scripts/export-airtable-rules.ts"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
+    "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@textlint/types": "^14.0.4",
+    "@textlint/types": "^14.2.0",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^18.19.39",
+    "@types/node": "^18.19.45",
     "airtable": "^0.12.2",
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
-    "husky": "^9.0.11",
+    "husky": "^9.1.5",
     "js-yaml": "^4.1.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "standard-version": "^9.3.2",
-    "textlint-tester": "^14.0.4",
-    "textlint-scripts": "^14.0.4",
+    "textlint-tester": "^14.2.0",
+    "textlint-scripts": "^14.2.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2",
-    "textlint": "^14.0.4"
+    "typescript": "^5.5.4",
+    "textlint": "^14.2.0"
   },
   "dependencies": {
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.2",
-    "@textlint/module-interop": "^14.0.4",
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.3",
+    "@textlint/module-interop": "^14.2.0",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
     "textlint-rule-ja-keishikimeishi": "^1.0.5",
@@ -73,7 +73,7 @@
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
     "textlint-rule-no-nfd": "^2.0.2",
     "textlint-rule-prh": "^6.0.0",
-    "textlint-rule-sentence-length": "^5.0.0"
+    "textlint-rule-sentence-length": "^5.2.0"
   },
   "name": "textlint-rule-preset-smarthr",
   "directories": {
