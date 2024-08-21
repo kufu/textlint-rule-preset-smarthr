@@ -324,23 +324,6 @@ rules:
         to: あれば
       - from: 有ろう
         to: あろう
-  - expected: な$1
-    pattern:
-      - /無(い|く|し|か|け)/
-    prh: |-
-      平仮名にしたほうが読みやすい漢字は平仮名にする
-      https://smarthr.design/products/contents/writing-style/
-    specs:
-      - from: 無い
-        to: ない
-      - from: 無く
-        to: なく
-      - from: 無し
-        to: なし
-      - from: 無かった
-        to: なかった
-      - from: 無ければ
-        to: なければ
   - expected: あわせて
     pattern:
       - /(?<![を|と|に|へ|は|も|組み|問い|掛け])(合わせて|併せて)/
@@ -686,6 +669,25 @@ rules:
         to: ドラッグアンドドロップ
       - from: ドラッグ・ドロップ
         to: ドラッグアンドドロップ
+  - expected: な$1
+    pattern:
+      - /無(い|く|し|か|き|け)/
+    prh: >-
+      平仮名にしたほうが読みやすい漢字は平仮名にする
+      https://smarthr.design/products/contents/writing-style/
+    specs:
+      - from: 無かった場合
+        to: なかった場合
+      - from: 無くなる
+        to: なくなる
+      - from: 無いとき
+        to: ないとき
+      - from: 無し
+        to: なし
+      - from: 無き
+        to: なき
+      - from: 無ければ
+        to: なければ
   - expected: ナンバー
     pattern:
       - /ナンバ(?!ー)/
@@ -732,7 +734,7 @@ rules:
         to: 1つ
   - expected: 1人
     pattern:
-      - /(?<!一人)(一人|ひとり)(?!ひとり|称|親)/
+      - /(?<!同)(?<!一人)(一人|ひとり)(?!ひとり|称|親)/
     prh: >-
       数字は半角の算用数字で表記する
       https://smarthr.design/products/contents/idiomatic-usage/usage/
@@ -871,7 +873,9 @@ rules:
         to: ポリシー
   - expected: マスターデータ
     pattern:
-      - /(?<!部署|役職|雇用形態|等級|］|スキル|資格|研修|カスタム|システム標準|SmartHR ?|ドメイン)マスタ(?!ー)(データ)?/
+      - >-
+        /(?<!部署|役職|雇用形態|等級|］|スキル|資格|研修|カスタム|システム標準|SmartHR
+        ?|ドメイン)マスタ(?!ー)(データ)?/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
     specs:
@@ -885,8 +889,6 @@ rules:
         to: 役職マスター
       - from: 雇用形態マスター
         to: 雇用形態マスター
-      - from: 等級マスター
-        to: 等級マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: マネージャー
@@ -1086,13 +1088,6 @@ rules:
     specs:
       - from: テナント
         to: 企業アカウント
-  - expected: サブドメイン
-    pattern:
-      - テナントID
-    prh: 「テナントID」は社内用語のため、「サブドメイン」に置き換えます。内部的に使用する「tenant_id」はそのまま表記してください。
-    specs:
-      - from: テナントID
-        to: サブドメイン
   - expected: 在籍状況
     pattern:
       - 在職状況
@@ -1391,10 +1386,10 @@ rules:
         to: 部署マスター
       - from: 役職マスター
         to: 役職マスター
-      - from: 雇用形態マスター
-        to: 雇用形態マスター
       - from: 等級マスター
         to: 等級マスター
+      - from: 雇用形態マスター
+        to: 雇用形態マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: 詳し
@@ -1455,31 +1450,35 @@ rules:
         to: サンプルデータ
       - from: ダミーテキスト
         to: サンプルテキスト
-  - expected: 文書配付
-    pattern:
-      - 文書配布
-    specs:
-      - from: 文書配布
-        to: 文書配付
   - expected: シミュレーション
     pattern:
       - シュミレーション
     specs:
       - from: シュミレーション
         to: シミュレーション
+  - expected: 文書配付
+    pattern:
+      - 文書配布
+    specs:
+      - from: 文書配布
+        to: 文書配付
   - expected: 押せ
     pattern:
       - 押下でき
     prh: >-
-      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
-      - from: ボタンを押下できる,ボタンを押下できない
-        to: ボタンを押せる,ボタンを押せない
+      - from: ボタンを押下できる
+        to: ボタンを押せる
+      - from: ボタンを押下できない
+        to: ボタンを押せない
   - expected: 押す
     pattern:
       - 押下する
     prh: >-
-      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
       - from: ボタンを押下する
         to: ボタンを押す
@@ -1487,7 +1486,8 @@ rules:
     pattern:
       - 押下しない
     prh: >-
-      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
       - from: ボタンを押下しない
         to: ボタンを押さない
@@ -1495,7 +1495,8 @@ rules:
     pattern:
       - 押下すれば
     prh: >-
-      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
       - from: ボタンを押下すれば
         to: ボタンを押せば
@@ -1503,7 +1504,8 @@ rules:
     pattern:
       - 押下します
     prh: >-
-      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
       - from: ボタンを押下します
         to: ボタンを押します
@@ -1511,7 +1513,8 @@ rules:
     pattern:
       - 押下した
     prh: >-
-      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
+      プロダクト内でユーザーにボタン押下を促す際は「押す」を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/usage/#recVAeJr4Di3vQHeA-0
     specs:
       - from: ボタンを押下した
         to: ボタンを押した
