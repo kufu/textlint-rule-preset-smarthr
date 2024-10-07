@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@textlint/types": "^14.2.0",
+    "@textlint/types": "^14.2.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^18.19.54",
     "airtable": "^0.12.2",
@@ -40,15 +40,15 @@
     "js-yaml": "^4.1.0",
     "prettier": "^3.3.3",
     "standard-version": "^9.3.2",
-    "textlint-tester": "^14.2.0",
-    "textlint-scripts": "^14.2.0",
+    "textlint-tester": "^14.2.1",
+    "textlint-scripts": "^14.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2",
-    "textlint": "^14.2.0"
+    "textlint": "^14.2.1"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.3",
-    "@textlint/module-interop": "^14.2.0",
+    "@textlint/module-interop": "^14.2.1",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
     "textlint-rule-ja-keishikimeishi": "^1.0.5",
