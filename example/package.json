@@ -7,7 +7,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "textlint": "^14.2.1",
+    "textlint": "^14.3.0",
     "textlint-rule-preset-smarthr": "file:.."
   }
 }
