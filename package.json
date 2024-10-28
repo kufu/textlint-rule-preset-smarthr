@@ -32,7 +32,6 @@
     "@textlint/types": "^14.3.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^18.19.59",
-    "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
     "husky": "^9.1.6",
     "js-yaml": "^4.1.0",
