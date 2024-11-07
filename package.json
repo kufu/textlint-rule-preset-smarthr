@@ -44,7 +44,7 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.3",
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@textlint/module-interop": "^14.3.0",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
