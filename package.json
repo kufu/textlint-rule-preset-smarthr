@@ -20,12 +20,12 @@
     "pnpm": "=9.13.2"
   },
   "scripts": {
-    "example": "cd example && npm it",
+    "example": "cd example && pnpm it",
     "test:textlint-scripts": "textlint-scripts test",
     "test:dict": "textlint --config test/.textlintrc README.md",
-    "test": "npm run test:dict && npm run test:textlint-scripts",
+    "test": "pnpm run test:dict && pnpm run test:textlint-scripts",
     "build": "textlint-scripts build",
-    "prepublishOnly": "npm run --if-present build",
+    "prepublishOnly": "pnpm run --if-present build",
     "release": "standard-version",
     "release:dryrun": "standard-version --dry-run"
   },
