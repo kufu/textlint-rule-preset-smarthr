@@ -6,7 +6,7 @@ SmartHRらしい文書を書くための、textlintルールプリセットを�
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-preset-smarthr
+    pnpm install textlint-rule-preset-smarthr
 
 ## 使い方
 
@@ -24,7 +24,7 @@ textlint --rule preset-smarthr README.md
 TypeScriptのソースコードは`src/`フォルダに書くことができます。
 
 ```
-npm run build
+pnpm run build
 ```
 
 ### Tests
@@ -33,7 +33,7 @@ npm run build
 testの詳細は[textlint-tester](https://github.com/textlint/textlint/tree/master/packages/textlint-tester)を参照してください。
 
 ```
-npm test
+pnpm test
 ```
 ### 基本設定
 
