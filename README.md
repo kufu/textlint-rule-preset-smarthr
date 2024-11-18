@@ -4,7 +4,7 @@ SmartHRらしい文書を書くための、textlintルールプリセットを�
 
 ## インストール
 
-Install with [npm](https://www.npmjs.com/):
+Install with [pnpm](https://pnpm.io/):
 
     pnpm install textlint-rule-preset-smarthr
 
