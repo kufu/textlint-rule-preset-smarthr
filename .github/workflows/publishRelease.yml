@@ -31,11 +31,11 @@ jobs:
         if: ${{ env.IS_PRERELEASE == 'false' }}
       - run: pnpm release --prerelease
         if: ${{ env.IS_PRERELEASE == 'true' }}
-      - run: pnpm publish
+      - run: pnpm publish --no-git-checks
         if: ${{ env.IS_PRERELEASE == 'false' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.KUFU_NPM_RELEASE_TOKEN }}
-      - run: pnpm publish --tag prerelease
+      - run: pnpm publish --tag prerelease --no-git-checks
         if: ${{ env.IS_PRERELEASE == 'true' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.KUFU_NPM_RELEASE_TOKEN }}
