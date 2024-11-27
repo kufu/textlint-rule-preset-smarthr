@@ -38,7 +38,7 @@
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
     "js-yaml": "^4.1.0",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.1",
     "standard-version": "^9.3.2",
     "textlint": "^14.3.0",
     "textlint-scripts": "^14.3.0",
