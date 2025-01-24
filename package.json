@@ -34,7 +34,7 @@
     "@commitlint/config-conventional": "^19.6.0",
     "@textlint/types": "^14.4.2",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^18.19.71",
+    "@types/node": "^18.19.74",
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
     "js-yaml": "^4.1.0",
