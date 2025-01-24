@@ -6,14 +6,22 @@
     "packageRules": [
       {
         "groupName": "textlint rules",
-        "matchPackageNames": ["@textlint-rule/textlint-rule-no-unmatched-pair"],
-        "matchPackagePatterns": ["^textlint-rule-*"],
+        "matchPackageNames": [
+          "@textlint-rule/textlint-rule-no-unmatched-pair",
+          "/^textlint-rule-*/"
+        ],
         "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       },
       {
         "groupName": "textlint family",
-        "matchPackageNames": ["textlint", "@textlint/types", "textlint-scripts", "textlint-tester", "@textlint/module-interop"],
+        "matchPackageNames": [
+          "textlint",
+          "@textlint/types",
+          "textlint-scripts",
+          "textlint-tester",
+          "@textlint/module-interop"
+        ],
         "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
       },
