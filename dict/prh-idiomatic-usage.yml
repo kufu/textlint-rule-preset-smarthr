@@ -1520,3 +1520,13 @@ rules:
     specs:
       - from: ボタンを押下した
         to: ボタンを押した
+  - expected: 全角記号「？」と「！」の後に全角スペースを入れる
+    pattern:
+      - >-
+        /^(?!#|Q\.).*[？！](?![」］])[^　]/
+    prh: >-
+      記述記号は全角を使用する
+      https://smarthr.design/products/contents/idiomatic-usage/symbol/#h2-5
+    specs:
+      - from: どうしましょうか？早急に決定が必要です。
+        to: どうしましょうか？　早急に決定が必要です。
