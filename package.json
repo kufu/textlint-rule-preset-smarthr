@@ -17,7 +17,7 @@
     "url": "git+https://github.com/kufu/textlint-rule-preset-smarthr.git"
   },
   "engines": {
-    "pnpm": "=10.5.0"
+    "pnpm": "=10.5.2"
   },
   "scripts": {
     "example": "cd example && pnpm it",
@@ -82,5 +82,5 @@
   "author": "SmartHR textlint Team",
   "license": "MIT",
   "description": "SmartHRらしい文書を書くための、textlintルールプリセットを提供します。",
-  "packageManager": "pnpm@10.5.0+sha512.11106a5916c7406fe4b8cb8e3067974b8728f47308a4f5ac5e850304afa6f57e2847d7950dfe78877d8d36bfb401d381c4215db3a4c3547ffa63c14333a6fa51"
+  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
 }
