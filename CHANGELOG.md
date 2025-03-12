@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.33.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.32.2..v1.33.0) (2025-03-12)
+
+### Features
+
+* 「？」「！」のあとに全角スペースがない文章を検出する ([#621](https://github.com/kufu/textlint-rule-preset-smarthr/issues/621)) ([46975d4](https://github.com/kufu/textlint-rule-preset-smarthr/commit/46975d412a5cb3365382e93b0a3823989422eaa2))
+
+### Bug Fixes
+
+* 全角の「？」と「！」のあとに、`"`または`"`が続く場合も許容する ([#631](https://github.com/kufu/textlint-rule-preset-smarthr/issues/631)) ([0ce4c71](https://github.com/kufu/textlint-rule-preset-smarthr/commit/0ce4c71d937b656dde81302358225331f6d11de3))
+
 ### [1.32.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.32.1...v1.32.2) (2025-02-20)
 
 ### Features
