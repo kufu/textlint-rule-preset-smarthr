@@ -874,7 +874,7 @@ rules:
   - expected: マスターデータ
     pattern:
       - >-
-        /(?<!部署|役職|雇用形態|等級|続柄|］|スキル|資格|研修|カスタム|システム標準|SmartHR
+        /(?<!部署|役職|雇用形態|等級|続柄|評価記号］|スキル|資格|研修|カスタム|システム標準|SmartHR
         ?|ドメイン)マスタ(?!ー)(データ)?/
     prh: >-
       マスターデータの総称は「マスターデータ」、総称以外は「◯◯マスター」と表記するhttps://smarthr.design/products/contents/idiomatic-usage/usage/
@@ -891,6 +891,8 @@ rules:
         to: 雇用形態マスター
       - from: 続柄マスター
         to: 続柄マスター
+      - from: 評価記号マスター
+        to: 評価記号マスター
       - from: SmartHRマスター
         to: SmartHRマスター
   - expected: マネージャー
