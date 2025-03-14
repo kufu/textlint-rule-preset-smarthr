@@ -1522,7 +1522,7 @@ rules:
         to: ボタンを押した
   - expected: "$1　$2"
     pattern:
-      - /(?<!^[#Q][^？！]+)(?!.*[］」])([？！])([^　'"])/
+      - /(?<!^[#Q][^？！]+)(?!.*[｜\/\]］」])([？！])([^　'"\n<\\n])/
     prh: >-
       全角記号「？」と「！」の後に全角スペースを入れる
       https://smarthr.design/products/contents/idiomatic-usage/symbol/#h2-5
