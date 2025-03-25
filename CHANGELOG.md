@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.34.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.33.0...v1.34.0) (2025-03-25)
+
+
+### Features
+
+*  「マスター」に関するルールに評価記号マスターを追加 ([#636](https://github.com/kufu/textlint-rule-preset-smarthr/issues/636)) ([958a13b](https://github.com/kufu/textlint-rule-preset-smarthr/commit/958a13b6d022d1eeeecee177552de0fa2119d7bc))
+* 「マスター」に関するルールに「給与支給形態マスター」を追加 ([#639](https://github.com/kufu/textlint-rule-preset-smarthr/issues/639)) ([40b82a4](https://github.com/kufu/textlint-rule-preset-smarthr/commit/40b82a4952b722a5d17d70396901646496947f5c))
+
+
+### Bug Fixes
+
+* 「？」「！」のあとに全角スペースがない文章を検出するルールがJSXファイルで誤検知する ([#638](https://github.com/kufu/textlint-rule-preset-smarthr/issues/638)) ([eac5e23](https://github.com/kufu/textlint-rule-preset-smarthr/commit/eac5e23fce9f7c74b7d29ccef6605e0cd461c77c))
+
 ## [1.33.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.32.2..v1.33.0) (2025-03-12)
 
 ### Features
