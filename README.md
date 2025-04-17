@@ -80,7 +80,8 @@ pnpm test
       },
       "ja-space-after-exclamation": true,
       "ja-space-after-question": true,
-      "ja-space-around-code": false
+      "ja-space-around-code": false,
+      "no-nfd": true
     }
   }
 }
@@ -95,7 +96,6 @@ pnpm test
 * [textlint-rule-ja-no-abusage](https://github.com/textlint-ja/textlint-rule-ja-no-abusage)
 * [textlint-rule-ja-no-mixed-period](https://github.com/textlint-ja/textlint-rule-ja-no-mixed-period)
 * [textlint-rule-ja-no-redundant-expression](https://github.com/textlint-ja/textlint-rule-ja-no-redundant-expression)
-* [textlint-rule-max-ten](https://github.com/textlint-ja/textlint-rule-max-ten)
 * [textlint-rule-no-double-negative-ja](https://github.com/textlint-ja/textlint-rule-no-double-negative-ja)
 * [textlint-rule-no-doubled-conjunction](https://github.com/textlint-ja/textlint-rule-no-doubled-conjunction)
 * [textlint-rule-no-doubled-conjunctive-particle-ga](https://github.com/textlint-ja/textlint-rule-no-doubled-conjunctive-particle-ga)
