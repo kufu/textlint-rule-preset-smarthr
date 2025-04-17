@@ -21,6 +21,7 @@ module.exports = {
     'ja-space-after-exclamation': moduleInterop(require('textlint-rule-ja-space-after-exclamation')),
     'ja-space-after-question': moduleInterop(require('textlint-rule-ja-space-after-question')),
     'ja-space-around-code': moduleInterop(require('textlint-rule-ja-space-around-code')),
+    'no-nfd': moduleInterop(require('textlint-rule-no-nfd')),
   },
 
   rulesConfig: {
@@ -51,5 +52,6 @@ module.exports = {
     'ja-space-after-exclamation': true,
     'ja-space-after-question': true,
     'ja-space-around-code': false,
+    'no-nfd': true
   },
 }
