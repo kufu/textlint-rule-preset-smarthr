@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.35.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.34.1...v1.35.0) (2025-04-17)
+
+
+### Features
+
+* textlint-rule-no-nfd を有効にする ([#658](https://github.com/kufu/textlint-rule-preset-smarthr/issues/658)) ([4870757](https://github.com/kufu/textlint-rule-preset-smarthr/commit/4870757a67107308341a509ad0a7b515624cca87))
+
 ### [1.34.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.34.0...v1.34.1) (2025-04-11)
 
 ### Bug Fixes
