@@ -81,8 +81,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2
       textlint-rule-prh:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^6.1.0
+        version: 6.1.0
       textlint-rule-sentence-length:
         specifier: ^5.2.0
         version: 5.2.0
@@ -251,8 +251,8 @@ packages:
     resolution: {integrity: sha512-UPYc3SauzZ3JGgj87GgZ89JVdC5dj0AoetR5Bw6wj4niittNyFh6+eOGonYvJ1ao6B8lEa3Q3klS7ADZ53bc5g==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.26.10':
-    resolution: {integrity: sha512-6aQR2zGE/QFi8JpDLjUZEPYOs7+mhKXm86VaKFiLP35JQwQb6bwUE+XbvkH0EptsYhbNBSUGaUBLKqxH1xSgsA==}
+  '@babel/parser@7.27.0':
+    resolution: {integrity: sha512-iaepho73/2Pz7w2eMS0Q5f83+0RKI7i4xmiYeBmDzfRVbQtTOG7Ts0S4HzJVsTMGI9keU8rNfuZr8DKfSt7Yyg==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -663,8 +663,8 @@ packages:
     resolution: {integrity: sha512-k8NuDrxr0WrPH5Aupqb2LCVURP/S0vBEn5mK6iH+GIYob66U5EtoZvcdudR2jQ4cmTwhEwW1DLB+Yyas9zjF6A==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.26.10':
-    resolution: {integrity: sha512-emqcG3vHrpxUKTrxcblR36dcrcoRDvKmnL/dCL6ZsHaShW80qxCAcNhzQZrpeM765VzEos+xOi4s+r4IXzTwdQ==}
+  '@babel/types@7.27.0':
+    resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
 
   '@commitlint/cli@19.8.0':
@@ -2887,8 +2887,8 @@ packages:
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
 
-  textlint-rule-prh@6.0.0:
-    resolution: {integrity: sha512-byU7eUyhabX2FKx3ShOktKkmKLG5dhR0ru+PGllKgafKKWXtzOIAhAaDlqMC5qU6b3Jaz5rKQcnroGVCEjcP1Q==}
+  textlint-rule-prh@6.1.0:
+    resolution: {integrity: sha512-KrchADHw1/LZ/tAQ2XwL/XdUhunKCvlNmwgp+6hdyzuWX7uojOkDdJWWV0KAN4XWsK6Te5w/SZcYwQ7X6i3B0A==}
 
   textlint-rule-sentence-length@5.2.0:
     resolution: {integrity: sha512-d7H29IYOEulzT7hLX3pfP0RMch0Ng8TFiRgtmCjD6ubXoXDzBNCDAJK5D9QkUnO1hSHLdG3s3rxNdcBM5/rfCQ==}
@@ -3228,10 +3228,10 @@ snapshots:
       '@babel/helper-compilation-targets': 7.26.5
       '@babel/helper-module-transforms': 7.26.0(@babel/core@7.26.10)
       '@babel/helpers': 7.26.10
-      '@babel/parser': 7.26.10
+      '@babel/parser': 7.27.0
       '@babel/template': 7.26.9
       '@babel/traverse': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
       convert-source-map: 2.0.0
       debug: 4.4.0(supports-color@8.1.1)
       gensync: 1.0.0-beta.2
@@ -3242,15 +3242,15 @@ snapshots:
 
   '@babel/generator@7.26.10':
     dependencies:
-      '@babel/parser': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/parser': 7.27.0
+      '@babel/types': 7.27.0
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 3.0.2
 
   '@babel/helper-annotate-as-pure@7.25.9':
     dependencies:
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
 
   '@babel/helper-compilation-targets@7.26.5':
     dependencies:
@@ -3294,14 +3294,14 @@ snapshots:
   '@babel/helper-member-expression-to-functions@7.25.9':
     dependencies:
       '@babel/traverse': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-module-imports@7.25.9':
     dependencies:
       '@babel/traverse': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
     transitivePeerDependencies:
       - supports-color
 
@@ -3316,7 +3316,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.25.9':
     dependencies:
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
 
   '@babel/helper-plugin-utils@7.26.5': {}
 
@@ -3341,7 +3341,7 @@ snapshots:
   '@babel/helper-skip-transparent-expression-wrappers@7.25.9':
     dependencies:
       '@babel/traverse': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
     transitivePeerDependencies:
       - supports-color
 
@@ -3355,18 +3355,18 @@ snapshots:
     dependencies:
       '@babel/template': 7.26.9
       '@babel/traverse': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helpers@7.26.10':
     dependencies:
       '@babel/template': 7.26.9
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
 
-  '@babel/parser@7.26.10':
+  '@babel/parser@7.27.0':
     dependencies:
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
 
   '@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.9(@babel/core@7.26.10)':
     dependencies:
@@ -3842,7 +3842,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.26.10
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
       esutils: 2.0.3
 
   '@babel/preset-typescript@7.26.0(@babel/core@7.26.10)':
@@ -3872,22 +3872,22 @@ snapshots:
   '@babel/template@7.26.9':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/parser': 7.26.10
-      '@babel/types': 7.26.10
+      '@babel/parser': 7.27.0
+      '@babel/types': 7.27.0
 
   '@babel/traverse@7.26.10':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/generator': 7.26.10
-      '@babel/parser': 7.26.10
+      '@babel/parser': 7.27.0
       '@babel/template': 7.26.9
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
       debug: 4.4.0(supports-color@8.1.1)
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/types@7.26.10':
+  '@babel/types@7.27.0':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
@@ -4403,7 +4403,7 @@ snapshots:
   babel-plugin-static-fs@3.0.0:
     dependencies:
       '@babel/template': 7.26.9
-      '@babel/types': 7.26.10
+      '@babel/types': 7.27.0
       browser-resolve: 1.11.3
       events: 1.1.1
       resolve: 1.22.8
@@ -6515,14 +6515,14 @@ snapshots:
 
   textlint-rule-prh@5.3.0:
     dependencies:
-      '@babel/parser': 7.26.10
+      '@babel/parser': 7.27.0
       prh: 5.4.4
       textlint-rule-helper: 2.3.1
       untildify: 3.0.3
 
-  textlint-rule-prh@6.0.0:
+  textlint-rule-prh@6.1.0:
     dependencies:
-      '@babel/parser': 7.26.10
+      '@babel/parser': 7.27.0
       prh: 5.4.4
       textlint-rule-helper: 2.3.1
 
