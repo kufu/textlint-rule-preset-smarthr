@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.4
         version: 2.0.4
       '@textlint/module-interop':
-        specifier: ^14.7.2
-        version: 14.7.2
+        specifier: ^15.1.0
+        version: 15.1.0
       textlint-rule-ja-hiragana-daimeishi:
         specifier: ^1.0.0
         version: 1.0.0
@@ -825,6 +825,9 @@ packages:
 
   '@textlint/module-interop@14.7.2':
     resolution: {integrity: sha512-rDQhFERa2+xMqhyrPFvAL9d5Tb4RpQGKQExwrezvtCTREh6Zsp/nKxtK0r6o0P9xn1+zq2sZHW9NZjpe7av3xw==}
+
+  '@textlint/module-interop@15.1.0':
+    resolution: {integrity: sha512-qdGmYW/IYEUhOvuQj+KoPM33l8oSp60ltUZTiAXm0Jy1dU1DxO/H8XuM/6PwrI1SZ7D5L6e4M0a/9oRDNjwHvA==}
 
   '@textlint/regexp-string-matcher@1.1.1':
     resolution: {integrity: sha512-rrNUCKGKYBrZALotSF8D5A8xD05VHX6kxv0BP805Ig2M73Ha6LK+de31+ZocGm4CO+sikVFYyMCPPJhp7bCXcw==}
@@ -4170,6 +4173,8 @@ snapshots:
       - supports-color
 
   '@textlint/module-interop@14.7.2': {}
+
+  '@textlint/module-interop@15.1.0': {}
 
   '@textlint/regexp-string-matcher@1.1.1':
     dependencies:
