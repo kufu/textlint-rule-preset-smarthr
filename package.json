@@ -17,7 +17,7 @@
     "url": "git+https://github.com/kufu/textlint-rule-preset-smarthr.git"
   },
   "engines": {
-    "pnpm": "=10.8.1"
+    "pnpm": "=10.13.1"
   },
   "scripts": {
     "example": "cd example && pnpm it",
@@ -30,25 +30,25 @@
     "release:dryrun": "standard-version --dry-run"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
-    "@textlint/types": "^14.6.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@textlint/types": "^14.8.4",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^18.19.86",
+    "@types/node": "^22.16.3",
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
     "js-yaml": "^4.1.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "standard-version": "^9.3.2",
-    "textlint": "^14.6.0",
-    "textlint-scripts": "^14.6.0",
-    "textlint-tester": "^14.6.0",
+    "textlint": "^14.8.4",
+    "textlint-scripts": "^14.8.4",
+    "textlint-tester": "^14.8.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
-    "@textlint/module-interop": "^14.6.0",
+    "@textlint/module-interop": "^14.8.4",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
     "textlint-rule-ja-keishikimeishi": "^1.0.5",
@@ -71,7 +71,7 @@
     "textlint-rule-no-mix-dearu-desumasu": "^6.0.4",
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
     "textlint-rule-no-nfd": "^2.0.2",
-    "textlint-rule-prh": "^6.0.0",
+    "textlint-rule-prh": "^6.1.0",
     "textlint-rule-sentence-length": "^5.2.0"
   },
   "name": "textlint-rule-preset-smarthr",
@@ -81,5 +81,5 @@
   "author": "SmartHR textlint Team",
   "license": "MIT",
   "description": "SmartHRらしい文書を書くための、textlintルールプリセットを提供します。",
-  "packageManager": "pnpm@10.8.1+sha512.c50088ba998c67b8ca8c99df8a5e02fd2ae2e2b29aaf238feaa9e124248d3f48f9fb6db2424949ff901cffbb5e0f0cc1ad6aedb602cd29450751d11c35023677"
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
 }
