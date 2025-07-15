@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.35.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.35.0...v1.35.1) (2025-07-15)
+
+
+### Bug Fixes
+
+* 「前後で」を許容する ([#675](https://github.com/kufu/textlint-rule-preset-smarthr/issues/675)) ([61a5132](https://github.com/kufu/textlint-rule-preset-smarthr/commit/61a5132c14864325cc45fe3f9692c96826a6cda4))
+
 ## [1.35.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.34.1...v1.35.0) (2025-04-17)
 
 
