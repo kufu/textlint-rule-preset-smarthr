@@ -274,7 +274,7 @@ rules:
         to: アクセシビリティ
   - expected: あとで
     pattern:
-      - /(?<![始了直])後で/
+      - /(?<![始了直前])後で/
     prh: >-
       平仮名にしたほうが読みやすい漢字は平仮名にする
       https://smarthr.design/products/contents/writing-style/
@@ -283,6 +283,8 @@ rules:
         to: あとでやります。
       - from: 評価開始後でも編集できます。
         to: 評価開始後でも編集できます。
+      - from: 30分前後で回答します。
+        to: 30分前後で回答します。
   - expected: したうえで
     pattern:
       - した上で
