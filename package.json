@@ -41,7 +41,7 @@
     "prettier": "^3.6.2",
     "standard-version": "^9.3.2",
     "textlint": "^14.8.4",
-    "textlint-scripts": "^14.8.4",
+    "textlint-scripts": "^15.2.0",
     "textlint-tester": "^14.8.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
