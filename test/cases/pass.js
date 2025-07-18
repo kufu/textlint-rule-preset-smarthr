@@ -1,6 +1,9 @@
-import { TextLintCore } from "textlint";
 import assert from "assert";
-import rule from "../../src/index"
+import { createLinter } from "textlint";
+import { TextlintKernelDescriptor } from "@textlint/kernel";
+import textPlugin from "@textlint/textlint-plugin-text";
+
+import rule from "../../src/index";
 
 describe("textlint-rule-preset-smarthr", () => {
   // Copied from textlint/src/config/config.js
@@ -50,11 +53,20 @@ describe("textlint-rule-preset-smarthr", () => {
   });
 
   const buildTextlint = () => {
-    const options = Object.assign({}, defaultOptions, rule)
+    const options = Object.assign({}, defaultOptions, {
+      ...rule,
+      rules: Object.entries(rule.rules).map(([ruleId, ruleDefinition]) => ({ ruleId, rule: ruleDefinition })),
+      plugins: [
+        {
+          pluginId: "@textlint/textlint-plugin-text",
+          plugin: textPlugin,
+          options: {},
+        },
+      ],
+    })
 
-    const textlint = new TextLintCore(options)
-    textlint.setupRules(options.rules, options.rulesConfig)
-
+    const descriptor = new TextlintKernelDescriptor(options)
+    const textlint = createLinter({ descriptor })
     return textlint
   }
 
@@ -67,7 +79,7 @@ describe("textlint-rule-preset-smarthr", () => {
       const textlint = buildTextlint()
 
       for (const text of validStrings) {
-        const { messages } = await textlint.lintText(text)
+        const { messages } = await textlint.lintText(text, "file.txt")
         assert.deepEqual(messages, [])
       }
     })
