@@ -53,9 +53,11 @@ describe("textlint-rule-preset-smarthr", () => {
   });
 
   const buildTextlint = () => {
+    const transformRulesForKernel = (rules) =>
+      Object.entries(rules).map(([ruleId, ruleDefinition]) => ({ ruleId, rule: ruleDefinition }))
     const options = Object.assign({}, defaultOptions, {
       ...rule,
-      rules: Object.entries(rule.rules).map(([ruleId, ruleDefinition]) => ({ ruleId, rule: ruleDefinition })),
+      rules: transformRulesForKernel(rule.rules),
       plugins: [
         {
           pluginId: "@textlint/textlint-plugin-text",
