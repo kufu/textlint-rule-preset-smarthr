@@ -1,9 +1,9 @@
-import assert from "assert";
-import { createLinter } from "textlint";
-import { TextlintKernelDescriptor } from "@textlint/kernel";
-import textPlugin from "@textlint/textlint-plugin-text";
+const assert = require("assert");
+const { createLinter } = require("textlint");
+const { TextlintKernelDescriptor } = require("@textlint/kernel");
+const textPlugin = require("@textlint/textlint-plugin-text");
 
-import rule from "../../src/index";
+const rule = require("../../src/index");
 
 describe("textlint-rule-preset-smarthr", () => {
   // Copied from textlint/src/config/config.js
@@ -59,7 +59,7 @@ describe("textlint-rule-preset-smarthr", () => {
       plugins: [
         {
           pluginId: "@textlint/textlint-plugin-text",
-          plugin: textPlugin,
+          plugin: textPlugin.default,
           options: {},
         },
       ],
