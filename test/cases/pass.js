@@ -71,9 +71,7 @@ describe("textlint-rule-preset-smarthr", () => {
   }
 
   context("valid cases", () => {
-    const validStrings = [
-      "正しく。"
-    ]
+    const validStrings = ["正しい文章です。"]
 
     it("should pass", async () => {
       const textlint = buildTextlint()
