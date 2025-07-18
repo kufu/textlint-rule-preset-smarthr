@@ -93,6 +93,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.8.1
         version: 19.8.1
+      '@textlint/kernel':
+        specifier: ^15.2.0
+        version: 15.2.0
       '@textlint/types':
         specifier: ^15.2.0
         version: 15.2.0
