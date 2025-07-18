@@ -33,6 +33,7 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@textlint/kernel": "^15.2.0",
+    "@textlint/textlint-plugin-text": "^15.2.0",
     "@textlint/types": "^15.2.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.18.1",
