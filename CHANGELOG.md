@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.35.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.35.1...v1.35.2) (2025-07-24)
+
+
+### Bug Fixes
+
+* 「誤解」が smarthr/prh-rules に検知されないようにしたい ([#693](https://github.com/kufu/textlint-rule-preset-smarthr/issues/693)) ([9316f8f](https://github.com/kufu/textlint-rule-preset-smarthr/commit/9316f8f635983fa858f8043084bacd7c6c56683d))
+
 ### [1.35.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.35.0...v1.35.1) (2025-07-15)
 
 
