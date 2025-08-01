@@ -44,7 +44,7 @@
     "textlint-scripts": "^14.8.4",
     "textlint-tester": "^14.8.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
