@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.36.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.35.2...v1.36.0) (2025-08-13)
+
+
+### Features
+
+* 「テナント」に関するルールを削除 ([#703](https://github.com/kufu/textlint-rule-preset-smarthr/issues/703)) ([e83c50a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/e83c50a23706132ac7881b9b1b164f7f10cba07f))
+
 ### [1.35.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.35.1...v1.35.2) (2025-07-24)
 
 
