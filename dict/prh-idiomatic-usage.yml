@@ -1086,15 +1086,6 @@ rules:
     pattern:
       - /[⓴]/
     prh: 丸数字は⓪（U+24EA）、①（U+2460）〜㊿（U+32BF）を使います。
-  - expected: 企業アカウント
-    pattern:
-      - /テナント(?!ID)/
-    prh: >-
-      「企業アカウント」と表現し、「テナント」の使用は控える
-      https://smarthr.design/products/contents/idiomatic-usage/usage/
-    specs:
-      - from: テナント
-        to: 企業アカウント
   - expected: 在籍状況
     pattern:
       - 在職状況
