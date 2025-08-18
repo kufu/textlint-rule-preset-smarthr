@@ -23,7 +23,7 @@ jobs:
       IS_PRERELEASE: ${{ github.event.inputs.mode == 'prerelease' }}
       NO_BRANCH_PREPARATION: ${{ github.event.inputs.branch_preparation == 'manual' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v4
