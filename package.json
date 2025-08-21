@@ -32,7 +32,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@textlint/types": "^14.8.4",
+    "@textlint/types": "^15.2.2",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.17.2",
     "fs": "^0.0.1-security",
