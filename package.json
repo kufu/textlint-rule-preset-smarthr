@@ -65,7 +65,7 @@
     "textlint-rule-no-double-negative-ja": "^2.0.1",
     "textlint-rule-no-doubled-conjunction": "^3.0.0",
     "textlint-rule-no-doubled-conjunctive-particle-ga": "^3.0.0",
-    "textlint-rule-no-doubled-joshi": "^5.1.0",
+    "textlint-rule-no-doubled-joshi": "^5.1.1",
     "textlint-rule-no-dropping-the-ra": "^3.0.0",
     "textlint-rule-no-hankaku-kana": "^2.0.1",
     "textlint-rule-no-mix-dearu-desumasu": "^6.0.4",
