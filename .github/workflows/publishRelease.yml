@@ -17,11 +17,11 @@ jobs:
         with:
           ref: release-candidate
           fetch-depth: 0
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v5
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'
-      - uses: pnpm/action-setup@v4
       - name: git config
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
