@@ -5,6 +5,12 @@ on:
     types:
       - labeled
 
+permissions:
+  id-token: write
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   publish_release:
     if: github.event.issue.state == 'open' && contains(github.event.issue.labels.*.name, 'release candidate') && github.event.label.name == 'approve release'
@@ -27,18 +33,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
       - run: pnpm install --frozen-lockfile
+        # Ensure npm 11.5.1 or later is installed for OICD.
+      - run: |
+          npm install -g npm@latest
+          echo "Updated npm version: $(npm -v)"
       - run: pnpm release
         if: ${{ env.IS_PRERELEASE == 'false' }}
       - run: pnpm release --prerelease
         if: ${{ env.IS_PRERELEASE == 'true' }}
       - run: pnpm publish --publish-branch release-candidate
         if: ${{ env.IS_PRERELEASE == 'false' }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.KUFU_NPM_RELEASE_TOKEN }}
       - run: pnpm publish --tag prerelease --publish-branch release-candidate
         if: ${{ env.IS_PRERELEASE == 'true' }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.KUFU_NPM_RELEASE_TOKEN }}
       - run: echo NEW_TAG=$(git describe) >> $GITHUB_ENV
       - run: git push origin $NEW_TAG
       - run: pnpm dlx ts-node ./scripts/getLatestChangelog.ts > ${{ env.CHANGELOG_PATH }}
