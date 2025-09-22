@@ -1,6 +1,9 @@
-import { TextLintCore } from "textlint";
-import assert from "assert";
-import rule from "../../src/index"
+const assert = require("assert");
+const { createLinter } = require("textlint");
+const { TextlintKernelDescriptor } = require("@textlint/kernel");
+const textPlugin = require("@textlint/textlint-plugin-text");
+
+const rule = require("../../src/index");
 
 describe("textlint-rule-preset-smarthr", () => {
   // Copied from textlint/src/config/config.js
@@ -50,24 +53,33 @@ describe("textlint-rule-preset-smarthr", () => {
   });
 
   const buildTextlint = () => {
-    const options = Object.assign({}, defaultOptions, rule)
+    const transformRulesForKernel = (rules) =>
+      Object.entries(rules).map(([ruleId, ruleDefinition]) => ({ ruleId, rule: ruleDefinition }))
+    const options = Object.assign({}, defaultOptions, {
+      ...rule,
+      rules: transformRulesForKernel(rule.rules),
+      plugins: [
+        {
+          pluginId: "@textlint/textlint-plugin-text",
+          plugin: textPlugin.default,
+          options: {},
+        },
+      ],
+    })
 
-    const textlint = new TextLintCore(options)
-    textlint.setupRules(options.rules, options.rulesConfig)
-
+    const descriptor = new TextlintKernelDescriptor(options)
+    const textlint = createLinter({ descriptor })
     return textlint
   }
 
   context("valid cases", () => {
-    const validStrings = [
-      "正しく。"
-    ]
+    const validStrings = ["正しい文章です。"]
 
     it("should pass", async () => {
       const textlint = buildTextlint()
 
       for (const text of validStrings) {
-        const { messages } = await textlint.lintText(text)
+        const { messages } = await textlint.lintText(text, "file.txt")
         assert.deepEqual(messages, [])
       }
     })
