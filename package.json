@@ -17,7 +17,7 @@
     "url": "git+https://github.com/kufu/textlint-rule-preset-smarthr.git"
   },
   "engines": {
-    "pnpm": "=10.14.0"
+    "pnpm": "=10.16.1"
   },
   "scripts": {
     "example": "cd example && pnpm it",
@@ -34,7 +34,7 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@textlint/types": "^14.8.4",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.17.1",
+    "@types/node": "^22.18.1",
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
     "js-yaml": "^4.1.0",
@@ -65,7 +65,7 @@
     "textlint-rule-no-double-negative-ja": "^2.0.1",
     "textlint-rule-no-doubled-conjunction": "^3.0.0",
     "textlint-rule-no-doubled-conjunctive-particle-ga": "^3.0.0",
-    "textlint-rule-no-doubled-joshi": "^5.1.0",
+    "textlint-rule-no-doubled-joshi": "^5.1.1",
     "textlint-rule-no-dropping-the-ra": "^3.0.0",
     "textlint-rule-no-hankaku-kana": "^2.0.1",
     "textlint-rule-no-mix-dearu-desumasu": "^6.0.4",
@@ -81,5 +81,5 @@
   "author": "SmartHR textlint Team",
   "license": "MIT",
   "description": "SmartHRらしい文書を書くための、textlintルールプリセットを提供します。",
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+  "packageManager": "pnpm@10.16.1+sha512.0e155aa2629db8672b49e8475da6226aa4bdea85fdcdfdc15350874946d4f3c91faaf64cbdc4a5d1ab8002f473d5c3fcedcd197989cf0390f9badd3c04678706"
 }

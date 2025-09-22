@@ -23,13 +23,13 @@ jobs:
       IS_PRERELEASE: ${{ github.event.inputs.mode == 'prerelease' }}
       NO_BRANCH_PREPARATION: ${{ github.event.inputs.branch_preparation == 'manual' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - uses: pnpm/action-setup@v4
       - name: git config
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
