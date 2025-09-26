@@ -30,8 +30,8 @@
     "release:dryrun": "standard-version --dry-run"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/cli": "^20.0.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "@textlint/types": "^14.8.4",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.18.1",
