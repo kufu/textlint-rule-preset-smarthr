@@ -39,7 +39,7 @@
     "@types/node": "^22.19.7",
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "prettier": "^3.6.2",
     "standard-version": "^9.3.2",
     "textlint": "^15.2.0",
