@@ -17,6 +17,9 @@ importers:
       '@textlint/module-interop':
         specifier: ^15.2.3
         version: 15.5.1
+      js-yaml:
+        specifier: ^4.1.1
+        version: 4.1.1
       textlint-rule-ja-hiragana-daimeishi:
         specifier: ^1.0.0
         version: 1.0.0
