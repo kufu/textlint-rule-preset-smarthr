@@ -11,6 +11,9 @@ importers:
       '@textlint-rule/textlint-rule-no-unmatched-pair':
         specifier: ^2.0.4
         version: 2.0.4
+      '@textlint-rule/textlint-rule-pattern':
+        specifier: ^2.0.2
+        version: 2.0.2
       '@textlint/module-interop':
         specifier: ^15.2.3
         version: 15.5.1
@@ -114,9 +117,6 @@ importers:
       husky:
         specifier: ^9.1.7
         version: 9.1.7
-      js-yaml:
-        specifier: ^4.1.1
-        version: 4.1.1
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -815,6 +815,9 @@ packages:
 
   '@textlint-rule/textlint-rule-no-unmatched-pair@2.0.4':
     resolution: {integrity: sha512-g9Ge1xUV9xJy8T7nuutF/2J6Cg2mmPx4gKsC3dCdxVxuL0wMqOOnAi8l6psFpAQ5UFtQuAzwkdclrehPtBT5tg==}
+
+  '@textlint-rule/textlint-rule-pattern@2.0.2':
+    resolution: {integrity: sha512-qkEr3LZmEeJl9x70pX9ZVkqLNgdpHLVCtBUDM9kvRxTd1XEyWT9ZReZegJPWvbiWWanlfzZg75kR/A6SPZ8n5A==}
 
   '@textlint/ast-node-types@13.4.1':
     resolution: {integrity: sha512-qrZyhCh8Ekk6nwArx3BROybm9BnX6vF7VcZbijetV/OM3yfS4rTYhoMWISmhVEP2H2re0CtWEyMl/XF+WdvVLQ==}
@@ -2658,7 +2661,6 @@ packages:
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
     deprecated: |-
       You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
-
       (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   qified@0.6.0:
@@ -4349,6 +4351,11 @@ snapshots:
   '@textlint-rule/textlint-rule-no-unmatched-pair@2.0.4':
     dependencies:
       sentence-splitter: 5.0.0
+      textlint-rule-helper: 2.3.1
+
+  '@textlint-rule/textlint-rule-pattern@2.0.2':
+    dependencies:
+      '@textlint/regexp-string-matcher': 2.0.2
       textlint-rule-helper: 2.3.1
 
   '@textlint/ast-node-types@13.4.1': {}
