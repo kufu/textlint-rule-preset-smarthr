@@ -81,7 +81,8 @@ pnpm test
       "ja-space-after-exclamation": true,
       "ja-space-after-question": true,
       "ja-space-around-code": false,
-      "no-nfd": true
+      "no-nfd": true,
+      "@textlint-rule/pattern": true
     }
   }
 }
@@ -115,13 +116,21 @@ pnpm test
   * textlint-rule-ja-space-after-question
   * textlint-rule-ja-space-around-code
   * textlint-rule-ja-space-between-half-and-full-width
+* [textlint-rule-pattern](https://github.com/textlint-rule/textlint-rule-pattern)
 
 補足1: `textlint-rule-preset-ja-spacing`のルールプリセットを分解して設定しています。
 
 ## 辞書設定
 
+### 表記ゆれ修正（prh-rules）
+
 表記ゆれ修正用の辞書の設定には`textlint-rule-prh`を使っています。
-対応用語は`dict/`フォルダに入っている`.yml`を確認してください。
+対応用語は`dict/prh-idiomatic-usage.yml`を確認してください。
+
+### 禁止表現の検出（pattern-rules）
+
+特定の表現を禁止したい場合は`@textlint-rule/textlint-rule-pattern`を使っています。
+禁止表現は`dict/pattern-rules.yml`で管理しています。
 
 ## License
 
