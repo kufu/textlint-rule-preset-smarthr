@@ -1,6 +1,6 @@
 "use strict";
-import assert from "assert";
-import index from "../src/index";
+const assert = require("assert");
+const index = require("../src/index");
 describe("index-test", function () {
   context("rules", function () {
     it("should have default rulesConfig", function () {
