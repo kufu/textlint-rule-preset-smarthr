@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.37.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.36.1...v1.37.0) (2026-01-30)
+
+
+### Features
+
+* textlint-rule-patternを使って禁止語句をチェックできるようにする ([#731](https://github.com/kufu/textlint-rule-preset-smarthr/issues/731)) ([3a53da6](https://github.com/kufu/textlint-rule-preset-smarthr/commit/3a53da6a652ae91c1e344a2601fd7c9008e22657))
+* ログイン・通知用メールアドレスの分割に伴うルールを追加 ([#729](https://github.com/kufu/textlint-rule-preset-smarthr/issues/729)) ([d77069a](https://github.com/kufu/textlint-rule-preset-smarthr/commit/d77069a690e0a6f9e2df8f05c6574b0e395e0657))
+
 ### [1.36.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.36.0...v1.36.1) (2025-09-22)
 
 ## [1.36.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.35.2...v1.36.0) (2025-08-13)
