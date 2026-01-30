@@ -2,3 +2,8 @@ patterns:
   - pattern: "禁止語句"
     message: >-
       「禁止語句」という表現を使用しないでください
+  - pattern: "ログイン・通知用メールアドレス"
+    message: >-
+      「ログイン・通知用メールアドレス」という表現を使用しないでください
+      「ログイン用メールアドレス」と「通知用メールアドレス」に分割されているため、どちらか一方または両方を使用してください
+      https://support.smarthr.jp/ja/release-notes/smarthr/2025-12-08/76ad537e-e2a3-4f6b-b10f-e3d65e3c0ebe/
