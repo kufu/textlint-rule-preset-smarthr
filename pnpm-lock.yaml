@@ -103,7 +103,7 @@ importers:
         specifier: ^15.2.0
         version: 15.5.1
       '@textlint/textlint-plugin-text':
-        specifier: ^15.2.0
+        specifier: ^15.2.3
         version: 15.5.1
       '@textlint/types':
         specifier: ^15.2.3
