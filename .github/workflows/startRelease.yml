@@ -23,11 +23,11 @@ jobs:
       IS_PRERELEASE: ${{ github.event.inputs.mode == 'prerelease' }}
       NO_BRANCH_PREPARATION: ${{ github.event.inputs.branch_preparation == 'manual' }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           fetch-depth: 0
-      - uses: pnpm/action-setup@v5
-      - uses: actions/setup-node@v6
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
           node-version: 24
       - name: git config
@@ -64,7 +64,7 @@ jobs:
         if: ${{ env.IS_PRERELEASE == 'true' }}
         run: echo ISSUE_LABELS='release candidate, prerelease' >> $GITHUB_ENV
       - name: create issue
-        uses: peter-evans/create-issue-from-file@v6
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
         with:
           title: Release candidate
           content-filepath: ${{ env.RESULT_PATH }}
