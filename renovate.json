@@ -30,5 +30,8 @@
         "automerge": true
       }
     ]
+  },
+  "github-actions": {
+    "extends": ["helpers:pinGitHubActionDigests"]
   }
 }
