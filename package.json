@@ -36,7 +36,7 @@
     "@textlint/textlint-plugin-text": "^15.5.2",
     "@textlint/types": "^15.2.3",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.19.7",
+    "@types/node": "^24.1.0",
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
     "prettier": "^3.8.1",
