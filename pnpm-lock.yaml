@@ -112,7 +112,7 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       '@types/node':
-        specifier: ^24.1.0
+        specifier: ^24.12.0
         version: 24.12.0
       fs:
         specifier: ^0.0.1-security
