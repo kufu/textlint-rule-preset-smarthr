@@ -123,7 +123,7 @@ importers:
         specifier: ^19.8.1
         version: 19.8.1
       '@textlint/kernel':
-        specifier: ^15.5.4
+        specifier: ^15.6.0
         version: 15.6.0
       '@textlint/textlint-plugin-text':
         specifier: ^15.6.0
