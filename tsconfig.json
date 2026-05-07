@@ -3,6 +3,7 @@
     /* Basic Options */
     "module": "commonjs",
     "moduleResolution": "node",
+    "types": ["node"],
     "esModuleInterop": true,
     "noEmit": true,
     "target": "es2015",
