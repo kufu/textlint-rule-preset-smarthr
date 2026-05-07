@@ -3,6 +3,7 @@
     /* Basic Options */
     "module": "commonjs",
     "moduleResolution": "node10",
+    // node10 は TypeScript 7 で廃止予定。ESM 移行時に moduleResolution も見直す
     "ignoreDeprecations": "6.0",
     "types": ["node"],
     "esModuleInterop": true,
