@@ -17,10 +17,12 @@
         "groupName": "textlint family",
         "matchPackageNames": [
           "textlint",
+          "@textlint/kernel",
+          "@textlint/module-interop",
+          "@textlint/textlint-plugin-text",
           "@textlint/types",
           "textlint-scripts",
-          "textlint-tester",
-          "@textlint/module-interop"
+          "textlint-tester"
         ],
         "matchUpdateTypes": ["minor", "patch"],
         "automerge": true
