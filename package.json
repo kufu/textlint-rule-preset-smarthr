@@ -30,8 +30,8 @@
     "release:dryrun": "standard-version --dry-run"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
     "@textlint/kernel": "^15.6.0",
     "@textlint/textlint-plugin-text": "^15.6.0",
     "@textlint/types": "^15.2.3",
