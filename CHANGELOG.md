@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.37.2](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.1...v1.37.2) (2026-05-14)
+
+
+### Bug Fixes
+
+* 「行なう」のルールを削除し、「行う・行なう」を利用しない表現を推奨するルールを追加 ([#764](https://github.com/kufu/textlint-rule-preset-smarthr/issues/764)) ([b8c7275](https://github.com/kufu/textlint-rule-preset-smarthr/commit/b8c727523ab21a0491b97830162bf84018986044))
+
 ### [1.37.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.0...v1.37.1) (2026-05-07)
 
 ## [1.37.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.36.1...v1.37.0) (2026-01-30)
