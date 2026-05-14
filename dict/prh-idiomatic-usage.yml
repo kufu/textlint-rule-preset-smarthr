@@ -381,37 +381,6 @@ rules:
     specs:
       - from: 差戻し
         to: 差し戻し
-  - expected: 行な$1
-    pattern:
-      - /おこな|行([いうえおわっ])/
-    prh: >-
-      「行なう」と表現し、「行う」の使用は控える
-      https://smarthr.design/products/contents/idiomatic-usage/usage/
-    specs:
-      - from: 行い
-        to: 行ない
-      - from: 行う
-        to: 行なう
-      - from: 行え
-        to: 行なえ
-      - from: 行おう
-        to: 行なおう
-      - from: 行わない
-        to: 行なわない
-      - from: 行って
-        to: 行なって
-      - from: おこない
-        to: 行ない
-      - from: おこなう
-        to: 行なう
-      - from: おこなえ
-        to: 行なえ
-      - from: おこなおう
-        to: 行なおう
-      - from: おこなわない
-        to: 行なわない
-      - from: おこなって
-        to: 行なって
   - expected: 何卒
     pattern:
       - 何とぞ

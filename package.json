@@ -5,6 +5,7 @@
     "textlintrule",
     "smarthr"
   ],
+  "type": "commonjs",
   "main": "lib/index.js",
   "files": [
     "lib",
@@ -45,7 +46,7 @@
     "textlint-scripts": "^15.6.0",
     "textlint-tester": "^15.6.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
