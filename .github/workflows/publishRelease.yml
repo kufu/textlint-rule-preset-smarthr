@@ -41,6 +41,11 @@ jobs:
         if: ${{ env.IS_PRERELEASE == 'false' }}
       - run: pnpm release --prerelease
         if: ${{ env.IS_PRERELEASE == 'true' }}
+        # .npmrc の ignore-scripts=true により publish 時の prepublishOnly が
+        # スキップされるため、ビルド成果物 lib/ を明示的に生成する
+      - run: pnpm build
+      - name: verify build artifacts
+        run: test -f lib/index.js
       - run: pnpm publish --publish-branch release-candidate
         if: ${{ env.IS_PRERELEASE == 'false' }}
       - run: pnpm publish --tag prerelease --publish-branch release-candidate
