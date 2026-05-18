@@ -18,7 +18,7 @@ overrides:
   hono@<4.12.16: 4.12.16
   lodash@>=4.0.0 <=4.17.23: 4.18.1
   minimatch@<3.1.4: 3.1.5
-  minimatch@>=5.0.0 <5.1.8: 5.1.8
+  minimatch@>=5.0.0 <5.1.8: 5.1.9
   minimatch@>=9.0.0 <9.0.7: 9.0.7
   path-to-regexp@>=8.0.0 <8.4.0: 8.4.0
   picomatch@<2.3.2: 2.3.2
@@ -2441,8 +2441,8 @@ packages:
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
-  minimatch@5.1.8:
-    resolution: {integrity: sha512-7RN35vit8DeBclkofOVmBY0eDAZZQd1HzmukRdSyz95CRh8FT54eqnbj0krQr3mrHR6sfRyYkyhwBWjoV5uqlQ==}
+  minimatch@5.1.9:
+    resolution: {integrity: sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==}
     engines: {node: '>=10'}
 
   minimatch@9.0.7:
@@ -5458,7 +5458,7 @@ snapshots:
 
   filelist@1.0.4:
     dependencies:
-      minimatch: 5.1.8
+      minimatch: 5.1.9
 
   fill-range@7.1.1:
     dependencies:
@@ -6272,7 +6272,7 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.13
 
-  minimatch@5.1.8:
+  minimatch@5.1.9:
     dependencies:
       brace-expansion: 2.0.3
 
