@@ -1,1 +1,4 @@
 minimumReleaseAge: 10800 # 7 days
+minimumReleaseAgeExclude:
+  # Renovate security update: hono@<4.12.16@4.12.18
+  - hono@<4.12.16@4.12.18
