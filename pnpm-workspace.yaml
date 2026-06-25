@@ -1,6 +1,8 @@
 minimumReleaseAge: 10800 # 7 days
 minimumReleaseAgeExclude:
   - hono@4.12.18
+  # Renovate security update: js-yaml@4.2.0
+  - js-yaml@4.2.0
 
 overrides:
   "@hono/node-server@<1.19.13": "1.19.14"
