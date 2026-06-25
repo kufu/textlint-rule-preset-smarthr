@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.37.5](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.4...v1.37.5) (2026-06-25)
+
+
+### Bug Fixes
+
+* 「行う」をチェック対象から除外し、「行なう」のみエラーにする ([#785](https://github.com/kufu/textlint-rule-preset-smarthr/issues/785)) ([04386fd](https://github.com/kufu/textlint-rule-preset-smarthr/commit/04386fda5d52db7c4b825a6fa1722dadc37d8a8f))
+
 ### [1.37.4](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.3...v1.37.4) (2026-06-03)
 
 
