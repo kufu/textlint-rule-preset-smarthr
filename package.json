@@ -52,7 +52,7 @@
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@textlint-rule/textlint-rule-pattern": "^2.0.2",
     "@textlint/module-interop": "^15.6.0",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.2.0",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
     "textlint-rule-ja-keishikimeishi": "^1.0.5",
