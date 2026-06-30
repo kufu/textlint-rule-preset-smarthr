@@ -1516,6 +1516,25 @@ rules:
         to: "`どんなことにお困りですか？`"
       - from: "`どんなことにお困りですか？具体的に教えて下さい。`"
         to: "`どんなことにお困りですか？　具体的に教えて下さい。`"
+  - expected: 行$1
+    pattern:
+      - /行な([いうえおわっ])/
+    prh: >-
+      「行なう」は使用せず、「○○する」に言い換えるか、言い換えが難しい場合は「行う」と表記する
+      https://smarthr.design/products/contents/idiomatic-usage/hiragana/#h2-2
+    specs:
+      - from: 行なう
+        to: 行う
+      - from: 行ない
+        to: 行い
+      - from: 行なえ
+        to: 行え
+      - from: 行なおう
+        to: 行おう
+      - from: 行なわない
+        to: 行わない
+      - from: 行なった
+        to: 行った
   - expected: ログイン用メールアドレス
     pattern:
       - ログインメールアドレス
