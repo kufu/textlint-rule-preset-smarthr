@@ -1,8 +1,8 @@
 minimumReleaseAge: 10800 # 7 days
 minimumReleaseAgeExclude:
   - hono@4.12.18
-  # Renovate security update: js-yaml@4.2.0
-  - js-yaml@4.2.0
+  # Renovate security update: js-yaml@4.2.0 || 4.3.0
+  - js-yaml@4.2.0 || 4.3.0
   # Renovate security update: qs@6.15.2
   - qs@6.15.2
 
