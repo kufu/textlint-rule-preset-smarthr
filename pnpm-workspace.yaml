@@ -5,6 +5,8 @@ minimumReleaseAgeExclude:
   - js-yaml@4.2.0
   # Renovate security update: qs@6.15.2
   - qs@6.15.2
+  # Renovate security update: ip-address@10.2.2
+  - ip-address@10.2.2
 
 overrides:
   "@hono/node-server@<1.19.13": "1.19.14"
@@ -27,4 +29,4 @@ overrides:
   "qs@<6.14.1": "6.15.2"
   "qs@>=6.7.0 <=6.14.1": "6.15.2"
   "serialize-javascript@<7.0.5": "7.0.5"
-  "ip-address@<=10.1.0": "10.1.1"
+  "ip-address@<=10.1.0": "10.2.2"
