@@ -5,6 +5,9 @@ on:
       - main
   pull_request:
 
+env:
+  NPM_CONFIG_IGNORE_SCRIPTS: 'true'
+
 jobs:
   build-publish:
     runs-on: ubuntu-latest

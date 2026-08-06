@@ -5,6 +5,9 @@ on:
     types:
       - closed
 
+env:
+  NPM_CONFIG_IGNORE_SCRIPTS: 'true'
+
 jobs:
   close_release_candidate:
     if: contains(github.event.issue.labels.*.name, 'release candidate')
