@@ -11,6 +11,9 @@ permissions:
   issues: write
   pull-requests: write
 
+env:
+  NPM_CONFIG_IGNORE_SCRIPTS: 'true'
+
 jobs:
   publish_release:
     if: github.event.issue.state == 'open' && contains(github.event.issue.labels.*.name, 'release candidate') && github.event.label.name == 'approve release'
