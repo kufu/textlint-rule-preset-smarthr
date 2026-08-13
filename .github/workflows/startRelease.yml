@@ -12,6 +12,9 @@ on:
         required: true
         default: 'auto'
 
+env:
+  NPM_CONFIG_IGNORE_SCRIPTS: 'true'
+
 jobs:
   start_release:
     if: |
