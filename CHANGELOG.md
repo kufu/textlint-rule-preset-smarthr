@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.38.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.5...v1.38.0) (2026-08-13)
+
+
+### Features
+
+* 「マスター」に関するルールに「期間種別マスター」を追加 ([#798](https://github.com/kufu/textlint-rule-preset-smarthr/issues/798)) ([c378476](https://github.com/kufu/textlint-rule-preset-smarthr/commit/c37847696f4f1c6e073ae7ffdae6dbd5c6105198))
+
+
+### Bug Fixes
+
+* 「行なう」ルールをDesign Systemの方針に合わせて修正 ([#790](https://github.com/kufu/textlint-rule-preset-smarthr/issues/790)) ([a455aa5](https://github.com/kufu/textlint-rule-preset-smarthr/commit/a455aa5fcd274487697087e95ab3fecbee7e9f4c)), closes [/smarthr.design/products/contents/idiomatic-usage/hiragana/#h2-2](https://github.com/kufu//smarthr.design/products/contents/idiomatic-usage/hiragana//issues/h2-2)
+
 ### [1.37.5](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.4...v1.37.5) (2026-06-25)
 
 
