@@ -17,9 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/kufu/textlint-rule-preset-smarthr.git"
   },
-  "engines": {
-    "pnpm": "=10.16.1"
-  },
   "scripts": {
     "example": "cd example && pnpm it",
     "test:textlint-scripts": "textlint-scripts test",
