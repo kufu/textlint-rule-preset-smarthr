@@ -1,3 +1,4 @@
+ignoreScripts: true
 minimumReleaseAge: 10080 # 7 days
 minimumReleaseAgeExclude:
   - hono@4.12.18
