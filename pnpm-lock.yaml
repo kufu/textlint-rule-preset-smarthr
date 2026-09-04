@@ -25,7 +25,7 @@ overrides:
   qs@<6.14.1: 6.15.3
   qs@>=6.7.0 <=6.14.1: 6.15.2
   serialize-javascript@<7.0.5: 7.0.5
-  ip-address@<=10.1.0: 10.1.1
+  ip-address@<=10.1.0: 10.2.2
 
 importers:
 
@@ -1964,8 +1964,8 @@ packages:
     resolution: {integrity: sha512-NGnrKwXzSms2qUUih/ILZ5JBqNTSa1+ZmP6flaIp6KmSElgE9qdndzS3cqjrDovwFdmwsGsLdeFgB6suw+1e9g==}
     engines: {node: '>= 0.4'}
 
-  ip-address@10.1.1:
-    resolution: {integrity: sha512-1FMu8/N15Ck1BL551Jf42NYIoin2unWjLQ2Fze/DXryJRl5twqtwNHlO39qERGbIOcKYWHdgRryhOC+NG4eaLw==}
+  ip-address@10.2.2:
+    resolution: {integrity: sha512-aNJVEVdXTr/g5+N2VCLo+CTrFLo/Y+9rx9RC5BpxPtf7NEknmzY+UQvMO8Fjni5KFmDaHJieL8HCMJKjJXsTgg==}
     engines: {node: '>= 12'}
 
   ipaddr.js@1.9.1:
@@ -5396,7 +5396,7 @@ snapshots:
   express-rate-limit@8.4.1(express@5.2.1):
     dependencies:
       express: 5.2.1
-      ip-address: 10.1.1
+      ip-address: 10.2.2
 
   express@5.2.1:
     dependencies:
@@ -5775,7 +5775,7 @@ snapshots:
       hasown: 2.0.2
       side-channel: 1.1.0
 
-  ip-address@10.1.1: {}
+  ip-address@10.2.2: {}
 
   ipaddr.js@1.9.1: {}
 
