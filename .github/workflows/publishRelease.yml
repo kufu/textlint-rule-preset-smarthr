@@ -49,7 +49,7 @@ jobs:
         if: ${{ env.IS_PRERELEASE == 'false' }}
       - run: pnpm release --prerelease
         if: ${{ env.IS_PRERELEASE == 'true' }}
-        # .npmrc の ignore-scripts=true により publish 時の prepublishOnly が
+        # pnpm-workspace.yaml の ignoreScripts: true により publish 時の prepublishOnly が
         # スキップされるため、ビルド成果物 lib/ を明示的に生成する
       - run: pnpm build
       - name: verify build artifacts
