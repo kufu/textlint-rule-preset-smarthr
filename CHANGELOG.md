@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.38.1](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.38.0...v1.38.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* pnpm-workspace.yamlのminimumReleaseAgeをCI設定と一致させる ([#802](https://github.com/kufu/textlint-rule-preset-smarthr/issues/802)) ([8a2dc66](https://github.com/kufu/textlint-rule-preset-smarthr/commit/8a2dc662e90e9e6d806585f60700b0dd145038c2))
+
 ## [1.38.0](https://github.com/kufu/textlint-rule-preset-smarthr/compare/v1.37.5...v1.38.0) (2026-08-13)
 
 
