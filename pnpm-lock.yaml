@@ -126,7 +126,7 @@ importers:
         specifier: ^9.1.7
         version: 9.1.7
       prettier:
-        specifier: ^3.8.2
+        specifier: ^3.9.6
         version: 3.9.6
       standard-version:
         specifier: ^9.3.2
