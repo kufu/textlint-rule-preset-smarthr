@@ -30,26 +30,26 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@textlint/kernel": "^15.6.0",
-    "@textlint/textlint-plugin-text": "^15.6.0",
+    "@textlint/kernel": "^15.6.1",
+    "@textlint/textlint-plugin-text": "^15.6.1",
     "@textlint/types": "^15.2.3",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^24.12.0",
+    "@types/node": "^24.12.4",
     "fs": "^0.0.1-security",
     "husky": "^9.1.7",
-    "prettier": "^3.8.2",
+    "prettier": "^3.9.6",
     "standard-version": "^9.3.2",
-    "textlint": "^15.6.0",
-    "textlint-scripts": "^15.6.0",
-    "textlint-tester": "^15.6.0",
+    "textlint": "^15.6.1",
+    "textlint-scripts": "^15.6.1",
+    "textlint-tester": "^15.6.1",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@textlint-rule/textlint-rule-pattern": "^2.0.2",
-    "@textlint/module-interop": "^15.6.0",
-    "js-yaml": "^4.1.1",
+    "@textlint/module-interop": "^15.6.1",
+    "js-yaml": "^4.3.2",
     "textlint-rule-ja-hiragana-daimeishi": "^1.0.0",
     "textlint-rule-ja-hiragana-hojodoushi": "^1.1.0",
     "textlint-rule-ja-keishikimeishi": "^1.0.5",
@@ -82,5 +82,5 @@
   "author": "SmartHR textlint Team",
   "license": "MIT",
   "description": "SmartHRらしい文書を書くための、textlintルールプリセットを提供します。",
-  "packageManager": "pnpm@11.24.0+sha512.bd27e345e976dcb0be0b7a1228217b049a817e21b1f355c90dbe7dc46671895a8bc1e6d06c24554505ea93ea0b45f489a27ec1bfbc8de6a9659fca0f16fa0000"
+  "packageManager": "pnpm@11.28.0+sha512.8ed239371de82244b6cccf9e2023c18ea8439961f2ec3fe898913b9f7ee2e76ca0a45717580aca3c7997c135f6d4f5de4524cbeee1a2ccac430c03d134e2a48c"
 }
