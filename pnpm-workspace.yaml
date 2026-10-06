@@ -1,6 +1,10 @@
 ignoreScripts: true
 minimumReleaseAge: 10080 # 7 days
 overrides:
-  diff@>=6.0.0 <8.0.3: ^8.0.3
-  serialize-javascript@<=7.0.2: ^7.0.3
-  serialize-javascript@>=5.0.0 <7.0.5: ^7.0.5
+  brace-expansion@<1.1.21: ^1.1.21
+  brace-expansion@>=2.0.0 <2.1.7: ^2.1.7
+  brace-expansion@>=4.0.0 <5.0.12: ^5.0.12
+  diff@>=6.0.0 <8.0.3: ^8.0.4
+  fast-uri@>=3.0.0 <3.1.8: ^3.1.8
+  serialize-javascript@<=7.0.2: ^7.1.2
+  serialize-javascript@>=5.0.0 <7.0.5: ^7.1.2
