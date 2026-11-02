@@ -82,5 +82,5 @@
   "author": "SmartHR textlint Team",
   "license": "MIT",
   "description": "SmartHRらしい文書を書くための、textlintルールプリセットを提供します。",
-  "packageManager": "pnpm@11.28.0+sha512.8ed239371de82244b6cccf9e2023c18ea8439961f2ec3fe898913b9f7ee2e76ca0a45717580aca3c7997c135f6d4f5de4524cbeee1a2ccac430c03d134e2a48c"
+  "packageManager": "pnpm@11.28.2+sha512.755ce2fe3c05bfd7bb412b42aff3c5c55cd38c529c6eca810475497ae36746c571e4b6e1814e6e7e4b97d7ee864b8a0e44673c3b297a50e0ac28771c5ce15d27"
 }
